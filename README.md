@@ -8,6 +8,7 @@ En lille privat havekalender til en dansk køkkenhave. Projektet genererer en st
 - Python-generator uden tungt framework
 - Deterministiske UID'er, så abonnementet ikke får dubletter ved nye genereringer
 - Heldagsbegivenheder med 2-dages påmindelse
+- Bevidst begrænset til såning, forspiring, udplantning, udvalgte jordopgaver og høstvejledning for spinat, rødbeder og porrer
 - Løbende såning af ærter i langbedet
 - Drivhus, bedrotation, porrer/buskbønner, companion planting og grøngødning
 - GitHub Actions, der kan køres manuelt og automatisk hver nat
