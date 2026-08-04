@@ -20,6 +20,9 @@ De vigtigste valg ligger øverst i `garden.yaml`:
 - `alarm_days_before`: påmindelse før hver opgave
 - `bed4_mode`: `leeks` eller `bush_beans`
 - `optional_pea_hold_7`: slå den ekstra juli-såning af eller på
+- `selected_event_ids`: hvilke opgavetyper der faktisk kommer med i abonnementet
+
+Kalenderen er med vilje begrænset. Den indeholder alle så-, forspirings- og planteopgaver samt hvidløgshøst, gødning af drivhusplanter, nedklipning af honningurt og vinterrug, vinterklargøring, majshøst og høstvinduer for spinat, rødbeder og porrer. Der er ikke længere faste påmindelser om udluftning, vand, sideskud eller høst af tomater, agurker, peber og ærter.
 
 Hver opgave har blandt andet `action`, `crop`, `location`, `note`, `start`, `end` og eventuelt `repeat_days`. Datoer skrives som `MM-DD`.
 
