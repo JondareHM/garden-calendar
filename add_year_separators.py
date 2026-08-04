@@ -27,7 +27,10 @@ MONTHS = {
 }
 
 SECTION_RE = re.compile(r'(<section class="bed">.*?</section>)', re.DOTALL)
-EVENT_RE = re.compile(r'(<div class="event [^"]+">.*?</div>)', re.DOTALL)
+EVENT_RE = re.compile(
+    r'(<div class="event [^"]+">.*?</div>|<details class="event [^"]+">.*?</details>)',
+    re.DOTALL,
+)
 DATE_RE = re.compile(r'<span class="date">\d+\.\s+([A-Z][a-z]{2})')
 
 

@@ -734,16 +734,23 @@ def overview_html(
             weather = " <span class=weather>☁ vejrtilpasset</span>" if event.get("_weather_note") else ""
             timing_note = event_timing_note(event)
             timing = (
-                '<details class="timing"><summary>Hvornår?</summary>'
-                f'<span>{html.escape(timing_note)}</span></details>'
+                f'<span class="timing-note"><strong>Hvornår?</strong> '
+                f'{html.escape(timing_note)}</span>'
                 if timing_note
                 else ""
             )
-            rows.append(
-                f'<div class="event {kind}"><span class="date">{html.escape(date_text)}</span>'
+            event_body = (
+                f'<span class="date">{html.escape(date_text)}</span>'
                 f'<span class="title">{html.escape(str(event.get("emoji", "🌱")))} '
-                f'{html.escape(action)} {html.escape(str(event.get("crop", "")))}{weather}</span>{timing}</div>'
+                f'{html.escape(action)} {html.escape(str(event.get("crop", "")))}{weather}</span>'
             )
+            if timing_note:
+                rows.append(
+                    f'<details class="event {kind}"><summary class="event-summary">'
+                    f'{event_body}</summary>{timing}</details>'
+                )
+            else:
+                rows.append(f'<div class="event {kind}">{event_body}</div>')
         cards.append(
             f'<section class="bed"><h2>{html.escape(name)}</h2>'
             f'<div class="plan">{html.escape(next((str(b.get("plan", "")) for b in beds if isinstance(b, dict) and b.get("name") == name), ""))}</div>'
@@ -757,11 +764,11 @@ def overview_html(
 *{{box-sizing:border-box}} body{{margin:0;background:#eef2eb;color:var(--ink);font:15px/1.35 system-ui,-apple-system,Segoe UI,sans-serif}}
 main{{max-width:1100px;margin:auto;padding:24px}} header{{background:var(--green);color:white;border-radius:16px;padding:22px 24px;margin-bottom:16px}}
 h1{{font-size:clamp(25px,4vw,38px);margin:0 0 5px}} header p{{margin:0;opacity:.9}} .meta{{font-size:12px;margin-top:12px;opacity:.8}}
- .grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210}}
- h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;flex-wrap:wrap;gap:7px 10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550;flex:1 1 180px}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .prune .title{{color:#6b4e80}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}} .timing{{flex:0 0 auto;font-size:11px;color:#526257}} .timing summary{{cursor:pointer;color:var(--green);font-weight:700}} .timing span{{display:block;margin-top:4px;max-width:430px;color:#526257;font-size:12px;font-weight:400}} .timing[open]{{flex-basis:100%;margin-left:95px}}
+ .grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210;min-width:0}}
+ h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{padding:7px 0;border-top:1px solid #edf1eb;min-width:0}} .event-summary{{display:grid;grid-template-columns:minmax(76px,max-content) minmax(0,1fr) 14px;gap:7px 10px;align-items:baseline;cursor:pointer;list-style:none;min-width:0}} .event-summary::-webkit-details-marker{{display:none}} .event-summary::after{{content:"＋";justify-self:end;color:#748376;font-size:14px;line-height:1}} .event[open] .event-summary::after{{content:"−"}} .date{{font-weight:700;min-width:0;color:#526257;font-size:13px}} .title{{font-weight:550;min-width:0;overflow-wrap:anywhere}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .prune .title{{color:#6b4e80}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:normal}} .timing-note{{display:block;margin:6px 0 0;padding:7px 10px;border-left:3px solid var(--line);color:#526257;font-size:12px;font-weight:400;max-width:100%;min-width:0;overflow-wrap:anywhere;word-break:break-word}} .timing-note strong{{color:var(--green);font-weight:700}}
 .legend{{margin:14px 0 0;color:#526257;font-size:12px}} footer{{margin-top:16px;color:#637064;font-size:12px}}
-@media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}.timing[open]{{margin-left:86px}}}}
-@media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}.timing summary{{display:none}}.timing span{{display:block}}}}
+@media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.event-summary{{grid-template-columns:minmax(70px,max-content) minmax(0,1fr) 14px}}}}
+@media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}.event-summary::after{{display:none}}.timing-note{{display:block}}footer{{margin-top:8px}}}}
 </style></head><body><main><header><h1>🌱 Haveoversigt</h1>
 <p>De store opgaver – samlet pr. bed/plads</p><div class="meta">Oversigt: {window_start:%d-%m-%Y} til {(window_end - timedelta(days=1)):%d-%m-%Y} · genereret {generated_on:%d-%m-%Y}</div></header>
 <div class="grid">{"".join(cards)}</div><p class="legend">🟢 Så/forspir · 🟡 plant/sæt · 🟠 høst · ☁ dato påvirket af vejrprognosen</p>
