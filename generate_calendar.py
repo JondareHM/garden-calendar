@@ -645,22 +645,6 @@ def format_overview_date(day: date) -> str:
     return f"{day.day}. {day.strftime('%b')}"
 
 
-def overview_event_is_shared(event: dict[str, Any]) -> bool:
-    """Return whether an overview event should also appear under the whole garden."""
-    action = str(event.get("action", "")).strip().lower()
-    crop = str(event.get("crop", "")).strip().lower()
-    location = str(event.get("location", "")).strip().lower()
-    note = str(event.get("note", "")).strip().lower()
-
-    is_propagation = (
-        action.startswith("forspir")
-        or "forspir" in note
-        or (action.startswith("så") and ("inde" in crop or "inde" in location))
-    )
-    is_winter_rye_mulching = "vinterrug" in crop and "nedmulch" in action
-    return is_propagation or is_winter_rye_mulching
-
-
 def overview_html(
     config: dict[str, Any],
     instances: list[tuple[dict[str, Any], date, date, int]],
@@ -675,25 +659,48 @@ def overview_html(
     for bed in beds:
         if isinstance(bed, dict):
             grouped[str(bed.get("name", "Bed"))] = []
-    whole_garden = "Hele haven"
-    grouped.setdefault(whole_garden, [])
 
     compact: dict[tuple[str, str], tuple[dict[str, Any], date, date]] = {}
     for event, actual_day, planned_day, _occurrence in instances:
         event_id = str(event["id"])
         if overview_ids and event_id not in overview_ids:
             continue
-        location = str(event.get("location", "Hele haven"))
-        shared = overview_event_is_shared(event)
-        matches = [name for name in grouped if name != whole_garden and name.lower() in location.lower()]
+        location = str(event.get("location", "")).strip()
+        configured_locations = event.get("overview_locations")
+        if isinstance(configured_locations, str):
+            configured_locations = [configured_locations]
+        if isinstance(configured_locations, list) and configured_locations:
+            matches = []
+            for configured_location in configured_locations:
+                target = str(configured_location).strip()
+                if not target:
+                    continue
+                existing = next(
+                    (
+                        name
+                        for name in grouped
+                        if name.lower() == target.lower()
+                    ),
+                    None,
+                )
+                if existing is None:
+                    grouped.setdefault(target, [])
+                    existing = target
+                if existing not in matches:
+                    matches.append(existing)
+        else:
+            location_lower = location.lower()
+            matches = [
+                name
+                for name in grouped
+                if name.lower() in location_lower or location_lower in name.lower()
+            ] if location_lower else []
         if not matches:
-            if shared and location and location.lower() != whole_garden.lower():
-                grouped.setdefault(location, [])
-                matches = [location]
-            else:
-                matches = [whole_garden]
-        if shared and whole_garden not in matches:
-            matches.append(whole_garden)
+            # Generic tasks such as winter cover decisions have no fixed
+            # destination. They remain in the calendar, but do not get an
+            # invented overview section; location-specific instances from
+            # initial_state.yaml are shown on their actual bed instead.
+            continue
         for name in matches:
             key = (name, event_id)
             if key not in compact:

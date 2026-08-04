@@ -358,6 +358,7 @@ events:
     emoji: 🍂
     action: Klargør
     crop: kompost og jorddække
-    location: Hele haven
+    location: Udendørs bede
     note: "Kontrollér alle bede: fjern syge planter, lad sunde rødder blive, fordel et tyndt lag moden kompost og dæk resterende bar jord med blade eller halm."
     start: 2026-11-25
+    overview: false

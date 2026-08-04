@@ -42,7 +42,6 @@ optional_pea_hold_7: true
 # Den korte Pages-oversigt viser kun de store sætte-, plante-, forspirings-,
 # beskærings- og høstvinduer. Kalenderen beholder fortsat alle valgte events.
 overview_event_ids:
-  - check_seeds_and_soil
   - sow_peppers_indoors
   - sow_leeks_indoors
   - sow_tomatoes_indoors
@@ -79,11 +78,6 @@ overview_event_ids:
   - plant_marigold_greenhouse
   - plant_tagetes_greenhouse
   - feed_greenhouse
-  - sow_phacelia
-  - cut_phacelia
-  - sow_winter_rye
-  - cut_winter_rye
-  - prepare_beds_for_winter
   - prune_espalier_apples
   - prune_free_standing_apple
   - prune_pear
@@ -201,14 +195,14 @@ events:
     emoji: 🔎
     action: Tjek
     crop: frø og såjord
-    location: Hele haven
+    location: Frø og såjord
     note: Kontrollér frøbeholdning og datoer, notér hvad der mangler, og find potter, såbakker, lys og frisk såjord frem. Det er en årlig engangsopgave.
     start: 02-01
   - id: sow_peppers_indoors
     emoji: 🌱
-    action: Så
-    crop: peber inde
-    location: Drivhus/inde
+    action: Forspir
+    crop: peber
+    location: Drivhus
     note: Start tidligt; giv planterne godt lys.
     start: 02-01
     end: 02-14
@@ -224,18 +218,18 @@ events:
     repeat_days: 14
   - id: sow_leeks_indoors
     emoji: 🌱
-    action: Så
-    crop: porrer inde
-    location: Inde
+    action: Forspir
+    crop: porrer
+    location: Bed 4
     note: Forspir porrer tidligt til udplantning i Bed 4.
     start: 02-15
     end: 03-01
     repeat_days: 14
   - id: sow_tomatoes_indoors
     emoji: 🌱
-    action: Så
-    crop: tomater inde
-    location: Inde
+    action: Forspir
+    crop: tomater
+    location: Drivhus
     note: Så tomater og giv dem lys og varme.
     start: 03-01
     end: 03-14
@@ -251,16 +245,16 @@ events:
     emoji: 🪴
     action: Prikl og plej
     crop: tomater og peber
-    location: Inde
+    location: Drivhus
     note: Flyt stærke planter til større potter.
     start: 04-01
     end: 04-15
     repeat_days: 14
   - id: sow_cucumbers_indoors
     emoji: 🌱
-    action: Så
-    crop: agurker inde
-    location: Inde
+    action: Forspir
+    crop: agurker
+    location: Drivhus
     note: Så få planter; agurker vokser hurtigt.
     start: 04-01
     end: 04-14
@@ -269,7 +263,7 @@ events:
     emoji: 🌱
     action: Forspir
     crop: majs
-    location: Inde
+    location: Bed 2
     note: Forspir i potter 2-3 uger før udplantning.
     start: 04-15
     end: 04-30
@@ -895,7 +889,7 @@ events:
     emoji: 🍂
     action: Klargør
     crop: kompost og jorddække
-    location: Hele haven
+    location: Udendørs bede
     note: Fjern syge planter, lad sunde rødder blive hvor muligt, fyld eventuelt kompost på, og dæk bar jord med blade, kompost eller andet jorddække.
     start: 10-15
     end: 11-15

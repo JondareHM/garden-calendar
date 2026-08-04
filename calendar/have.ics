@@ -1646,21 +1646,21 @@ UID:465337cabc3726e89cc3b62c@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
-SUMMARY:🍂 Klargør kompost og jorddække – Hele haven
+SUMMARY:🍂 Klargør kompost og jorddække – Udendørs bede
 DESCRIPTION:Handling: Klargør\nAfgrøde: kompost og jorddække\nPlacering:
-  Hele haven\nNote: Kontrollér alle bede: fjern syge planter\, lad sunde r
- ødder blive\, fordel et tyndt lag moden kompost og dæk resterende bar jo
- rd med blade eller halm.\nHvornår: Gør det\, når området er ryddet nok
-  til at arbejde i\; tilpas kompost og dække efter den faktiske jordtilsta
- nd.
-LOCATION:Hele haven
+  Udendørs bede\nNote: Kontrollér alle bede: fjern syge planter\, lad sun
+ de rødder blive\, fordel et tyndt lag moden kompost og dæk resterende ba
+ r jord med blade eller halm.\nHvornår: Gør det\, når området er ryddet
+  nok til at arbejde i\; tilpas kompost og dække efter den faktiske jordti
+ lstand.
+LOCATION:Udendørs bede
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🍂 Klargør kompost og jorddække – Hele haven
+DESCRIPTION:🍂 Klargør kompost og jorddække – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1879,19 +1879,19 @@ UID:bb384fe60ac7eb515a2035a5@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
-SUMMARY:🌱 Så peber inde – Drivhus/inde
-DESCRIPTION:Handling: Så\nAfgrøde: peber inde\nPlacering: Drivhus/inde\nN
- ote: Start tidligt\; giv planterne godt lys.\nHvornår: Gå i gang\, når 
- du har nok lys og passende varme\; vent hellere end at få lange\, svage p
- lanter.
-LOCATION:Drivhus/inde
+SUMMARY:🌱 Forspir peber – Drivhus
+DESCRIPTION:Handling: Forspir\nAfgrøde: peber\nPlacering: Drivhus\nNote: S
+ tart tidligt\; giv planterne godt lys.\nHvornår: Gå i gang\, når du har
+  nok lys og passende varme\; vent hellere end at få lange\, svage planter
+ .
+LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Så peber inde – Drivhus/inde
+DESCRIPTION:🌱 Forspir peber – Drivhus
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1900,20 +1900,20 @@ UID:38fa8220424c23bd37df2b37@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
-SUMMARY:🔎 Tjek frø og såjord – Hele haven
-DESCRIPTION:Handling: Tjek\nAfgrøde: frø og såjord\nPlacering: Hele have
- n\nNote: Kontrollér frøbeholdning og datoer\, notér hvad der mangler\, 
- og find potter\, såbakker\, lys og frisk såjord frem. Det er en årlig e
- ngangsopgave.\nHvornår: Gør det før den første relevante opgave\; supp
- lér kun\, hvis frø\, udstyr eller jord faktisk mangler.
-LOCATION:Hele haven
+SUMMARY:🔎 Tjek frø og såjord – Frø og såjord
+DESCRIPTION:Handling: Tjek\nAfgrøde: frø og såjord\nPlacering: Frø og s
+ åjord\nNote: Kontrollér frøbeholdning og datoer\, notér hvad der mangl
+ er\, og find potter\, såbakker\, lys og frisk såjord frem. Det er en år
+ lig engangsopgave.\nHvornår: Gør det før den første relevante opgave\;
+  supplér kun\, hvis frø\, udstyr eller jord faktisk mangler.
+LOCATION:Frø og såjord
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🔎 Tjek frø og såjord – Hele haven
+DESCRIPTION:🔎 Tjek frø og såjord – Frø og såjord
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2018,19 +2018,19 @@ UID:79b58922405f5a790adcf5e9@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
-SUMMARY:🌱 Så porrer inde – Inde
-DESCRIPTION:Handling: Så\nAfgrøde: porrer inde\nPlacering: Inde\nNote: Fo
- rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Gå i gang\, når
-  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
- planter.
-LOCATION:Inde
+SUMMARY:🌱 Forspir porrer – Bed 4
+DESCRIPTION:Handling: Forspir\nAfgrøde: porrer\nPlacering: Bed 4\nNote: Fo
+ rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Vent\, til jorden
+  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
+ n plads\, der faktisk er ledig.
+LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Så porrer inde – Inde
+DESCRIPTION:🌱 Forspir porrer – Bed 4
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2135,19 +2135,39 @@ UID:f47417e278d66b549de1fce7@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
-SUMMARY:🌱 Så porrer inde – Inde
-DESCRIPTION:Handling: Så\nAfgrøde: porrer inde\nPlacering: Inde\nNote: Fo
- rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Gå i gang\, når
-  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
- planter.
-LOCATION:Inde
+SUMMARY:🌱 Forspir porrer – Bed 4
+DESCRIPTION:Handling: Forspir\nAfgrøde: porrer\nPlacering: Bed 4\nNote: Fo
+ rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Vent\, til jorden
+  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
+ n plads\, der faktisk er ledig.
+LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Så porrer inde – Inde
+DESCRIPTION:🌱 Forspir porrer – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3f3b266222a919138c1daa54@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:🌱 Forspir tomater – Drivhus
+DESCRIPTION:Handling: Forspir\nAfgrøde: tomater\nPlacering: Drivhus\nNote:
+  Så tomater og giv dem lys og varme.\nHvornår: Gå i gang\, når du har 
+ nok lys og passende varme\; vent hellere end at få lange\, svage planter.
+LOCATION:Drivhus
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Forspir tomater – Drivhus
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2169,26 +2189,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så spinat – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3f3b266222a919138c1daa54@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-SUMMARY:🌱 Så tomater inde – Inde
-DESCRIPTION:Handling: Så\nAfgrøde: tomater inde\nPlacering: Inde\nNote: S
- å tomater og giv dem lys og varme.\nHvornår: Gå i gang\, når du har no
- k lys og passende varme\; vent hellere end at få lange\, svage planter.
-LOCATION:Inde
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så tomater inde – Inde
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2431,19 +2431,19 @@ UID:47d2398fec5ed2b50a2251f1@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-SUMMARY:🌱 Så agurker inde – Inde
-DESCRIPTION:Handling: Så\nAfgrøde: agurker inde\nPlacering: Inde\nNote: S
- å få planter\; agurker vokser hurtigt.\nHvornår: Gå i gang\, når du h
- ar nok lys og passende varme\; vent hellere end at få lange\, svage plant
- er.
-LOCATION:Inde
+SUMMARY:🌱 Forspir agurker – Drivhus
+DESCRIPTION:Handling: Forspir\nAfgrøde: agurker\nPlacering: Drivhus\nNote:
+  Så få planter\; agurker vokser hurtigt.\nHvornår: Gå i gang\, når du
+  har nok lys og passende varme\; vent hellere end at få lange\, svage pla
+ nter.
+LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Så agurker inde – Inde
+DESCRIPTION:🌱 Forspir agurker – Drivhus
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2579,19 +2579,19 @@ UID:d1f9f6e6184fbae8dfc49ab5@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
-SUMMARY:🌱 Forspir majs – Inde
-DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Inde\nNote: Forsp
- ir i potter 2-3 uger før udplantning.\nHvornår: Gå i gang\, når du har
-  nok lys og passende varme\; vent hellere end at få lange\, svage planter
- .
-LOCATION:Inde
+SUMMARY:🌱 Forspir majs – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
+ pir i potter 2-3 uger før udplantning.\nHvornår: Vent\, til jorden er lu
+ n og ikke vandmættet\; undgå såning lige før kold eller meget våd vej
+ rperiode.
+LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Forspir majs – Inde
+DESCRIPTION:🌱 Forspir majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2750,19 +2750,19 @@ UID:fd125c47da7ae604c7d7cfde@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
-SUMMARY:🌱 Forspir majs – Inde
-DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Inde\nNote: Forsp
- ir i potter 2-3 uger før udplantning.\nHvornår: Gå i gang\, når du har
-  nok lys og passende varme\; vent hellere end at få lange\, svage planter
- .
-LOCATION:Inde
+SUMMARY:🌱 Forspir majs – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
+ pir i potter 2-3 uger før udplantning.\nHvornår: Vent\, til jorden er lu
+ n og ikke vandmættet\; undgå såning lige før kold eller meget våd vej
+ rperiode.
+LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌱 Forspir majs – Inde
+DESCRIPTION:🌱 Forspir majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
