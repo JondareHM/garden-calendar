@@ -1,0 +1,140 @@
+state_date: 2026-08-04
+normal_plan_starts: 2027-01-01
+
+status:
+  - location: Bed 1
+    emoji: 🥬
+    text: Rødbederne er høstklare.
+  - location: Bed 2
+    emoji: 🌿
+    text: Porrerne nærmer sig høst.
+  - location: Bed 3
+    emoji: 🥕
+    text: Gulerødderne er nyplantede.
+  - location: Bed 4
+    emoji: 🌱
+    text: Spinaten er nyplantet.
+  - location: Langbed
+    emoji: 🫛
+    text: De sidste ærter står stadig; bok choi skal plantes nu.
+  - location: Lille bed
+    emoji: ◻️
+    text: Bedet er tomt.
+  - location: Drivhus
+    emoji: 🍅
+    text: Fyldt med tomater, agurker og peber.
+
+events:
+  - id: current_harvest_beets_bed1
+    emoji: 🥬
+    action: Høst
+    crop: rødbeder
+    location: Bed 1
+    note: Høst de største først. De er klar nu; fortsæt løbende, mens resten vokser til.
+    start: 2026-08-04
+    end: 2026-09-15
+    repeat_days: 14
+    weather_mode: harvest
+
+  - id: current_sow_autumn_spinach_bed1
+    emoji: 🌱
+    action: Så
+    crop: efterårsspinat efter rødbeder
+    location: Bed 1
+    note: Så i de områder, der bliver ledige efter rødbedehøsten.
+    start: 2026-08-20
+    end: 2026-09-05
+    repeat_days: 14
+    weather_mode: outdoor_sow
+
+  - id: current_harvest_leeks_bed2
+    emoji: 🌿
+    action: Høst
+    crop: porrer
+    location: Bed 2
+    note: Begynd med de største porrer. Resten kan blive stående og høstes gennem efteråret.
+    start: 2026-08-20
+    end: 2026-11-30
+    repeat_days: 14
+    weather_mode: harvest
+
+  - id: current_harvest_carrots_bed3
+    emoji: 🥕
+    action: Høst
+    crop: gulerødder
+    location: Bed 3
+    note: Prøvehøst først. Tag de største, når skuldrene har en passende størrelse, og lad resten vokse videre.
+    start: 2026-10-01
+    end: 2026-11-15
+    repeat_days: 14
+    weather_mode: harvest
+
+  - id: current_plant_garlic_bed3
+    emoji: 🧄
+    action: Sæt
+    crop: hvidløg efter gulerødder
+    location: Bed 3
+    note: Sæt hvidløg, når gulerødderne er ryddet. Sæt feddene med spidsen opad.
+    start: 2026-11-01
+    end: 2026-11-15
+    repeat_days: 14
+    weather_mode: outdoor_plant
+
+  - id: current_harvest_spinach_bed4
+    emoji: 🥬
+    action: Høst
+    crop: spinat
+    location: Bed 4
+    note: Start med babyblade og pluk yderblade løbende. Høst før hård frost.
+    start: 2026-09-01
+    end: 2026-10-31
+    repeat_days: 14
+    weather_mode: harvest
+
+  - id: current_plant_bok_choi_long_bed
+    emoji: 🌿
+    action: Plant
+    crop: bok choi mellem og efter de sidste ærter
+    location: Langbed
+    note: Plant i ledige huller. Klip færdige ærteplanter ved jordoverfladen og lad rødderne blive i jorden.
+    start: 2026-08-05
+    duration_days: 10
+    weather_mode: outdoor_plant
+
+  - id: current_sow_phacelia_small_bed
+    emoji: 🌾
+    action: Så
+    crop: honningurt
+    location: Lille bed
+    note: Så honningurt som enkelt jorddække, fordi bedet står tomt.
+    start: 2026-08-10
+    weather_mode: outdoor_sow
+
+  - id: current_cut_phacelia_small_bed
+    emoji: ✂️
+    action: Klip eller nedmulch
+    crop: honningurt
+    location: Lille bed
+    note: Klip før frøsætning og lad plantematerialet ligge som jorddække.
+    start: 2026-09-25
+
+  - id: current_feed_greenhouse
+    emoji: 🧪
+    action: Gød
+    crop: tomater, agurker og peber
+    location: Drivhus
+    note: Gød moderat efter produktets anvisning. Ingen ekstra regnbaserede vandings-events oprettes for drivhuset.
+    start: 2026-08-05
+    end: 2026-09-30
+    repeat_days: 14
+    overview: false
+
+  - id: current_prepare_beds_for_winter
+    emoji: 🍂
+    action: Klargør
+    crop: kompost og jorddække
+    location: Hele haven
+    note: Fjern syge planter, lad sunde rødder blive, fordel et tyndt lag moden kompost og dæk bar jord med blade, halm eller grøngødning. Lad porrer og andre vinterafgrøder stå.
+    start: 2026-11-01
+    end: 2026-11-15
+    repeat_days: 14
