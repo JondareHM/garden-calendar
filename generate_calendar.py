@@ -645,6 +645,22 @@ def format_overview_date(day: date) -> str:
     return f"{day.day}. {day.strftime('%b')}"
 
 
+def overview_event_is_shared(event: dict[str, Any]) -> bool:
+    """Return whether an overview event should also appear under the whole garden."""
+    action = str(event.get("action", "")).strip().lower()
+    crop = str(event.get("crop", "")).strip().lower()
+    location = str(event.get("location", "")).strip().lower()
+    note = str(event.get("note", "")).strip().lower()
+
+    is_propagation = (
+        action.startswith("forspir")
+        or "forspir" in note
+        or (action.startswith("så") and ("inde" in crop or "inde" in location))
+    )
+    is_winter_rye_mulching = "vinterrug" in crop and "nedmulch" in action
+    return is_propagation or is_winter_rye_mulching
+
+
 def overview_html(
     config: dict[str, Any],
     instances: list[tuple[dict[str, Any], date, date, int]],
@@ -659,7 +675,8 @@ def overview_html(
     for bed in beds:
         if isinstance(bed, dict):
             grouped[str(bed.get("name", "Bed"))] = []
-    grouped.setdefault("Hele haven", [])
+    whole_garden = "Hele haven"
+    grouped.setdefault(whole_garden, [])
 
     compact: dict[tuple[str, str], tuple[dict[str, Any], date, date]] = {}
     for event, actual_day, planned_day, _occurrence in instances:
@@ -667,9 +684,16 @@ def overview_html(
         if overview_ids and event_id not in overview_ids:
             continue
         location = str(event.get("location", "Hele haven"))
-        matches = [name for name in grouped if name != "Hele haven" and name.lower() in location.lower()]
+        shared = overview_event_is_shared(event)
+        matches = [name for name in grouped if name != whole_garden and name.lower() in location.lower()]
         if not matches:
-            matches = ["Hele haven"]
+            if shared and location and location.lower() != whole_garden.lower():
+                grouped.setdefault(location, [])
+                matches = [location]
+            else:
+                matches = [whole_garden]
+        if shared and whole_garden not in matches:
+            matches.append(whole_garden)
         for name in matches:
             key = (name, event_id)
             if key not in compact:
@@ -732,7 +756,7 @@ h1{{font-size:clamp(25px,4vw,38px);margin:0 0 5px}} header p{{margin:0;opacity:.
 @media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}.timing[open]{{margin-left:86px}}}}
 @media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}.timing summary{{display:none}}.timing span{{display:block}}}}
 </style></head><body><main><header><h1>🌱 Haveoversigt</h1>
-<p>De store opgaver – samlet pr. bed</p><div class="meta">Oversigt: {window_start:%d-%m-%Y} til {(window_end - timedelta(days=1)):%d-%m-%Y} · genereret {generated_on:%d-%m-%Y}</div></header>
+<p>De store opgaver – samlet pr. bed/plads</p><div class="meta">Oversigt: {window_start:%d-%m-%Y} til {(window_end - timedelta(days=1)):%d-%m-%Y} · genereret {generated_on:%d-%m-%Y}</div></header>
 <div class="grid">{"".join(cards)}</div><p class="legend">🟢 Så/forspir · 🟡 plant/sæt · 🟠 høst · ☁ dato påvirket af vejrprognosen</p>
 <footer>Se abonnementskalenderen for påmindelser og de mere detaljerede opgaver.</footer></main></body></html>'''
 
