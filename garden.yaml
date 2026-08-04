@@ -4,6 +4,7 @@ project:
   description: Personlig så- og høstkalender til køkkenhaven
   timezone: Europe/Copenhagen
   output: calendar/have.ics
+  overview_output: index.html
   generation_months_before: 1
   alarm_days_before: 2
   # Stabil værdi undgår commits, når ingen kalenderdata har ændret sig.
@@ -37,6 +38,52 @@ weather:
 # bedet til buskbønner i stedet.
 bed4_mode: leeks
 optional_pea_hold_7: true
+
+# Den korte Pages-oversigt viser kun de store sætte-, plante-, forspirings-
+# og høstvinduer. Kalenderen beholder fortsat alle valgte events.
+overview_event_ids:
+  - check_seeds_and_soil
+  - sow_peppers_indoors
+  - sow_leeks_indoors
+  - sow_tomatoes_indoors
+  - sow_cucumbers_indoors
+  - sow_maize_indoors
+  - sow_spinach_bed1
+  - harvest_spinach_bed1
+  - sow_beets_bed1
+  - harvest_beets_bed1
+  - sow_autumn_spinach_bed1
+  - plant_maize_bed2
+  - harvest_maize_bed2
+  - plant_garlic_bed3
+  - harvest_garlic_bed3
+  - sow_spinach_after_garlic
+  - sow_bok_choi_after_garlic
+  - plant_leeks_bed4
+  - harvest_leeks_bed4
+  - sow_bush_beans_bed4
+  - sow_peas_hold_1
+  - sow_peas_hold_2
+  - sow_peas_hold_3
+  - sow_peas_hold_4
+  - sow_peas_hold_5
+  - sow_peas_hold_6
+  - sow_peas_hold_7_optional
+  - sow_bok_choi_between_peas
+  - sow_spinach_in_free_pea_sections
+  - sow_bok_choi_in_free_pea_sections
+  - plant_tomatoes_greenhouse
+  - plant_cucumbers_greenhouse
+  - plant_peppers_greenhouse
+  - sow_greenhouse_edge_lettuce
+  - plant_marigold_greenhouse
+  - plant_tagetes_greenhouse
+  - feed_greenhouse
+  - sow_phacelia
+  - cut_phacelia
+  - sow_winter_rye
+  - cut_winter_rye
+  - prepare_beds_for_winter
 
 # Kun disse opgavetyper bliver skrevet til abonnementskalenderen.
 # Listen holder kalenderen enkel, men lader hele så-, forspirings- og
