@@ -192,6 +192,12 @@ def generate(config: dict[str, Any]) -> str:
     if not isinstance(events, list):
         fail("events skal være en liste")
 
+    selected_event_ids = config.get("selected_event_ids")
+    if selected_event_ids is not None:
+        if not isinstance(selected_event_ids, list):
+            fail("selected_event_ids skal være en liste")
+        selected_event_ids = {str(event_id) for event_id in selected_event_ids}
+
     lines = [
         "BEGIN:VCALENDAR",
         "PRODID:-//JondareHM//Havekalender//DA",
@@ -213,6 +219,8 @@ def generate(config: dict[str, Any]) -> str:
         if event_id in seen_ids:
             fail(f"Dobbelt event-id: {event_id}")
         seen_ids.add(event_id)
+        if selected_event_ids is not None and event_id not in selected_event_ids:
+            continue
         if not enabled(event, config):
             continue
         for year in years_to_generate(config):
