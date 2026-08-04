@@ -6,8 +6,8 @@ project:
   output: calendar/have.ics
   generation_months_before: 1
   alarm_days_before: 2
-  # Opdateres ved hver generering, så kalenderklienter kan se ændringer.
-  dtstamp: dynamic
+  # Stabil værdi undgår commits, når ingen kalenderdata har ændret sig.
+  dtstamp: 20260101T000000Z
 
 # Gratis Open-Meteo-prognose. Den bruges kun til nært forestående opgaver,
 # fordi prognosen højst rækker 16 dage frem.
