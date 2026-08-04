@@ -28,6 +28,7 @@ selected_event_ids:
   - sow_maize_indoors
   - sow_spinach_bed1
   - harvest_spinach_bed1
+  - harvest_late_spinach
   - sow_beets_bed1
   - harvest_beets_bed1
   - sow_autumn_spinach_bed1
@@ -203,6 +204,15 @@ events:
     note: Start med babyblade, når de er cirka 8-10 cm. Pluk yderblade eller skær planten over kronen; høst hele planten, når den begynder at gå i stok.
     start: 04-01
     end: 05-31
+    repeat_days: 14
+  - id: harvest_late_spinach
+    emoji: 🥬
+    action: Høst
+    crop: spinat
+    location: Bed 1/Bed 3/Langbed
+    note: "Efter sommer- og efterårssåninger: pluk yderblade eller høst hele planter, mens bladene er friske og før hård frost."
+    start: 09-01
+    end: 10-31
     repeat_days: 14
   - id: sow_beets_bed1
     emoji: 🌱
