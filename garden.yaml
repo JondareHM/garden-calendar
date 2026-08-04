@@ -4,11 +4,34 @@ project:
   description: Personlig så- og høstkalender til køkkenhaven
   timezone: Europe/Copenhagen
   output: calendar/have.ics
-  first_year: 2026
-  years_ahead: 10
+  generation_months_before: 1
   alarm_days_before: 2
-  # Fast værdi gør filen stabil ved daglige GitHub Actions-kørsler.
-  dtstamp: 20260101T000000Z
+  # Opdateres ved hver generering, så kalenderklienter kan se ændringer.
+  dtstamp: dynamic
+
+# Gratis Open-Meteo-prognose. Den bruges kun til nært forestående opgaver,
+# fordi prognosen højst rækker 16 dage frem.
+weather:
+  enabled: true
+  postal_code: "5485"
+  country_code: DK
+  forecast_days: 16
+  past_days: 7
+  max_shift_days: 5
+  rain_mm: 8
+  rain_probability_percent: 70
+  heavy_rain_probability_mm: 4
+  outdoor_min_temperature_c: 3
+  greenhouse_min_temperature_c: 5
+  soil_min_temperature_c: 4
+  warm_crop_soil_min_temperature_c: 8
+  harvest_rain_mm: 10
+  extra_outdoor_watering: true
+  # Drivhuset er ikke med i regnbaserede vandingsevents.
+  greenhouse_extra_watering: false
+  watering_lookback_days: 5
+  watering_rain_max_mm: 4
+  watering_et0_min_mm: 10
 
 # Bed 4 er sat til porrer i 2026. Skift til bush_beans, hvis du vil bruge
 # bedet til buskbønner i stedet.

@@ -15,12 +15,19 @@ python generate_calendar.py
 
 De vigtigste valg ligger øverst i `garden.yaml`:
 
-- `first_year`: første år i kalenderen, her 2026
-- `years_ahead`: antal år der genereres frem
+- `generation_months_before`: hvor mange måneder kalenderen starter før genereringstidspunktet, normalt 1
 - `alarm_days_before`: påmindelse før hver opgave
 - `bed4_mode`: `leeks` eller `bush_beans`
 - `optional_pea_hold_7`: slå den ekstra juli-såning af eller på
 - `selected_event_ids`: hvilke opgavetyper der faktisk kommer med i abonnementet
+
+Vejrindstillingerne ligger i `weather`:
+
+- `postal_code`: havens postnummer, her 5485
+- `forecast_days`: Open-Meteo-prognosens længde, højst 16 dage
+- `max_shift_days`: maksimal fremflytning af en vejrrelevant opgave
+- `extra_outdoor_watering`: ekstra vandingspåmindelser for udendørs bede ved tørke
+- `greenhouse_extra_watering`: skal være `false`; drivhuset får ikke regnbaserede vandingsevents
 
 Kalenderen er med vilje begrænset. Den indeholder alle så-, forspirings- og planteopgaver samt hvidløgshøst, gødning af drivhusplanter, nedklipning af honningurt og vinterrug, vinterklargøring, majshøst og høstvinduer for spinat, rødbeder og porrer. Der er ikke længere faste påmindelser om udluftning, vand, sideskud eller høst af tomater, agurker, peber og ærter.
 
@@ -35,6 +42,8 @@ Workflowet `.github/workflows/update.yml`:
 3. installerer `requirements.txt`
 4. genererer `calendar/have.ics`
 5. committer og pusher kun, hvis filen har ændret sig
+
+Ved hver generering hentes en kort Open-Meteo-prognose. Udendørs så- og planteopgaver samt de valgte udendørs høstvinduer kan flyttes nogle få dage frem ved kraftig regn, kulde eller frost. Den oprindelige planlagte dato bruges i eventets UID, så en flytning opdaterer abonnementseventet i stedet for at skabe en dublet. Ved API-fejl falder generatoren tilbage til kalenderens normale datoer.
 
 Repositoryets Actions skal have skriveadgang til indhold. Det er sat med `permissions: contents: write` i workflowet.
 

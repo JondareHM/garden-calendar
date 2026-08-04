@@ -11,6 +11,8 @@ En lille privat havekalender til en dansk køkkenhave. Projektet genererer en st
 - Bevidst begrænset til såning, forspiring, udplantning, udvalgte jordopgaver og høstvejledning for spinat, rødbeder og porrer
 - Løbende såning af ærter i langbedet
 - Drivhus, bedrotation, porrer/buskbønner, companion planting og grøngødning
+- Open-Meteo-vejrtilpasning for nært forestående udendørs opgaver ved postnummer 5485
+- Højst én ekstra tørke-/vandingspåmindelse pr. udendørs tørkeperiode; drivhuset får ingen regnbaseret vandingsevent
 - GitHub Actions, der kan køres manuelt og automatisk hver nat
 
 ## Lokal generering
@@ -24,7 +26,9 @@ python generate_calendar.py
 
 Outputtet er [`calendar/have.ics`](calendar/have.ics).
 
-`garden.yaml` genererer som standard et rullende vindue på 10 år. Det starter i 2026 og flytter sig automatisk frem, når kalenderåret skifter. Bed 4 bruger porrer; skift `bed4_mode` til `bush_beans` for buskbønner.
+`garden.yaml` genererer ét rullende år ad gangen. Vinduet starter én måned før genereringstidspunktet og flytter sig dagligt. Bed 4 bruger porrer; skift `bed4_mode` til `bush_beans` for buskbønner.
+
+Vejrprognosen hentes gratis fra Open-Meteo uden API-nøgle. Kun opgaver inden for prognosen kan flyttes, og de flyttes højst fem dage frem. Indendørs opgaver flyttes ikke. Udplantning i drivhuset vurderes på kulde/frost, mens regn ikke bruges til drivhusvanding. Hvis API'et er utilgængeligt, beholdes de faste datoer.
 
 ## GitHub Pages
 
