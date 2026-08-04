@@ -3118,6 +3118,1006 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:92db8aa35ffff60217484a81@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4494e54bab08962c43228ce2@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0fcb6aaa74d491db2224dfe6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17300aa640f43b4dabef6231@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a1552f4e6701a51b6c3582a5@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a8bdd692ccc83001aa3af98e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8910d5c84389b5ff661294d0@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:33209564b93fd4bd62e70681@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:260d8594d1b1723ad485f4f6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba05625e4b6ef40dac70bb84@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:003db093894c79cb2e524e19@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20280902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c19359a3d97ffb19c2557778@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20280915
+DTEND;VALUE=DATE:20280916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c7649912b7d5233c22a86199@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20280929
+DTEND;VALUE=DATE:20280930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7845d8d74a7d5df40831fb60@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20281013
+DTEND;VALUE=DATE:20281014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e66f61234cd52c3b63034651@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20281027
+DTEND;VALUE=DATE:20281028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86f8a67886b544160125acfb@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20290901
+DTEND;VALUE=DATE:20290902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2ca828a063f84f469cd7f506@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20290915
+DTEND;VALUE=DATE:20290916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5ff64f4a51e40f2c13c54c81@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20290929
+DTEND;VALUE=DATE:20290930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f81cfc2a069d04a6f9d5efce@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20291013
+DTEND;VALUE=DATE:20291014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c704ea5d66d911047e9fadff@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20291027
+DTEND;VALUE=DATE:20291028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:17bbaabffaad436b642dd644@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20300901
+DTEND;VALUE=DATE:20300902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8c08c5b512e2be0fde73ecc1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20300915
+DTEND;VALUE=DATE:20300916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9454d0153f60e0e4ffe8774@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20300929
+DTEND;VALUE=DATE:20300930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f45a91b2a72361df5e98e66@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20301013
+DTEND;VALUE=DATE:20301014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7987caaa6032888b60fea579@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20301027
+DTEND;VALUE=DATE:20301028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f2da337581c10cf0f7736e87@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20310901
+DTEND;VALUE=DATE:20310902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bda168e4fcb754f60b6f16c7@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20310915
+DTEND;VALUE=DATE:20310916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1c109c8b0072e8cb42ca1e11@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20310929
+DTEND;VALUE=DATE:20310930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dca0c694d67a751175c26901@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20311013
+DTEND;VALUE=DATE:20311014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19ee4665e8d0be819d2b8488@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20311027
+DTEND;VALUE=DATE:20311028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cc720154bcfc5db0f7f0dde3@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20320901
+DTEND;VALUE=DATE:20320902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9672c43644c49bf2cd6ad48a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20320915
+DTEND;VALUE=DATE:20320916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:76db0e6291ef98b3f71518de@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20320929
+DTEND;VALUE=DATE:20320930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8453c167f3445ba7864c12@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20321013
+DTEND;VALUE=DATE:20321014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9ebab5af3c0fd4dc6655c720@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20321027
+DTEND;VALUE=DATE:20321028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:154d32372248e4ce9cdf1f01@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20330901
+DTEND;VALUE=DATE:20330902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41b0c032008af4e85547ee6a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20330915
+DTEND;VALUE=DATE:20330916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e79d0766572af4713ab0086b@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20330929
+DTEND;VALUE=DATE:20330930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9248f6a00d1f0699d77c5042@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20331013
+DTEND;VALUE=DATE:20331014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:13851ee991f53b43a6d2cdb0@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20331027
+DTEND;VALUE=DATE:20331028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ee12f859d5ec73086e7dc5e4@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20340901
+DTEND;VALUE=DATE:20340902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f1259e0cdffa9c95e8b2d2@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20340915
+DTEND;VALUE=DATE:20340916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7543e2c57c960b874321908@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20340929
+DTEND;VALUE=DATE:20340930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a8968ff737fd5c58c621ca9@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20341013
+DTEND;VALUE=DATE:20341014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:63b51ba82f04c7f728f9d774@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20341027
+DTEND;VALUE=DATE:20341028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c271f2f6301fadbdd8841204@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20350901
+DTEND;VALUE=DATE:20350902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4038f7518d9d239013b4930@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20350915
+DTEND;VALUE=DATE:20350916
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:de759d3af39505321d199828@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20350929
+DTEND;VALUE=DATE:20350930
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc5648dec03965c7fd8c660f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20351013
+DTEND;VALUE=DATE:20351014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba43313f2d35fb71cf8956f9@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20351027
+DTEND;VALUE=DATE:20351028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ee2a59e32abb654987446d59@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260515
