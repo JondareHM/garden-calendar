@@ -135,6 +135,108 @@ def event_summary(event: dict[str, Any]) -> str:
     return f"{emoji} {summary}"
 
 
+def event_timing_note(event: dict[str, Any]) -> str:
+    """Return the practical condition that should guide a flexible task date."""
+    explicit = event.get("timing_note")
+    if explicit:
+        return str(explicit)
+
+    action = str(event.get("action", "")).strip().lower()
+    crop = str(event.get("crop", "")).strip().lower()
+    location = str(event.get("location", "")).strip().lower()
+    is_greenhouse = "drivhus" in location
+    is_indoors = "inde" in location
+
+    if action.startswith("høst"):
+        if "spinat" in crop:
+            return "Høst, mens bladene er friske; pluk yderblade løbende og tag hele planten, når den går i stok eller før hård frost."
+        if "rødbede" in crop:
+            return "Prøvehøst de største først; rødderne kan blive stående, så længe de har passende størrelse og jorden ikke er frossen."
+        if "porre" in crop:
+            return "Begynd, når stænglerne er mindst finger-tykke; høst efter behov, så længe jorden kan løsnes."
+        if "gulerod" in crop or "gulerød" in crop:
+            return "Prøvehøst først og tag de største, når skuldrene har passende størrelse; lad resten vokse videre."
+        if "hvidløg" in crop:
+            return "Høst, når 3-5 af de nederste blade er gule eller brune, mens toppen stadig er grøn."
+        if "majs" in crop:
+            return "Høst, når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft."
+        if "bok choi" in crop:
+            return "Høst faste hoveder, eller pluk yderblade tidligere; høst før planterne bliver grove eller får hård frost."
+        if "agurk" in crop:
+            return "Høst ofte, mens frugterne er sprøde og i ønsket størrelse; vent ikke på overmodne, gule frugter."
+        if "tomat" in crop:
+            return "Høst, når frugterne har fået sortens fulde farve og løsner sig let; tag grønne frugter før kulde eller frost."
+        if "peber" in crop:
+            return "Høst ved fuld størrelse; vælg grøn høst eller vent på sortens modne farve, og tag frugterne før kolde nætter."
+        if "bønne" in crop:
+            return "Høst bælgene, mens de er sprøde og uden tydelige frø; hyppig plukning giver flere nye bælge."
+        return "Høst efter størrelse og udseende frem for datoen; tag afgrøden, mens den er frisk og før vejret forringer den."
+
+    if action.startswith(("så", "forspir")) or "så eller plant" in action:
+        if is_indoors or (is_greenhouse and "kant" not in location):
+            return "Gå i gang, når du har nok lys og passende varme; vent hellere end at få lange, svage planter."
+        if "ærte" in crop:
+            return "Så kun, når jorden kan bearbejdes uden at klistre; vent ved kold, meget våd jord og giv de nye planter støtte."
+        if any(name in crop for name in ("majs", "bønne", "rødbede")):
+            return "Vent, til jorden er lun og ikke vandmættet; undgå såning lige før kold eller meget våd vejrperiode."
+        if "vinterrug" in crop or "honningurt" in crop:
+            return "Så kun i et ryddet område, hvis det skal stå dækket; vælg en dag med tjenlig jord og regn nok til fremspiring."
+        if "spinat" in crop:
+            return "Så, når jorden er fugtig og bearbejdelig; undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke."
+        if "bok choi" in crop:
+            return "Så eller plant kun i en ledig sektion; vælg køligt, fugtigt vejr og hold øje med udtørring og stokløbning."
+        return "Vent, til jorden er tjenlig og ikke vandmættet; justér efter temperatur, nedbør og den plads, der faktisk er ledig."
+
+    if action.startswith("plant") or action.startswith("sæt"):
+        if is_greenhouse:
+            return "Plant, når planterne er hærdede, og nætterne er milde nok; kontrollér samtidig, at kapillærkasserne er klar."
+        if "hvidløg" in crop:
+            return "Plant først, når det foregående hold er ryddet, og jorden er løs og veldrænet; undgå vandmættet jord."
+        if "porre" in crop:
+            return "Plant, når planterne er kraftige nok og jorden er fugtig, men ikke våd; udsæt ved hård blæst eller tørke."
+        return "Plant først efter hærdning og uden udsigt til nattefrost; jorden skal være fugtig og kunne bearbejdes uden at klistre."
+
+    if action.startswith("udtynd"):
+        return "Vent, til planterne er lette at skelne fra ukrudt; tynd gradvist til passende afstand og vand, hvis jorden er tør."
+    if action.startswith("prikl"):
+        return "Prikl, når planterne har udviklet deres første rigtige blade og rødderne kan håndteres uden at knække."
+    if action.startswith("hærd"):
+        return "Start på milde, overskyede dage og øg tiden ude gradvist; tag planterne ind ved frost, hård vind eller kold regn."
+    if action.startswith("hyp"):
+        return "Gør det, når planterne er tørre nok til at arbejde omkring, og gentag kun, hvis stænglerne har brug for støtte eller blegning."
+    if action.startswith("klip"):
+        if "honningurt" in crop:
+            return "Klip før frøene modner, typisk når blomstringen er ved at være ovre."
+        if "vinterrug" in crop:
+            return "Klip før frøsætning, og giv materialet tid til at visne før næste såning."
+        if "ærte" in crop:
+            return "Klip, når høsten er slut eller planterne tydeligt er færdige; lad rødderne blive i jorden."
+        return "Klip, når planterne er færdige, men før de sætter modne frø eller bliver vanskelige at håndtere."
+    if action.startswith("afslut"):
+        return "Afslut, når den sidste høst er taget og planterne ikke længere sætter brugbare frugter; lad sunde rødder blive i jorden."
+    if action.startswith("ryd"):
+        return "Ryd, når produktionen er slut eller kulde/frost stopper væksten; fjern sygt plantemateriale separat."
+    if action.startswith("beslut"):
+        return "Brug datoen som beslutningspunkt, men vælg kun opgaven, hvis arealet faktisk er ryddet og jordens tilstand tillader det."
+    if action.startswith("gød"):
+        return "Gød kun ved aktiv vækst og efter behov; spring over, hvis planterne er stressede af tørke, kulde eller sygdom."
+    if action.startswith("tjek vand"):
+        return "Kontrollér altid vandstanden og plantens jordfugtighed; kalenderdatoen er kun en påmindelse."
+    if action.startswith("tjek"):
+        return "Gør det før den første relevante opgave; supplér kun, hvis frø, udstyr eller jord faktisk mangler."
+    if action.startswith("luft ud"):
+        return "Luft ud på varme dage, men luk før kolde nætter og ved kraftig vind."
+    if action.startswith("bind op") or action.startswith("knib"):
+        return "Gør det, når ny vækst eller sideskud tydeligt viser sig, og før planten bliver så tæt, at arbejdet beskadiger stænglerne."
+    if action.startswith("hold øje"):
+        return "Se efter symptomer på nye skud og bladundersider; reagér, hvis du faktisk finder skadedyr eller tydelige skader."
+    if action.startswith("klargør"):
+        return "Gør det, når området er ryddet nok til at arbejde i; tilpas kompost og dække efter den faktiske jordtilstand."
+    if action.startswith(("dæk", "lad ligge", "overvintrer", "kontrollér vinterdække")):
+        return "Tilpas efter hvad der faktisk står i bedet, og dæk kun bar eller udsat jord; undgå at kvæle levende afgrøder."
+    return ""
+
+
 def event_dates(event: dict[str, Any], year: int) -> list[tuple[date, int]]:
     start = parse_month_day(str(event["start"]), year)
     end = parse_month_day(str(event.get("end", event["start"])), year)
@@ -199,6 +301,9 @@ def make_event_lines(
         f"Placering: {event.get('location', 'Hele haven')}",
         f"Note: {event.get('note', '')}",
     ]
+    timing_note = event_timing_note(event)
+    if timing_note:
+        description_lines.append(f"Hvornår: {timing_note}")
     weather_note = event.get("_weather_note")
     if weather_note:
         description_lines.append(f"Vejrtilpasning: {weather_note}")
@@ -588,10 +693,17 @@ def overview_html(
             kind = next((cls for key, cls in colors.items() if action.startswith(key)), "other")
             date_text = format_overview_date(first) if first == last else f"{format_overview_date(first)}–{format_overview_date(last)}"
             weather = " <span class=weather>☁ vejrtilpasset</span>" if event.get("_weather_note") else ""
+            timing_note = event_timing_note(event)
+            timing = (
+                '<details class="timing"><summary>Hvornår?</summary>'
+                f'<span>{html.escape(timing_note)}</span></details>'
+                if timing_note
+                else ""
+            )
             rows.append(
                 f'<div class="event {kind}"><span class="date">{html.escape(date_text)}</span>'
                 f'<span class="title">{html.escape(str(event.get("emoji", "🌱")))} '
-                f'{html.escape(action)} {html.escape(str(event.get("crop", "")))}{weather}</span></div>'
+                f'{html.escape(action)} {html.escape(str(event.get("crop", "")))}{weather}</span>{timing}</div>'
             )
         cards.append(
             f'<section class="bed"><h2>{html.escape(name)}</h2>'
@@ -606,11 +718,11 @@ def overview_html(
 *{{box-sizing:border-box}} body{{margin:0;background:#eef2eb;color:var(--ink);font:15px/1.35 system-ui,-apple-system,Segoe UI,sans-serif}}
 main{{max-width:1100px;margin:auto;padding:24px}} header{{background:var(--green);color:white;border-radius:16px;padding:22px 24px;margin-bottom:16px}}
 h1{{font-size:clamp(25px,4vw,38px);margin:0 0 5px}} header p{{margin:0;opacity:.9}} .meta{{font-size:12px;margin-top:12px;opacity:.8}}
-.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210}}
-h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;gap:10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}}
+ .grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210}}
+ h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;flex-wrap:wrap;gap:7px 10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550;flex:1 1 180px}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}} .timing{{flex:0 0 auto;font-size:11px;color:#526257}} .timing summary{{cursor:pointer;color:var(--green);font-weight:700}} .timing span{{display:block;margin-top:4px;max-width:430px;color:#526257;font-size:12px;font-weight:400}} .timing[open]{{flex-basis:100%;margin-left:95px}}
 .legend{{margin:14px 0 0;color:#526257;font-size:12px}} footer{{margin-top:16px;color:#637064;font-size:12px}}
-@media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}}}
-@media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}}}
+@media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}.timing[open]{{margin-left:86px}}}}
+@media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}.timing summary{{display:none}}.timing span{{display:block}}}}
 </style></head><body><main><header><h1>🌱 Haveoversigt</h1>
 <p>De store opgaver – samlet pr. bed</p><div class="meta">Oversigt: {window_start:%d-%m-%Y} til {(window_end - timedelta(days=1)):%d-%m-%Y} · genereret {generated_on:%d-%m-%Y}</div></header>
 <div class="grid">{"".join(cards)}</div><p class="legend">🟢 Så/forspir · 🟡 plant/sæt · 🟠 høst · ☁ dato påvirket af vejrprognosen</p>

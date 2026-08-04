@@ -42,6 +42,8 @@ Kontrollér den faktiske URL under repositoryets Pages-indstillinger. Hvis priva
 
 Pages-forsiden viser de store opgaver pr. bed. Den genereres automatisk sammen med kalenderen og følger derfor det aktuelle rullende år samt eventuelle vejrtilpasninger.
 
+Så-, plante- og høstevents indeholder også en kort `Hvornår`-note med de forhold, der bør afgøre den faktiske dato. På Pages-oversigten kan noten åbnes pr. event; i kalenderabonnementet står den i eventets beskrivelse. En eventuel `timing_note` i YAML kan bruges til at overskrive den automatiske tekst.
+
 GitHub Pages kan bruge et privat source-repository på GitHub Pro, Team eller Enterprise, men den publicerede side er normalt offentligt tilgængelig. En reelt privat Pages-side kræver GitHub Enterprise Cloud for en organisation. Kalenderen indeholder derfor kun haveopgaver og ingen følsomme oplysninger.
 
 Se også [Setup](docs/Setup.md) og [iPhone-guide](docs/iPhone.md).

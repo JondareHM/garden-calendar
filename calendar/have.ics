@@ -15,7 +15,9 @@ DTEND;VALUE=DATE:20260805
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.
+ okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
+  stående\, så længe de har passende størrelse og jorden ikke er frosse
+ n.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -35,7 +37,9 @@ DTEND;VALUE=DATE:20260815
 SUMMARY:🌿 Plant bok choi mellem og efter de sidste ærter – Langbed
 DESCRIPTION:Handling: Plant\nAfgrøde: bok choi mellem og efter de sidste 
  ærter\nPlacering: Langbed\nNote: Plant i ledige huller. Klip færdige ær
- teplanter ved jordoverfladen og lad rødderne blive i jorden.
+ teplanter ved jordoverfladen og lad rødderne blive i jorden.\nHvornår: P
+ lant først efter hærdning og uden udsigt til nattefrost\; jorden skal v
+ ære fugtig og kunne bearbejdes uden at klistre.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -56,7 +60,9 @@ DTEND;VALUE=DATE:20260806
 SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.
+ nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
+ aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
+  tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -75,7 +81,9 @@ DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 SUMMARY:🌾 Så honningurt – Lille bed
 DESCRIPTION:Handling: Så\nAfgrøde: honningurt\nPlacering: Lille bed\nNote
- : Så honningurt som enkelt jorddække\, fordi bedet står tomt.
+ : Så honningurt som enkelt jorddække\, fordi bedet står tomt.\nHvornår
+ : Så kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag 
+ med tjenlig jord og regn nok til fremspiring.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -95,7 +103,9 @@ DTEND;VALUE=DATE:20260816
 SUMMARY:✂️ Afslut de sidste ærter – Langbed
 DESCRIPTION:Handling: Afslut\nAfgrøde: de sidste ærter\nPlacering: Langbe
  d\nNote: Høst de sidste ærter\, klip planterne ved jordoverfladen og lad
-  rødderne blive i jorden.
+  rødderne blive i jorden.\nHvornår: Afslut\, når den sidste høst er ta
+ get og planterne ikke længere sætter brugbare frugter\; lad sunde rødde
+ r blive i jorden.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -115,7 +125,9 @@ DTEND;VALUE=DATE:20260819
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.
+ okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
+  stående\, så længe de har passende størrelse og jorden ikke er frosse
+ n.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -135,7 +147,9 @@ DTEND;VALUE=DATE:20260820
 SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.
+ nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
+ aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
+  tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -155,7 +169,8 @@ DTEND;VALUE=DATE:20260821
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
- sten.
+ sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
+ ning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -175,7 +190,8 @@ DTEND;VALUE=DATE:20260821
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -197,7 +213,9 @@ SUMMARY:⏳ Beslut og så eventuelt honningurt i områder uden spinat – B
 DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: honningurt i områ
  der uden spinat\nPlacering: Bed 1\nNote: Sidste gode beslutningspunkt for 
  honningurt. Så nu i ryddede dele\, eller lad rødbeder/efterårsspinat fo
- rtsætte og brug senere kompost og jorddække i stedet.
+ rtsætte og brug senere kompost og jorddække i stedet.\nHvornår: Brug da
+ toen som beslutningspunkt\, men vælg kun opgaven\, hvis arealet faktisk e
+ r ryddet og jordens tilstand tillader det.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -218,7 +236,8 @@ DTEND;VALUE=DATE:20260826
 SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
  acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
-  fylder pladsen.
+  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
+ undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -238,7 +257,9 @@ DTEND;VALUE=DATE:20260902
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.
+ okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
+  stående\, så længe de har passende størrelse og jorden ikke er frosse
+ n.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -257,7 +278,9 @@ DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.
+ t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
+ år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -277,7 +300,9 @@ DTEND;VALUE=DATE:20260903
 SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.
+ nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
+ aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
+  tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -297,7 +322,8 @@ DTEND;VALUE=DATE:20260904
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
- sten.
+ sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
+ ning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -317,7 +343,8 @@ DTEND;VALUE=DATE:20260904
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -337,7 +364,8 @@ DTEND;VALUE=DATE:20260909
 SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
  acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
-  fylder pladsen.
+  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
+ undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -357,7 +385,9 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.
+ okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
+  stående\, så længe de har passende størrelse og jorden ikke er frosse
+ n.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -376,7 +406,9 @@ DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20260916
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.
+ t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
+ år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -396,7 +428,9 @@ DTEND;VALUE=DATE:20260917
 SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.
+ nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
+ aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
+  tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -416,7 +450,8 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -436,7 +471,9 @@ DTEND;VALUE=DATE:20260921
 SUMMARY:🥬 Høst bok choi – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
  Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.
+ re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
+ erblade tidligere\; høst før planterne bliver grove eller får hård fro
+ st.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -456,7 +493,8 @@ DTEND;VALUE=DATE:20260926
 SUMMARY:✂️ Klip eller nedmulch honningurt – Lille bed
 DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: honningurt\nPlacering:
   Lille bed\nNote: Klip før frøsætning og lad plantematerialet ligge som
-  jorddække.
+  jorddække.\nHvornår: Klip før frøene modner\, typisk når blomstringe
+ n er ved at være ovre.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -475,7 +513,9 @@ DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.
+ t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
+ år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -495,7 +535,9 @@ DTEND;VALUE=DATE:20261001
 SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.
+ nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
+ aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
+  tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -516,7 +558,9 @@ SUMMARY:⏳ Beslut og så eventuelt vinterrug efter spinat – Bed 4
 DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug efter sp
  inat\nPlacering: Bed 4\nNote: Sidste rimelige beslutningspunkt. Afslut spi
  nat i hele eller dele af bedet og så vinterrug nu\, eller lad spinaten fo
- rtsætte og brug kompost/jorddække senere.
+ rtsætte og brug kompost/jorddække senere.\nHvornår: Brug datoen som bes
+ lutningspunkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og 
+ jordens tilstand tillader det.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -538,7 +582,9 @@ SUMMARY:⏳ Beslut og så eventuelt vinterrug i ledige sektioner – Langbe
 DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug i ledige
   sektioner\nPlacering: Langbed\nNote: Sidste rimelige beslutningspunkt. S
  å vinterrug nu i færdige sektioner\, eller lad bok choi og spinat forts
- ætte og dæk jorden efter sidste høst.
+ ætte og dæk jorden efter sidste høst.\nHvornår: Brug datoen som beslut
+ ningspunkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og jor
+ dens tilstand tillader det.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -560,7 +606,9 @@ SUMMARY:⏳ Beslut og så eventuelt vinterrug i ryddede dele – Bed 2
 DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug i rydded
  e dele\nPlacering: Bed 2\nNote: Sidste rimelige beslutningspunkt. Så vint
  errug nu i dele\, hvor porrerne er høstet\, eller lad porrerne fortsætte
-  og dæk jorden efter sidste høst.
+  og dæk jorden efter sidste høst.\nHvornår: Brug datoen som beslutnings
+ punkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og jordens 
+ tilstand tillader det.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -580,7 +628,8 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -600,7 +649,9 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:🥕 Høst gulerødder – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
   Prøvehøst først. Tag de største\, når skuldrene har en passende stø
- rrelse\, og lad resten vokse videre.
+ rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
+ de største\, når skuldrene har passende størrelse\; lad resten vokse vi
+ dere.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -619,7 +670,9 @@ DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:🥬 Høst efterårsspinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
- ote: Pluk yderblade løbende og høst resten før hård frost.
+ ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
+ Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
+ en\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -638,7 +691,9 @@ DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:🥬 Høst efterårsspinat – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
- nNote: Pluk yderblade løbende og høst resten før hård frost.
+ nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
+ : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
+ nten\, når den går i stok eller før hård frost.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -658,7 +713,9 @@ DTEND;VALUE=DATE:20261005
 SUMMARY:🥬 Høst bok choi – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
  Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.
+ re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
+ erblade tidligere\; høst før planterne bliver grove eller får hård fro
+ st.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -677,7 +734,9 @@ DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.
+ t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
+ år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -697,7 +756,8 @@ DTEND;VALUE=DATE:20261016
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -717,7 +777,9 @@ DTEND;VALUE=DATE:20261016
 SUMMARY:🥕 Høst gulerødder – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
   Prøvehøst først. Tag de største\, når skuldrene har en passende stø
- rrelse\, og lad resten vokse videre.
+ rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
+ de største\, når skuldrene har passende størrelse\; lad resten vokse vi
+ dere.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -736,7 +798,9 @@ DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:🥬 Høst efterårsspinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
- ote: Pluk yderblade løbende og høst resten før hård frost.
+ ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
+ Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
+ en\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -755,7 +819,9 @@ DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
 SUMMARY:🥬 Høst efterårsspinat – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
- nNote: Pluk yderblade løbende og høst resten før hård frost.
+ nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
+ : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
+ nten\, når den går i stok eller før hård frost.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -775,7 +841,9 @@ DTEND;VALUE=DATE:20261016
 SUMMARY:🧹 Ryd tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Ryd\nAfgrøde: tomater\, agurker og peber\nPlacering:
   Drivhus\nNote: Fjern planterne\, når produktionen er slut. Kassér sygt 
- plantemateriale og kompostér kun det sunde.
+ plantemateriale og kompostér kun det sunde.\nHvornår: Ryd\, når produkt
+ ionen er slut eller kulde/frost stopper væksten\; fjern sygt plantemateri
+ ale separat.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -795,7 +863,9 @@ DTEND;VALUE=DATE:20261019
 SUMMARY:🥬 Høst bok choi – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
  Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.
+ re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
+ erblade tidligere\; høst før planterne bliver grove eller får hård fro
+ st.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -814,7 +884,9 @@ DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.
+ t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
+ år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -834,7 +906,8 @@ DTEND;VALUE=DATE:20261030
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -854,7 +927,9 @@ DTEND;VALUE=DATE:20261030
 SUMMARY:🥕 Høst gulerødder – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
   Prøvehøst først. Tag de største\, når skuldrene har en passende stø
- rrelse\, og lad resten vokse videre.
+ rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
+ de største\, når skuldrene har passende størrelse\; lad resten vokse vi
+ dere.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -873,7 +948,9 @@ DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:🥬 Høst efterårsspinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
- ote: Pluk yderblade løbende og høst resten før hård frost.
+ ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
+ Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
+ en\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -892,7 +969,9 @@ DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:🥬 Høst efterårsspinat – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
- nNote: Pluk yderblade løbende og høst resten før hård frost.
+ nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
+ : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
+ nten\, når den går i stok eller før hård frost.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -912,7 +991,9 @@ DTEND;VALUE=DATE:20261030
 SUMMARY:🧹 Ryd tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Ryd\nAfgrøde: tomater\, agurker og peber\nPlacering:
   Drivhus\nNote: Fjern planterne\, når produktionen er slut. Kassér sygt 
- plantemateriale og kompostér kun det sunde.
+ plantemateriale og kompostér kun det sunde.\nHvornår: Ryd\, når produkt
+ ionen er slut eller kulde/frost stopper væksten\; fjern sygt plantemateri
+ ale separat.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -932,7 +1013,9 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:🍂 Lad ligge nedmulchet honningurt – Lille bed
 DESCRIPTION:Handling: Lad ligge\nAfgrøde: nedmulchet honningurt\nPlacering
  : Lille bed\nNote: Lad det nedklippede materiale beskytte jorden gennem vi
- nteren. Tilføj lidt blade\, hvis jorden stadig er synlig.
+ nteren. Tilføj lidt blade\, hvis jorden stadig er synlig.\nHvornår: Tilp
+ as efter hvad der faktisk står i bedet\, og dæk kun bar eller udsat jord
+ \; undgå at kvæle levende afgrøder.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -952,7 +1035,8 @@ DTEND;VALUE=DATE:20261102
 SUMMARY:🧄 Sæt hvidløg efter gulerødder – Bed 3
 DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg efter gulerødder\nPlacering
  : Bed 3\nNote: Sæt hvidløg\, når gulerødderne er ryddet. Sæt feddene 
- med spidsen opad.
+ med spidsen opad.\nHvornår: Plant først\, når det foregående hold er r
+ yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -972,7 +1056,9 @@ DTEND;VALUE=DATE:20261106
 SUMMARY:🍂 Klargør drivhus og kapillærkasser – Drivhus
 DESCRIPTION:Handling: Klargør\nAfgrøde: drivhus og kapillærkasser\nPlace
  ring: Drivhus\nNote: Tøm og rengør kapillærkasser\, vask løse overflad
- er og tilfør kompost til eventuel jord i drivhuset.
+ er og tilfør kompost til eventuel jord i drivhuset.\nHvornår: Gør det\,
+  når området er ryddet nok til at arbejde i\; tilpas kompost og dække e
+ fter den faktiske jordtilstand.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -992,7 +1078,8 @@ DTEND;VALUE=DATE:20261113
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1012,7 +1099,9 @@ DTEND;VALUE=DATE:20261113
 SUMMARY:🥕 Høst gulerødder – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
   Prøvehøst først. Tag de største\, når skuldrene har en passende stø
- rrelse\, og lad resten vokse videre.
+ rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
+ de største\, når skuldrene har passende størrelse\; lad resten vokse vi
+ dere.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1031,7 +1120,9 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🥬 Høst efterårsspinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
- ote: Pluk yderblade løbende og høst resten før hård frost.
+ ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
+ Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
+ en\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1050,7 +1141,9 @@ DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:🥬 Høst efterårsspinat – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
- nNote: Pluk yderblade løbende og høst resten før hård frost.
+ nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
+ : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
+ nten\, når den går i stok eller før hård frost.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1070,7 +1163,8 @@ DTEND;VALUE=DATE:20261116
 SUMMARY:🧄 Sæt hvidløg efter gulerødder – Bed 3
 DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg efter gulerødder\nPlacering
  : Bed 3\nNote: Sæt hvidløg\, når gulerødderne er ryddet. Sæt feddene 
- med spidsen opad.
+ med spidsen opad.\nHvornår: Plant først\, når det foregående hold er r
+ yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1090,7 +1184,9 @@ DTEND;VALUE=DATE:20261121
 SUMMARY:🍂 Dæk bar jord efter spinat og rødbeder – Bed 1
 DESCRIPTION:Handling: Dæk\nAfgrøde: bar jord efter spinat og rødbeder\nP
  lacering: Bed 1\nNote: Lad eventuel honningurt ligge. Dæk øvrig bar jord
-  med et tyndt lag kompost og blade eller halm.
+  med et tyndt lag kompost og blade eller halm.\nHvornår: Tilpas efter hva
+ d der faktisk står i bedet\, og dæk kun bar eller udsat jord\; undgå at
+  kvæle levende afgrøder.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1110,7 +1206,9 @@ DTEND;VALUE=DATE:20261121
 SUMMARY:🍂 Dæk ledige sektioner – Langbed
 DESCRIPTION:Handling: Dæk\nAfgrøde: ledige sektioner\nPlacering: Langbed\
  nNote: Lad ærterødder og eventuel vinterrug blive. Dæk øvrige ledige s
- ektioner med kompost og blade eller halm.
+ ektioner med kompost og blade eller halm.\nHvornår: Tilpas efter hvad der
+  faktisk står i bedet\, og dæk kun bar eller udsat jord\; undgå at kvæ
+ le levende afgrøder.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1131,7 +1229,9 @@ SUMMARY:🍂 Klargør kompost og jorddække – Hele haven
 DESCRIPTION:Handling: Klargør\nAfgrøde: kompost og jorddække\nPlacering:
   Hele haven\nNote: Kontrollér alle bede: fjern syge planter\, lad sunde r
  ødder blive\, fordel et tyndt lag moden kompost og dæk resterende bar jo
- rd med blade eller halm.
+ rd med blade eller halm.\nHvornår: Gør det\, når området er ryddet nok
+  til at arbejde i\; tilpas kompost og dække efter den faktiske jordtilsta
+ nd.
 LOCATION:Hele haven
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1151,7 +1251,8 @@ DTEND;VALUE=DATE:20261127
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.
+ eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1172,7 +1273,8 @@ SUMMARY:❄️ Kontrollér vinterdække vinterrug eller bar jord – Bed 4
 DESCRIPTION:Handling: Kontrollér vinterdække\nAfgrøde: vinterrug eller b
  ar jord\nPlacering: Bed 4\nNote: Lad vinterrug stå\, hvis den blev sået.
   Ellers dæk bar jord med kompost og blade eller halm efter sidste spinath
- øst.
+ øst.\nHvornår: Tilpas efter hvad der faktisk står i bedet\, og dæk kun
+  bar eller udsat jord\; undgå at kvæle levende afgrøder.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1193,7 +1295,9 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:❄️ Overvintrer hvidløg – Bed 3
 DESCRIPTION:Handling: Overvintrer\nAfgrøde: hvidløg\nPlacering: Bed 3\nNo
  te: Lad hvidløgene stå. Dæk kun let med blade eller halm\, hvis jorden 
- ellers står helt bar.
+ ellers står helt bar.\nHvornår: Tilpas efter hvad der faktisk står i be
+ det\, og dæk kun bar eller udsat jord\; undgå at kvæle levende afgrøde
+ r.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1213,7 +1317,9 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:🍂 Klargør bed efter porrer – Bed 2
 DESCRIPTION:Handling: Klargør\nAfgrøde: bed efter porrer\nPlacering: Bed 
  2\nNote: Når de sidste porrer er høstet\, fjern ukrudt\, tilfør et tynd
- t lag moden kompost og dæk jorden. Lad eventuel vinterrug stå.
+ t lag moden kompost og dæk jorden. Lad eventuel vinterrug stå.\nHvornår
+ : Gør det\, når området er ryddet nok til at arbejde i\; tilpas kompost
+  og dække efter den faktiske jordtilstand.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1232,7 +1338,9 @@ DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
 SUMMARY:🌱 Så peber inde – Drivhus/inde
 DESCRIPTION:Handling: Så\nAfgrøde: peber inde\nPlacering: Drivhus/inde\nN
- ote: Start tidligt\; giv planterne godt lys.
+ ote: Start tidligt\; giv planterne godt lys.\nHvornår: Gå i gang\, når 
+ du har nok lys og passende varme\; vent hellere end at få lange\, svage p
+ lanter.
 LOCATION:Drivhus/inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1253,7 +1361,8 @@ SUMMARY:🔎 Tjek frø og såjord – Hele haven
 DESCRIPTION:Handling: Tjek\nAfgrøde: frø og såjord\nPlacering: Hele have
  n\nNote: Kontrollér frøbeholdning og datoer\, notér hvad der mangler\, 
  og find potter\, såbakker\, lys og frisk såjord frem. Det er en årlig e
- ngangsopgave.
+ ngangsopgave.\nHvornår: Gør det før den første relevante opgave\; supp
+ lér kun\, hvis frø\, udstyr eller jord faktisk mangler.
 LOCATION:Hele haven
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1272,7 +1381,9 @@ DTSTART;VALUE=DATE:20270215
 DTEND;VALUE=DATE:20270216
 SUMMARY:🌱 Så porrer inde – Inde
 DESCRIPTION:Handling: Så\nAfgrøde: porrer inde\nPlacering: Inde\nNote: Fo
- rspir porrer tidligt til udplantning i Bed 4.
+ rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1291,7 +1402,9 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:🌱 Så porrer inde – Inde
 DESCRIPTION:Handling: Så\nAfgrøde: porrer inde\nPlacering: Inde\nNote: Fo
- rspir porrer tidligt til udplantning i Bed 4.
+ rspir porrer tidligt til udplantning i Bed 4.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1310,7 +1423,9 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:🌱 Så spinat – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Så ti
- dligt\, når jorden kan bearbejdes\; gentag for en lille serie.
+ dligt\, når jorden kan bearbejdes\; gentag for en lille serie.\nHvornår:
+  Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jord og 
+ beskyt de nye planter ved udsigt til tørke.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1329,7 +1444,8 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:🌱 Så tomater inde – Inde
 DESCRIPTION:Handling: Så\nAfgrøde: tomater inde\nPlacering: Inde\nNote: S
- å tomater og giv dem lys og varme.
+ å tomater og giv dem lys og varme.\nHvornår: Gå i gang\, når du har no
+ k lys og passende varme\; vent hellere end at få lange\, svage planter.
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1348,7 +1464,9 @@ DTSTART;VALUE=DATE:20270301
 DTEND;VALUE=DATE:20270302
 SUMMARY:🌱 Så ærter hold 1 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 1\nPlacering: Langbed\nNot
- e: Så cirka 60-80 cm\; brug rionettet som støtte.
+ e: Så cirka 60-80 cm\; brug rionettet som støtte.\nHvornår: Så kun\, n
+ år jorden kan bearbejdes uden at klistre\; vent ved kold\, meget våd jor
+ d og giv de nye planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1369,7 +1487,8 @@ SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
 DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
  Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
  erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.
+ ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
+ ne før næste såning.
 LOCATION:Bed der skal dyrkes igen
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1388,7 +1507,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1407,7 +1528,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1426,7 +1549,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eventuelt ekstra spinat eller bok choi – Lille bed
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: ekstra spinat eller bok choi
- \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.
+ \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.\nHvor
+ når: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jor
+ d og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1445,7 +1570,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eventuelt spinat – Bed 2
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: spinat\nPlacering: Bed 2\nNo
- te: Brug bedet som hurtig forafgrøde\, hvis majsplanen tillader det.
+ te: Brug bedet som hurtig forafgrøde\, hvis majsplanen tillader det.\nHvo
+ rnår: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jo
+ rd og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1464,7 +1591,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så spinat – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Så ti
- dligt\, når jorden kan bearbejdes\; gentag for en lille serie.
+ dligt\, når jorden kan bearbejdes\; gentag for en lille serie.\nHvornår:
+  Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jord og 
+ beskyt de nye planter ved udsigt til tørke.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1485,7 +1614,8 @@ SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
 DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
  Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
  erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.
+ ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
+ ne før næste såning.
 LOCATION:Bed der skal dyrkes igen
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1504,7 +1634,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1523,7 +1655,9 @@ DTSTART;VALUE=DATE:20270321
 DTEND;VALUE=DATE:20270322
 SUMMARY:🌱 Så ærter hold 2 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 2\nPlacering: Langbed\nNot
- e: Så næste sektion cirka 2-3 uger efter hold 1.
+ e: Så næste sektion cirka 2-3 uger efter hold 1.\nHvornår: Så kun\, n
+ år jorden kan bearbejdes uden at klistre\; vent ved kold\, meget våd jor
+ d og giv de nye planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1544,7 +1678,8 @@ SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
 DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
  Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
  erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.
+ ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
+ ne før næste såning.
 LOCATION:Bed der skal dyrkes igen
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1563,7 +1698,9 @@ DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:🌱 Så agurker inde – Inde
 DESCRIPTION:Handling: Så\nAfgrøde: agurker inde\nPlacering: Inde\nNote: S
- å få planter\; agurker vokser hurtigt.
+ å få planter\; agurker vokser hurtigt.\nHvornår: Gå i gang\, når du h
+ ar nok lys og passende varme\; vent hellere end at få lange\, svage plant
+ er.
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1583,7 +1720,9 @@ DTEND;VALUE=DATE:20270402
 SUMMARY:🥬 Høst spinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Star
  t med babyblade\, når de er cirka 8-10 cm. Pluk yderblade eller skær pla
- nten over kronen\; høst hele planten\, når den begynder at gå i stok.
+ nten over kronen\; høst hele planten\, når den begynder at gå i stok.\n
+ Hvornår: Høst\, mens bladene er friske\; pluk yderblade løbende og tag 
+ hele planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1602,7 +1741,9 @@ DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1621,7 +1762,9 @@ DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1640,7 +1783,9 @@ DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:🌱 Så eventuelt ekstra spinat eller bok choi – Lille bed
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: ekstra spinat eller bok choi
- \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.
+ \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.\nHvor
+ når: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jor
+ d og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1659,7 +1804,9 @@ DTSTART;VALUE=DATE:20270405
 DTEND;VALUE=DATE:20270406
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1678,7 +1825,9 @@ DTSTART;VALUE=DATE:20270411
 DTEND;VALUE=DATE:20270412
 SUMMARY:🌱 Så ærter hold 3 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 3\nPlacering: Langbed\nNot
- e: Så næste sektion og lad plads til bok choi mellem holdene.
+ e: Så næste sektion og lad plads til bok choi mellem holdene.\nHvornår:
+  Så kun\, når jorden kan bearbejdes uden at klistre\; vent ved kold\, me
+ get våd jord og giv de nye planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1697,7 +1846,9 @@ DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:🌱 Forspir majs – Inde
 DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Inde\nNote: Forsp
- ir i potter 2-3 uger før udplantning.
+ ir i potter 2-3 uger før udplantning.\nHvornår: Gå i gang\, når du har
+  nok lys og passende varme\; vent hellere end at få lange\, svage planter
+ .
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1717,7 +1868,8 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:🌼 Så eller plant blomsterkarse – Lille bed/langbedets kant
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: blomsterkarse\nPlacering: 
  Lille bed/langbedets kant\nNote: Brug som dekorativ bladlusmagnet og spise
- lig blomst.
+ lig blomst.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; 
+ justér efter temperatur\, nedbør og den plads\, der faktisk er ledig.
 LOCATION:Lille bed/langbedets kant
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1738,7 +1890,9 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:🥬 Høst spinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Star
  t med babyblade\, når de er cirka 8-10 cm. Pluk yderblade eller skær pla
- nten over kronen\; høst hele planten\, når den begynder at gå i stok.
+ nten over kronen\; høst hele planten\, når den begynder at gå i stok.\n
+ Hvornår: Høst\, mens bladene er friske\; pluk yderblade løbende og tag 
+ hele planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1757,7 +1911,9 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1776,7 +1932,9 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1795,7 +1953,9 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:🌱 Så eventuelt ekstra spinat eller bok choi – Lille bed
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: ekstra spinat eller bok choi
- \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.
+ \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.\nHvor
+ når: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jor
+ d og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1814,7 +1974,9 @@ DTSTART;VALUE=DATE:20270426
 DTEND;VALUE=DATE:20270427
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1833,7 +1995,9 @@ DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:🌱 Forspir majs – Inde
 DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Inde\nNote: Forsp
- ir i potter 2-3 uger før udplantning.
+ ir i potter 2-3 uger før udplantning.\nHvornår: Gå i gang\, når du har
+  nok lys og passende varme\; vent hellere end at få lange\, svage planter
+ .
 LOCATION:Inde
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1853,7 +2017,9 @@ DTEND;VALUE=DATE:20270430
 SUMMARY:🥬 Høst spinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Star
  t med babyblade\, når de er cirka 8-10 cm. Pluk yderblade eller skær pla
- nten over kronen\; høst hele planten\, når den begynder at gå i stok.
+ nten over kronen\; høst hele planten\, når den begynder at gå i stok.\n
+ Hvornår: Høst\, mens bladene er friske\; pluk yderblade løbende og tag 
+ hele planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1872,7 +2038,9 @@ DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:🌱 Så ærter hold 4 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 4\nPlacering: Langbed\nNot
- e: Fortsæt rækken i en ny sektion.
+ e: Fortsæt rækken i en ny sektion.\nHvornår: Så kun\, når jorden kan 
+ bearbejdes uden at klistre\; vent ved kold\, meget våd jord og giv de nye
+  planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1892,7 +2060,8 @@ DTEND;VALUE=DATE:20270507
 SUMMARY:🌼 Så eller plant blomsterkarse – Lille bed/langbedets kant
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: blomsterkarse\nPlacering: 
  Lille bed/langbedets kant\nNote: Brug som dekorativ bladlusmagnet og spise
- lig blomst.
+ lig blomst.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; 
+ justér efter temperatur\, nedbør og den plads\, der faktisk er ledig.
 LOCATION:Lille bed/langbedets kant
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1913,7 +2082,9 @@ DTEND;VALUE=DATE:20270514
 SUMMARY:🥬 Høst spinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Star
  t med babyblade\, når de er cirka 8-10 cm. Pluk yderblade eller skær pla
- nten over kronen\; høst hele planten\, når den begynder at gå i stok.
+ nten over kronen\; høst hele planten\, når den begynder at gå i stok.\n
+ Hvornår: Høst\, mens bladene er friske\; pluk yderblade løbende og tag 
+ hele planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1932,7 +2103,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.
+  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
+ il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
+  meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1951,7 +2124,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌶️ Plant ud peber – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: peber\nPlacering: Drivhus\nNote: 
- Brug cirka 2 kapillærkasser og plant efter kolde nætter.
+ Brug cirka 2 kapillærkasser og plant efter kolde nætter.\nHvornår: Plan
+ t\, når planterne er hærdede\, og nætterne er milde nok\; kontrollér s
+ amtidig\, at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1970,7 +2145,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌼 Plant morgenfrue – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: morgenfrue\nPlacering: Drivhus\nNote
- : Plant i kanter ved tomater\, agurker og peber.
+ : Plant i kanter ved tomater\, agurker og peber.\nHvornår: Plant\, når p
+ lanterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, 
+ at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1989,7 +2166,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌼 Plant tagetes – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: tagetes\nPlacering: Drivhus\nNote: B
- rug få kompakte planter ved tomater og peber.
+ rug få kompakte planter ved tomater og peber.\nHvornår: Plant\, når pla
+ nterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, at
+  kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2008,7 +2187,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌿 Plant ud majs – Bed 2
 DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
- nt i en blok på cirka 20-25 planter efter nattefrosten.
+ nt i en blok på cirka 20-25 planter efter nattefrosten.\nHvornår: Plant 
+ først efter hærdning og uden udsigt til nattefrost\; jorden skal være f
+ ugtig og kunne bearbejdes uden at klistre.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2027,7 +2208,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌿 Plant ud porrer – Bed 4
 DESCRIPTION:Handling: Plant ud\nAfgrøde: porrer\nPlacering: Bed 4\nNote: P
- lant når planterne er klar\; hyp eller jorddæk let senere.
+ lant når planterne er klar\; hyp eller jorddæk let senere.\nHvornår: Pl
+ ant\, når planterne er kraftige nok og jorden er fugtig\, men ikke våd\;
+  udsæt ved hård blæst eller tørke.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2046,7 +2229,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌿 Plant ud tomater – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: tomater\nPlacering: Drivhus\nNote
- : Plant efter nattefrost\; brug cirka 4 kapillærkasser.
+ : Plant efter nattefrost\; brug cirka 4 kapillærkasser.\nHvornår: Plant\
+ , når planterne er hærdede\, og nætterne er milde nok\; kontrollér sam
+ tidig\, at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2065,7 +2250,9 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🥒 Plant ud agurker – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: agurker\nPlacering: Drivhus\nNote
- : Brug cirka 2 kapillærkasser og giv støtte.
+ : Brug cirka 2 kapillærkasser og giv støtte.\nHvornår: Plant\, når pla
+ nterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, at
+  kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2084,7 +2271,9 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2103,7 +2292,9 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2122,7 +2313,9 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:🌱 Så eventuelt ekstra spinat eller bok choi – Lille bed
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: ekstra spinat eller bok choi
- \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.
+ \nPlacering: Lille bed\nNote: Brug kun bedet til at fylde huller ud.\nHvor
+ når: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jor
+ d og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Lille bed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2141,7 +2334,9 @@ DTSTART;VALUE=DATE:20270517
 DTEND;VALUE=DATE:20270518
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2160,7 +2355,9 @@ DTSTART;VALUE=DATE:20270523
 DTEND;VALUE=DATE:20270524
 SUMMARY:🌱 Så ærter hold 5 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 5\nPlacering: Langbed\nNot
- e: Så en ny sektion\, hvis de tidlige hold trives.
+ e: Så en ny sektion\, hvis de tidlige hold trives.\nHvornår: Så kun\, n
+ år jorden kan bearbejdes uden at klistre\; vent ved kold\, meget våd jor
+ d og giv de nye planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2180,7 +2377,8 @@ DTEND;VALUE=DATE:20270528
 SUMMARY:🌼 Så eller plant blomsterkarse – Lille bed/langbedets kant
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: blomsterkarse\nPlacering: 
  Lille bed/langbedets kant\nNote: Brug som dekorativ bladlusmagnet og spise
- lig blomst.
+ lig blomst.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; 
+ justér efter temperatur\, nedbør og den plads\, der faktisk er ledig.
 LOCATION:Lille bed/langbedets kant
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2201,7 +2399,9 @@ DTEND;VALUE=DATE:20270528
 SUMMARY:🥬 Høst spinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1\nNote: Star
  t med babyblade\, når de er cirka 8-10 cm. Pluk yderblade eller skær pla
- nten over kronen\; høst hele planten\, når den begynder at gå i stok.
+ nten over kronen\; høst hele planten\, når den begynder at gå i stok.\n
+ Hvornår: Høst\, mens bladene er friske\; pluk yderblade løbende og tag 
+ hele planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2220,7 +2420,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.
+  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
+ il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
+  meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2239,7 +2441,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌶️ Plant ud peber – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: peber\nPlacering: Drivhus\nNote: 
- Brug cirka 2 kapillærkasser og plant efter kolde nætter.
+ Brug cirka 2 kapillærkasser og plant efter kolde nætter.\nHvornår: Plan
+ t\, når planterne er hærdede\, og nætterne er milde nok\; kontrollér s
+ amtidig\, at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2258,7 +2462,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌼 Plant morgenfrue – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: morgenfrue\nPlacering: Drivhus\nNote
- : Plant i kanter ved tomater\, agurker og peber.
+ : Plant i kanter ved tomater\, agurker og peber.\nHvornår: Plant\, når p
+ lanterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, 
+ at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2277,7 +2483,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌼 Plant tagetes – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: tagetes\nPlacering: Drivhus\nNote: B
- rug få kompakte planter ved tomater og peber.
+ rug få kompakte planter ved tomater og peber.\nHvornår: Plant\, når pla
+ nterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, at
+  kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2296,7 +2504,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌿 Plant ud majs – Bed 2
 DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
- nt i en blok på cirka 20-25 planter efter nattefrosten.
+ nt i en blok på cirka 20-25 planter efter nattefrosten.\nHvornår: Plant 
+ først efter hærdning og uden udsigt til nattefrost\; jorden skal være f
+ ugtig og kunne bearbejdes uden at klistre.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2315,7 +2525,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌿 Plant ud porrer – Bed 4
 DESCRIPTION:Handling: Plant ud\nAfgrøde: porrer\nPlacering: Bed 4\nNote: P
- lant når planterne er klar\; hyp eller jorddæk let senere.
+ lant når planterne er klar\; hyp eller jorddæk let senere.\nHvornår: Pl
+ ant\, når planterne er kraftige nok og jorden er fugtig\, men ikke våd\;
+  udsæt ved hård blæst eller tørke.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2334,7 +2546,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌿 Plant ud tomater – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: tomater\nPlacering: Drivhus\nNote
- : Plant efter nattefrost\; brug cirka 4 kapillærkasser.
+ : Plant efter nattefrost\; brug cirka 4 kapillærkasser.\nHvornår: Plant\
+ , når planterne er hærdede\, og nætterne er milde nok\; kontrollér sam
+ tidig\, at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2353,7 +2567,9 @@ DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🥒 Plant ud agurker – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: agurker\nPlacering: Drivhus\nNote
- : Brug cirka 2 kapillærkasser og giv støtte.
+ : Brug cirka 2 kapillærkasser og giv støtte.\nHvornår: Plant\, når pla
+ nterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, at
+  kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2374,7 +2590,8 @@ SUMMARY:🧴 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød kun mens planterne vokser aktivt. Brug flydende toma
  t- eller grøntsagsgødning efter etiketten\, typisk hver 1-2 uge i vandin
- gsvandet.
+ gsvandet.\nHvornår: Gød kun ved aktiv vækst og efter behov\; spring ove
+ r\, hvis planterne er stressede af tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2393,7 +2610,9 @@ DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270608
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2412,7 +2631,9 @@ DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270608
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2431,7 +2652,9 @@ DTSTART;VALUE=DATE:20270607
 DTEND;VALUE=DATE:20270608
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2450,7 +2673,9 @@ DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.
+  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
+ il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
+  meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2469,7 +2694,9 @@ DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌶️ Plant ud peber – Drivhus
 DESCRIPTION:Handling: Plant ud\nAfgrøde: peber\nPlacering: Drivhus\nNote: 
- Brug cirka 2 kapillærkasser og plant efter kolde nætter.
+ Brug cirka 2 kapillærkasser og plant efter kolde nætter.\nHvornår: Plan
+ t\, når planterne er hærdede\, og nætterne er milde nok\; kontrollér s
+ amtidig\, at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2488,7 +2715,9 @@ DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌼 Plant morgenfrue – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: morgenfrue\nPlacering: Drivhus\nNote
- : Plant i kanter ved tomater\, agurker og peber.
+ : Plant i kanter ved tomater\, agurker og peber.\nHvornår: Plant\, når p
+ lanterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, 
+ at kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2507,7 +2736,9 @@ DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌼 Plant tagetes – Drivhus
 DESCRIPTION:Handling: Plant\nAfgrøde: tagetes\nPlacering: Drivhus\nNote: B
- rug få kompakte planter ved tomater og peber.
+ rug få kompakte planter ved tomater og peber.\nHvornår: Plant\, når pla
+ nterne er hærdede\, og nætterne er milde nok\; kontrollér samtidig\, at
+  kapillærkasserne er klar.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2526,7 +2757,9 @@ DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌿 Plant ud porrer – Bed 4
 DESCRIPTION:Handling: Plant ud\nAfgrøde: porrer\nPlacering: Bed 4\nNote: P
- lant når planterne er klar\; hyp eller jorddæk let senere.
+ lant når planterne er klar\; hyp eller jorddæk let senere.\nHvornår: Pl
+ ant\, når planterne er kraftige nok og jorden er fugtig\, men ikke våd\;
+  udsæt ved hård blæst eller tørke.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2545,7 +2778,9 @@ DTSTART;VALUE=DATE:20270613
 DTEND;VALUE=DATE:20270614
 SUMMARY:🌱 Så ærter hold 6 – Langbed
 DESCRIPTION:Handling: Så\nAfgrøde: ærter hold 6\nPlacering: Langbed\nNot
- e: Sidste normale hold i den løbende forårssåning.
+ e: Sidste normale hold i den løbende forårssåning.\nHvornår: Så kun\,
+  når jorden kan bearbejdes uden at klistre\; vent ved kold\, meget våd j
+ ord og giv de nye planter støtte.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2566,7 +2801,8 @@ SUMMARY:🧴 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød kun mens planterne vokser aktivt. Brug flydende toma
  t- eller grøntsagsgødning efter etiketten\, typisk hver 1-2 uge i vandin
- gsvandet.
+ gsvandet.\nHvornår: Gød kun ved aktiv vækst og efter behov\; spring ove
+ r\, hvis planterne er stressede af tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2585,7 +2821,9 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 SUMMARY:🌱 Så eller plant bok choi – Langbed
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
- ed\nNote: Klem bok choi ind mellem ærtesektionerne.
+ ed\nNote: Klem bok choi ind mellem ærtesektionerne.\nHvornår: Så eller 
+ plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold øje m
+ ed udtørring og stokløbning.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2604,7 +2842,9 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 SUMMARY:🌱 Så eller plant salat – Drivhuskanter
 DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
- anter\nNote: Så løbende og høst blad for blad.
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
 LOCATION:Drivhuskanter
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2623,7 +2863,9 @@ DTSTART;VALUE=DATE:20270628
 DTEND;VALUE=DATE:20270629
 SUMMARY:🌿 Så dild – Drivhus/fleksbed
 DESCRIPTION:Handling: Så\nAfgrøde: dild\nPlacering: Drivhus/fleksbed\nNot
- e: Så i små lommer nær tomater og agurker.
+ e: Så i små lommer nær tomater og agurker.\nHvornår: Gå i gang\, når
+  du har nok lys og passende varme\; vent hellere end at få lange\, svage 
+ planter.
 LOCATION:Drivhus/fleksbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2644,7 +2886,8 @@ SUMMARY:🧴 Gød tomater\, agurker og peber – Drivhus
 DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
  : Drivhus\nNote: Gød kun mens planterne vokser aktivt. Brug flydende toma
  t- eller grøntsagsgødning efter etiketten\, typisk hver 1-2 uge i vandin
- gsvandet.
+ gsvandet.\nHvornår: Gød kun ved aktiv vækst og efter behov\; spring ove
+ r\, hvis planterne er stressede af tørke\, kulde eller sygdom.
 LOCATION:Drivhus
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2664,7 +2907,9 @@ DTEND;VALUE=DATE:20270702
 SUMMARY:🧄 Høst hvidløg – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: hvidløg\nPlacering: Bed 3\nNote: H
  øst når 3-5 af de nederste blade er gule eller brune\, mens resten stadi
- g er grønne. Løsn med greb\, og tør hvidløgene luftigt og tørt.
+ g er grønne. Løsn med greb\, og tør hvidløgene luftigt og tørt.\nHvor
+ når: Høst\, når 3-5 af de nederste blade er gule eller brune\, mens top
+ pen stadig er grøn.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
