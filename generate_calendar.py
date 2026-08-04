@@ -380,6 +380,29 @@ def resolve_coordinates(settings: dict[str, Any]) -> tuple[float, float, str]:
     return float(selected["latitude"]), float(selected["longitude"]), postal_code
 
 
+def daily_hourly_minimum(
+    hourly_data: dict[str, Any], field: str
+) -> dict[date, float]:
+    times = hourly_data.get("time")
+    field_values = hourly_data.get(field)
+    if not isinstance(times, list) or not isinstance(field_values, list):
+        raise ValueError(f"forecast-svaret mangler hourly-data for {field}")
+    if len(times) != len(field_values):
+        raise ValueError(f"forecast-svaret har uens hourly-data for {field}")
+
+    values_by_day: dict[date, list[float]] = {}
+    for timestamp, raw_value in zip(times, field_values):
+        if raw_value is None:
+            continue
+        try:
+            day = datetime.fromisoformat(str(timestamp)).date()
+            value = float(raw_value)
+        except (TypeError, ValueError) as exc:
+            raise ValueError(f"forecast-svaret har ugyldig hourly-data for {field}") from exc
+        values_by_day.setdefault(day, []).append(value)
+    return {day: min(values) for day, values in values_by_day.items()}
+
+
 def load_weather(config: dict[str, Any], generated_on: date) -> dict[date, dict[str, float | None]]:
     settings = weather_settings(config)
     if not bool(settings.get("enabled", False)):
@@ -398,7 +421,6 @@ def load_weather(config: dict[str, Any], generated_on: date) -> dict[date, dict[
                 "temperature_2m_min",
                 "precipitation_sum",
                 "precipitation_probability_max",
-                "soil_temperature_6cm_min",
                 "et0_fao_evapotranspiration",
             ]
         )
@@ -406,6 +428,7 @@ def load_weather(config: dict[str, Any], generated_on: date) -> dict[date, dict[
             "latitude": latitude,
             "longitude": longitude,
             "daily": daily,
+            "hourly": "soil_temperature_6cm",
             "timezone": timezone_name,
             "forecast_days": forecast_days,
             "past_days": past_days,
@@ -417,22 +440,27 @@ def load_weather(config: dict[str, Any], generated_on: date) -> dict[date, dict[
         days = daily_data.get("time")
         if not isinstance(days, list):
             raise ValueError("forecast-svaret mangler datoer")
+        hourly_data = data.get("hourly")
+        if not isinstance(hourly_data, dict):
+            raise ValueError("forecast-svaret mangler hourly-data")
+        soil_temperature_min = daily_hourly_minimum(hourly_data, "soil_temperature_6cm")
 
         result: dict[date, dict[str, float | None]] = {}
         fields = [
             "temperature_2m_min",
             "precipitation_sum",
             "precipitation_probability_max",
-            "soil_temperature_6cm_min",
             "et0_fao_evapotranspiration",
         ]
         for index, day_text in enumerate(days):
+            day = date.fromisoformat(str(day_text))
             values: dict[str, float | None] = {}
             for field in fields:
                 field_values = daily_data.get(field, [])
                 raw_value = field_values[index] if index < len(field_values) else None
                 values[field] = None if raw_value is None else float(raw_value)
-            result[date.fromisoformat(str(day_text))] = values
+            values["soil_temperature_6cm_min"] = soil_temperature_min.get(day)
+            result[day] = values
         print(f"Vejrprognose hentet for postnummer {location_label} ({len(result)} dage).")
         return result
     except (OSError, KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
