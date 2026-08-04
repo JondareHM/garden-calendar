@@ -296,5 +296,5 @@ events:
     action: Klargør
     crop: kompost og jorddække
     location: Hele haven
-    note: Kontrollér alle bede: fjern syge planter, lad sunde rødder blive, fordel et tyndt lag moden kompost og dæk resterende bar jord med blade eller halm.
+    note: "Kontrollér alle bede: fjern syge planter, lad sunde rødder blive, fordel et tyndt lag moden kompost og dæk resterende bar jord med blade eller halm."
     start: 2026-11-25
