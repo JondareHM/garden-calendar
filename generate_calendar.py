@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import hashlib
+import html
 import json
 import os
 import sys
@@ -494,36 +495,19 @@ def current_dtstamp(config: dict[str, Any]) -> str:
     return datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
 
-def generate(config: dict[str, Any]) -> str:
+def collect_instances(
+    config: dict[str, Any], generated_on: date, forecast: dict[date, dict[str, float | None]]
+) -> tuple[list[tuple[dict[str, Any], date, date, int]], date, date]:
     project = config.get("project", {})
-    calendar_id = str(project.get("id", "havekalender"))
-    alarm_days = int(project.get("alarm_days_before", 2))
-    if alarm_days < 0:
-        fail("alarm_days_before må ikke være negativ")
-    dtstamp = current_dtstamp(config)
-    timezone_name = str(project.get("timezone", "Europe/Copenhagen"))
-    calendar_name = str(project.get("calendar_name", "Havekalender"))
-    description = str(project.get("description", "Personlig så- og havekalender"))
-
-    events = config.get("events", [])
-    if not isinstance(events, list):
-        fail("events skal være en liste")
-
-    selected_event_ids = config.get("selected_event_ids")
-    if selected_event_ids is not None:
-        if not isinstance(selected_event_ids, list):
-            fail("selected_event_ids skal være en liste")
-        selected_event_ids = {str(event_id) for event_id in selected_event_ids}
-
-    generated_on = generation_date(config)
     window_start, window_end = generation_window(config, generated_on)
     settings = weather_settings(config)
-    forecast = load_weather(config, generated_on)
+    events = config.get("events", [])
+    selected_event_ids = config.get("selected_event_ids")
+    if selected_event_ids is not None:
+        selected_event_ids = {str(event_id) for event_id in selected_event_ids}
 
     instances: list[tuple[dict[str, Any], date, date, int]] = []
     seen_ids: set[str] = set()
-    year_start = window_start.year
-    year_end = window_end.year
     for event in events:
         if not isinstance(event, dict) or "id" not in event or "start" not in event:
             fail("Alle events skal have mindst id og start")
@@ -535,7 +519,7 @@ def generate(config: dict[str, Any]) -> str:
             continue
         if not enabled(event, config):
             continue
-        for year in range(year_start, year_end + 1):
+        for year in range(window_start.year, window_end.year + 1):
             for planned_day, occurrence in event_dates(event, year):
                 if planned_day < window_start or planned_day >= window_end:
                     continue
@@ -549,6 +533,105 @@ def generate(config: dict[str, Any]) -> str:
 
     instances.extend(extra_outdoor_watering_events(forecast, generated_on, settings))
     instances.sort(key=lambda item: (item[1], event_summary(item[0]), item[0]["id"]))
+    return instances, window_start, window_end
+
+
+def format_overview_date(day: date) -> str:
+    return f"{day.day}. {day.strftime('%b')}"
+
+
+def overview_html(
+    config: dict[str, Any],
+    instances: list[tuple[dict[str, Any], date, date, int]],
+    window_start: date,
+    window_end: date,
+    generated_on: date,
+) -> str:
+    project = config.get("project", {})
+    overview_ids = {str(value) for value in config.get("overview_event_ids", [])}
+    beds = config.get("beds", [])
+    grouped: dict[str, list[tuple[dict[str, Any], date, date]]] = {}
+    for bed in beds:
+        if isinstance(bed, dict):
+            grouped[str(bed.get("name", "Bed"))] = []
+    grouped.setdefault("Hele haven", [])
+
+    compact: dict[tuple[str, str], tuple[dict[str, Any], date, date]] = {}
+    for event, actual_day, planned_day, _occurrence in instances:
+        event_id = str(event["id"])
+        if overview_ids and event_id not in overview_ids:
+            continue
+        location = str(event.get("location", "Hele haven"))
+        matches = [name for name in grouped if name != "Hele haven" and name.lower() in location.lower()]
+        if not matches:
+            matches = ["Hele haven"]
+        for name in matches:
+            key = (name, event_id)
+            if key not in compact:
+                compact[key] = (event, actual_day, actual_day)
+            else:
+                old_event, first, last = compact[key]
+                compact[key] = (old_event, min(first, actual_day), max(last, actual_day))
+    for (name, _event_id), value in compact.items():
+        grouped[name].append(value)
+    for values in grouped.values():
+        values.sort(key=lambda item: (item[1], item[0].get("action", ""), item[0].get("crop", "")))
+
+    colors = {"Så": "sow", "Forspir": "sow", "Plant": "plant", "Plant ud": "plant", "Sæt": "plant", "Høst": "harvest"}
+    cards: list[str] = []
+    for name, values in grouped.items():
+        if not values:
+            continue
+        rows: list[str] = []
+        for event, first, last in values:
+            action = str(event.get("action", "Opgave"))
+            kind = next((cls for key, cls in colors.items() if action.startswith(key)), "other")
+            date_text = format_overview_date(first) if first == last else f"{format_overview_date(first)}–{format_overview_date(last)}"
+            weather = " <span class=weather>☁ vejrtilpasset</span>" if event.get("_weather_note") else ""
+            rows.append(
+                f'<div class="event {kind}"><span class="date">{html.escape(date_text)}</span>'
+                f'<span class="title">{html.escape(str(event.get("emoji", "🌱")))} '
+                f'{html.escape(action)} {html.escape(str(event.get("crop", "")))}{weather}</span></div>'
+            )
+        cards.append(
+            f'<section class="bed"><h2>{html.escape(name)}</h2>'
+            f'<div class="plan">{html.escape(next((str(b.get("plan", "")) for b in beds if isinstance(b, dict) and b.get("name") == name), ""))}</div>'
+            + "".join(rows) + "</section>"
+        )
+
+    return f'''<!doctype html>
+<html lang="da"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Haveoversigt</title><style>
+:root{{--green:#275d38;--light:#f3f7f1;--line:#d9e2d5;--ink:#1f2b22}}
+*{{box-sizing:border-box}} body{{margin:0;background:#eef2eb;color:var(--ink);font:15px/1.35 system-ui,-apple-system,Segoe UI,sans-serif}}
+main{{max-width:1100px;margin:auto;padding:24px}} header{{background:var(--green);color:white;border-radius:16px;padding:22px 24px;margin-bottom:16px}}
+h1{{font-size:clamp(25px,4vw,38px);margin:0 0 5px}} header p{{margin:0;opacity:.9}} .meta{{font-size:12px;margin-top:12px;opacity:.8}}
+.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210}}
+h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;gap:10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}}
+.legend{{margin:14px 0 0;color:#526257;font-size:12px}} footer{{margin-top:16px;color:#637064;font-size:12px}}
+@media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}}}
+@media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}}}
+</style></head><body><main><header><h1>🌱 Haveoversigt</h1>
+<p>De store opgaver – samlet pr. bed</p><div class="meta">Oversigt: {window_start:%d-%m-%Y} til {(window_end - timedelta(days=1)):%d-%m-%Y} · genereret {generated_on:%d-%m-%Y}</div></header>
+<div class="grid">{"".join(cards)}</div><p class="legend">🟢 Så/forspir · 🟡 plant/sæt · 🟠 høst · ☁ dato påvirket af vejrprognosen</p>
+<footer>Se abonnementskalenderen for påmindelser og de mere detaljerede opgaver.</footer></main></body></html>'''
+
+
+def generate(config: dict[str, Any]) -> str:
+    project = config.get("project", {})
+    calendar_id = str(project.get("id", "havekalender"))
+    alarm_days = int(project.get("alarm_days_before", 2))
+    if alarm_days < 0:
+        fail("alarm_days_before må ikke være negativ")
+    dtstamp = current_dtstamp(config)
+    timezone_name = str(project.get("timezone", "Europe/Copenhagen"))
+    calendar_name = str(project.get("calendar_name", "Havekalender"))
+    description = str(project.get("description", "Personlig så- og havekalender"))
+
+    generated_on = generation_date(config)
+    settings = weather_settings(config)
+    forecast = load_weather(config, generated_on)
+    instances, window_start, window_end = collect_instances(config, generated_on, forecast)
 
     lines = [
         "BEGIN:VCALENDAR",
@@ -591,7 +674,16 @@ def main() -> int:
     output_path = ROOT / str(config.get("project", {}).get("output", "calendar/have.ics"))
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(generate(config), encoding="utf-8", newline="")
+    overview_path = ROOT / str(config.get("project", {}).get("overview_output", "index.html"))
+    overview_path.parent.mkdir(parents=True, exist_ok=True)
+    generated_on = generation_date(config)
+    forecast = load_weather(config, generated_on)
+    instances, window_start, window_end = collect_instances(config, generated_on, forecast)
+    overview_path.write_text(
+        overview_html(config, instances, window_start, window_end, generated_on), encoding="utf-8"
+    )
     print(f"Skrev {output_path.relative_to(ROOT)}")
+    print(f"Skrev {overview_path.relative_to(ROOT)}")
     return 0
 
 
