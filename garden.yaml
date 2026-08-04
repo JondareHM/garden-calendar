@@ -15,6 +15,58 @@ project:
 bed4_mode: leeks
 optional_pea_hold_7: true
 
+# Kun disse opgavetyper bliver skrevet til abonnementskalenderen.
+# Listen holder kalenderen enkel, men lader hele så-, forspirings- og
+# planteplanen være tilgængelig, også når Bed 4 skiftes til buskbønner.
+selected_event_ids:
+  - check_seeds_and_soil
+  - sow_peppers_indoors
+  - sow_leeks_indoors
+  - sow_tomatoes_indoors
+  - sow_early_spinach_bed2
+  - sow_cucumbers_indoors
+  - sow_maize_indoors
+  - sow_spinach_bed1
+  - harvest_spinach_bed1
+  - sow_beets_bed1
+  - harvest_beets_bed1
+  - sow_autumn_spinach_bed1
+  - plant_maize_bed2
+  - harvest_maize_bed2
+  - plant_garlic_bed3
+  - harvest_garlic_bed3
+  - sow_spinach_after_garlic
+  - sow_bok_choi_after_garlic
+  - plant_leeks_bed4
+  - harvest_leeks_bed4
+  - sow_bush_beans_bed4
+  - sow_spinach_after_beans
+  - sow_peas_hold_1
+  - sow_peas_hold_2
+  - sow_peas_hold_3
+  - sow_peas_hold_4
+  - sow_peas_hold_5
+  - sow_peas_hold_6
+  - sow_peas_hold_7_optional
+  - sow_bok_choi_between_peas
+  - sow_spinach_in_free_pea_sections
+  - sow_bok_choi_in_free_pea_sections
+  - sow_flex_bed
+  - plant_nasturtium
+  - sow_dill_near_greenhouse
+  - plant_marigold_greenhouse
+  - plant_tagetes_greenhouse
+  - sow_greenhouse_edge_lettuce
+  - plant_tomatoes_greenhouse
+  - plant_cucumbers_greenhouse
+  - plant_peppers_greenhouse
+  - feed_greenhouse
+  - sow_phacelia
+  - cut_phacelia
+  - sow_winter_rye
+  - cut_winter_rye
+  - prepare_beds_for_winter
+
 beds:
   - id: bed1
     name: Bed 1
@@ -51,7 +103,7 @@ events:
     action: Tjek
     crop: frø og såjord
     location: Hele haven
-    note: Find frø, potter og frisk såjord frem.
+    note: Kontrollér frøbeholdning og datoer, notér hvad der mangler, og find potter, såbakker, lys og frisk såjord frem. Det er en årlig engangsopgave.
     start: 02-01
   - id: sow_peppers_indoors
     emoji: 🌱
@@ -148,7 +200,7 @@ events:
     action: Høst
     crop: spinat
     location: Bed 1
-    note: Høst babyblade først og hele planter senere.
+    note: Start med babyblade, når de er cirka 8-10 cm. Pluk yderblade eller skær planten over kronen; høst hele planten, når den begynder at gå i stok.
     start: 04-01
     end: 05-31
     repeat_days: 14
@@ -175,7 +227,7 @@ events:
     action: Høst
     crop: rødbeder
     location: Bed 1
-    note: Høst løbende fra sensommer efter størrelse.
+    note: Begynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne de største først, og vrid bladene af i stedet for at skære i roden.
     start: 08-01
     end: 09-30
     repeat_days: 14
@@ -204,7 +256,7 @@ events:
     action: Høst
     crop: majs
     location: Bed 2
-    note: Høst når trådene er brune og kernerne mælkehvide.
+    note: Høst når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft. Spis eller køl kolberne hurtigt efter høst.
     start: 09-01
     end: 09-30
     repeat_days: 14
@@ -233,7 +285,7 @@ events:
     action: Høst
     crop: hvidløg
     location: Bed 3
-    note: Høst når toppen gulner og begynder at lægge sig.
+    note: Høst når 3-5 af de nederste blade er gule eller brune, mens resten stadig er grønne. Løsn med greb, og tør hvidløgene luftigt og tørt.
     start: 07-01
     end: 07-21
     repeat_days: 14
@@ -283,7 +335,7 @@ events:
     crop: porrer
     location: Bed 4
     mode: leeks
-    note: Høst efter behov fra efterår og ind i vinteren.
+    note: Begynd når stænglerne er mindst finger-tykke, normalt fra efteråret. Løsn dem med en greb og høst efter behov; vinterfaste sorter kan blive stående, hvis jorden ikke er frossen.
     start: 10-01
     end: 12-15
     repeat_days: 14
@@ -531,7 +583,7 @@ events:
     action: Gød
     crop: tomater, agurker og peber
     location: Drivhus
-    note: Gød løbende efter planternes vækst og vandingen.
+    note: Gød kun mens planterne vokser aktivt. Brug flydende tomat- eller grøntsagsgødning efter etiketten, typisk hver 1-2 uge i vandingsvandet.
     start: 06-01
     end: 09-15
     repeat_days: 14
@@ -596,7 +648,7 @@ events:
     action: Klip eller nedmulch
     crop: honningurt
     location: Ledigt bed
-    note: Gør det før frøsætning, hvis den skal holdes under kontrol.
+    note: Klip før frøene modner, gerne når blomstringen er ved at være ovre. Lad materialet ligge som jorddække eller fjern det, hvis bedet snart skal bruges.
     start: 10-01
     end: 11-01
     repeat_days: 14
@@ -614,7 +666,7 @@ events:
     action: Klip eller nedmulch
     crop: vinterrug
     location: Bed der skal dyrkes igen
-    note: Klip i foråret før ny dyrkning og giv materialet tid til at visne.
+    note: Klip i foråret før frøsætning. Lad materialet visne, og fjern eller bland det let i jorden 2-3 uger før ny såning.
     start: 03-01
     end: 04-01
     repeat_days: 14
@@ -623,7 +675,7 @@ events:
     action: Klargør
     crop: kompost og jorddække
     location: Hele haven
-    note: Dæk bar jord og lad jorden være så beskyttet som muligt.
+    note: Fjern syge planter, lad sunde rødder blive hvor muligt, fyld eventuelt kompost på, og dæk bar jord med blade, kompost eller andet jorddække.
     start: 10-15
     end: 11-15
     repeat_days: 14
