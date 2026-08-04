@@ -35,6 +35,7 @@ jobs:
 
       - name: Generate calendar and overview
         run: |
+          # Both generated artifacts use the current garden state before 2027.
           python generate_with_initial_state.py
           python add_year_separators.py
 
