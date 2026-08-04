@@ -24,7 +24,7 @@ python -m pip install -r requirements.txt
 python generate_calendar.py
 ```
 
-Outputtet er [`calendar/have.ics`](calendar/have.ics).
+Outputtet er [`calendar/have.ics`](calendar/have.ics) samt den korte, visuelt grupperede Pages-oversigt [`index.html`](index.html).
 
 `garden.yaml` genererer ét rullende år ad gangen. Vinduet starter én måned før genereringstidspunktet og flytter sig dagligt. Bed 4 bruger porrer; skift `bed4_mode` til `bush_beans` for buskbønner.
 
@@ -39,6 +39,8 @@ https://JondareHM.github.io/garden-calendar/calendar/have.ics
 ```
 
 Kontrollér den faktiske URL under repositoryets Pages-indstillinger. Hvis privat GitHub Pages ikke er tilgængelig på kontoen, skal kun selve kalenderfilen hostes et sted, hvor iPhone kan hente den uden login.
+
+Pages-forsiden viser de store opgaver pr. bed. Den genereres automatisk sammen med kalenderen og følger derfor det aktuelle rullende år samt eventuelle vejrtilpasninger.
 
 GitHub Pages kan bruge et privat source-repository på GitHub Pro, Team eller Enterprise, men den publicerede side er normalt offentligt tilgængelig. En reelt privat Pages-side kræver GitHub Enterprise Cloud for en organisation. Kalenderen indeholder derfor kun haveopgaver og ingen følsomme oplysninger.
 
