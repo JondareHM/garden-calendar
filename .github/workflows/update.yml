@@ -7,6 +7,7 @@ on:
       - initial_state.yaml
       - generate_calendar.py
       - generate_with_initial_state.py
+      - add_year_separators.py
       - requirements.txt
       - .github/workflows/update.yml
   workflow_dispatch:
@@ -33,7 +34,9 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Generate calendar and overview
-        run: python generate_with_initial_state.py
+        run: |
+          python generate_with_initial_state.py
+          python add_year_separators.py
 
       - name: Commit calendar and overview if changed
         run: |
