@@ -39,8 +39,8 @@ weather:
 bed4_mode: leeks
 optional_pea_hold_7: true
 
-# Den korte Pages-oversigt viser kun de store sætte-, plante-, forspirings-
-# og høstvinduer. Kalenderen beholder fortsat alle valgte events.
+# Den korte Pages-oversigt viser kun de store sætte-, plante-, forspirings-,
+# beskærings- og høstvinduer. Kalenderen beholder fortsat alle valgte events.
 overview_event_ids:
   - check_seeds_and_soil
   - sow_peppers_indoors
@@ -84,6 +84,17 @@ overview_event_ids:
   - sow_winter_rye
   - cut_winter_rye
   - prepare_beds_for_winter
+  - prune_espalier_apples
+  - prune_free_standing_apple
+  - prune_pear
+  - prune_plums
+  - prune_cherry
+  - prune_raspberries_after_harvest
+  - prune_raspberries_winter
+  - prune_possible_blackcurrants
+  - sow_squash_indoors
+  - plant_squash_outdoors
+  - harvest_squash
 
 # Kun disse opgavetyper bliver skrevet til abonnementskalenderen.
 # Listen holder kalenderen enkel, men lader hele så-, forspirings- og
@@ -137,6 +148,17 @@ selected_event_ids:
   - sow_winter_rye
   - cut_winter_rye
   - prepare_beds_for_winter
+  - prune_espalier_apples
+  - prune_free_standing_apple
+  - prune_pear
+  - prune_plums
+  - prune_cherry
+  - prune_raspberries_after_harvest
+  - prune_raspberries_winter
+  - prune_possible_blackcurrants
+  - sow_squash_indoors
+  - plant_squash_outdoors
+  - harvest_squash
 
 beds:
   - id: bed1
@@ -166,6 +188,12 @@ beds:
   - id: greenhouse
     name: Drivhus
     plan: 4 tomater, 2 agurker, 2 peber i kapillærkasser
+  - id: fruit_and_berries
+    name: Frugt og bær
+    plan: 3 æbletræer (2 espalier, 1 fritstående), blommetræer, kirsebær, pære, hindbær og muligvis solbær
+  - id: squash
+    name: Squash
+    plan: Squash dyrkes uden for bedene
 
 events:
   # Forberedelse og forkultivering
@@ -712,6 +740,119 @@ events:
     start: 10-01
     end: 11-01
     repeat_days: 14
+
+  # Frugttræer, bærbuske og squash
+  - id: prune_espalier_apples
+    emoji: ✂️
+    action: Beskær
+    crop: æbletræer på hegn
+    location: Frugt og bær
+    note: Hold de to espalieræbler flade mod hegnet og bevar de vandrette hovedgrene. Klip lange sideskud tilbage, og fjern opret vækst, der bryder formen.
+    timing_note: Gør det typisk fra midt/slut august, når den nederste del af årets lange skud er blevet træagtig. Klip sideskud over den nederste bladroset og lad korte frugtsporer være; justér efter vækst og vejr.
+    start: 08-15
+    end: 09-15
+    repeat_days: 14
+  - id: prune_free_standing_apple
+    emoji: ✂️
+    action: Beskær
+    crop: fritstående æbletræ
+    location: Frugt og bær
+    note: Fjern døde, syge, krydsende og indadvendte grene. Tynd ud, så kronen får lys og luft, men undgå at give træet en hård "haircut".
+    timing_note: Beskær i vinterhvile, normalt mellem november og begyndelsen af marts, på en tør og frostfri dag. Tag højst cirka 10-20 procent af kronen på ét år.
+    start: 02-01
+    end: 03-01
+    repeat_days: 14
+  - id: prune_pear
+    emoji: ✂️
+    action: Beskær
+    crop: pæretræ
+    location: Frugt og bær
+    note: Fjern døde, syge, krydsende og indadvendte grene. Bevar en åben krone og beskær hellere lidt ad gangen end at fjerne mange store grene på én gang.
+    timing_note: Beskær i vinterhvile, typisk fra november til begyndelsen af marts, når træet er bladløst og vejret er tørt og frostfrit.
+    start: 02-01
+    end: 03-01
+    repeat_days: 14
+  - id: prune_plums
+    emoji: ✂️
+    action: Beskær
+    crop: blommetræer
+    location: Frugt og bær
+    note: Fjern døde, syge og grene, der krydser hinanden. Hold kronen åben og forkort kun lange, kraftige skud efter behov.
+    timing_note: Beskær etablerede blommetræer om sommeren, gerne efter høsten, og undgå vinterbeskæring og sen efterårsbeskæring på grund af risiko for sølvglans og bakteriekræft.
+    start: 07-15
+    end: 08-31
+    repeat_days: 14
+  - id: prune_cherry
+    emoji: ✂️
+    action: Beskær
+    crop: kirsebærtræ
+    location: Frugt og bær
+    note: Fjern døde, syge og uhensigtsmæssigt placerede grene, og hold træet luftigt og i en størrelse, hvor frugten kan nås. Lav rene snit tæt ved grenkraven.
+    timing_note: Beskær lige efter kirsebærhøsten, normalt i slutningen af juli eller i august, hvor risikoen for sølvglans og bakteriekræft er lavere.
+    start: 07-15
+    end: 08-31
+    repeat_days: 14
+  - id: prune_raspberries_after_harvest
+    emoji: ✂️
+    action: Beskær
+    crop: sommerhindbær
+    location: Frugt og bær
+    note: Brug kun dette event, hvis hindbærrene bærer på sidste års skud. Skær de brune, afblomstrede stængler helt ned efter høst, og behold de stærkeste grønne skud til næste år.
+    timing_note: Gør det straks efter høsten, typisk juli-september. Er sorten ukendt, så mærk først hvilke stængler der bar frugt, og klip kun disse væk.
+    start: 07-15
+    end: 09-15
+    repeat_days: 14
+  - id: prune_raspberries_winter
+    emoji: ✂️
+    action: Beskær
+    crop: efterårshindbær
+    location: Frugt og bær
+    note: Brug kun dette event, hvis hindbærrene bærer på årets skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd svage eller meget tætte nye skud.
+    timing_note: Gør det i februar, før den nye vækst tager fart. Hvis sorten er ukendt, så lad være med at skære alt ned, før du har afklaret om den er sommer- eller efterårsbærende.
+    start: 02-01
+    end: 03-01
+    repeat_days: 14
+  - id: prune_possible_blackcurrants
+    emoji: ✂️
+    action: Beskær forsigtigt
+    crop: bærbuske, muligvis solbær
+    location: Frugt og bær
+    note: Bekræft først at buskene faktisk er solbær. Hvis de er solbær, fjern op til en tredjedel af de ældste, mørke og tykke grene helt ved basis, samt svage, krydsende og nedadvendte grene.
+    timing_note: Vent til buskene er i vinterhvile, og beskær kun hårdt efter sikker identifikation. Hvis frugt eller blade ikke passer med solbær, nøjes med døde og tydeligt beskadigede grene.
+    start: 01-15
+    end: 03-01
+    repeat_days: 14
+  - id: sow_squash_indoors
+    emoji: 🌱
+    action: Forspir
+    crop: squash
+    location: Squash
+    note: Forspir én plante pr. potte med frøet på højkant. Squash vokser hurtigt, så så ikke for tidligt.
+    timing_note: Forspir først, når der er nok lys og varme til kraftige planter; planterne skal kunne plantes ud efter risikoen for nattefrost.
+    start: 04-15
+    end: 05-01
+    repeat_days: 14
+  - id: plant_squash_outdoors
+    emoji: 🌿
+    action: Plant ud
+    crop: squash
+    location: Squash
+    note: Plant ud med god plads og kompost omkring planten. Hærd planterne gradvist, og beskyt dem mod snegle i starten.
+    timing_note: Plant først ud efter nattefrosten, når jorden er lun og planterne er hærdede. Vent ved kold, våd eller meget blæsende vejr.
+    start: 05-15
+    end: 06-01
+    repeat_days: 14
+  - id: harvest_squash
+    emoji: 🥒
+    action: Høst
+    crop: squash
+    location: Squash
+    note: Skær frugterne af med en kort stilk, mens de er sprøde og i den ønskede størrelse. Hyppig høst holder planten produktiv; lad ikke mange frugter blive kæmpestore.
+    timing_note: Høst løbende efter størrelse og fasthed frem for datoen, helst på tørre dage. Kig efter nye frugter flere gange om ugen i højsæsonen.
+    start: 07-01
+    end: 09-30
+    repeat_days: 7
+    weather_mode: harvest
 
   # Grøngødning og vinterdække
   - id: sow_phacelia

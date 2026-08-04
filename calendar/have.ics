@@ -8,6 +8,28 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:a0acc00492033e1b181b92d7@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260805
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:14b963abaa8e2d4b5f6d57f0@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260804
@@ -96,6 +118,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:2cf87950871f3bbc3b900bf1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:e2663d9a241ca93817bdf723@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -114,6 +158,117 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:✂️ Afslut de sidste ærter – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4fea7000fcf78b5ba2819e24@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:✂️ Beskær blommetræer – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: blommetræer\nPlacering: Frugt og 
+ bær\nNote: Gå kun videre\, hvis frugten er høstet eller træet tydeligt
+  trænger. Fjern døde\, syge og krydsende grene med rene snit.\nHvornår:
+  Beskær etablerede blommetræer om sommeren på en tør dag\; undgå vint
+ er- og sen efterårsbeskæring.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær blommetræer – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7cd3439a6180d0abb946eea7@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:✂️ Beskær kirsebærtræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: kirsebærtræ\nPlacering: Frugt og
+  bær\nNote: Beskær kun efter høsten. Fjern døde\, syge og uhensigtsmæ
+ ssige grene\, og hold træet luftigt uden at fjerne store mængder på én
+  gang.\nHvornår: Gør det lige efter kirsebærhøsten\, normalt i slutnin
+ gen af juli eller august\, på en tør dag.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær kirsebærtræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc1eb995058b3b4cb417547@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette\, hvis nogle stængler allerede har båret fr
+ ugt. Skær de brune\, frugtede stængler helt ned\, men behold de stærke 
+ grønne skud.\nHvornår: Gør det efter høsten\, og identificér først h
+ vilke stængler der bar frugt\, hvis hindbærsorten er ukendt.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c1e01953d06773f466c914@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:✂️ Beskær æbletræer på hegn – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: æbletræer på hegn\nPlacering: F
+ rugt og bær\nNote: Klip kun de lange sideskud\, der bryder espalierformen
+ \, og fjern kraftig opret vækst. Bevar vandrette hovedgrene og korte frug
+ tsporer.\nHvornår: Vælg en tør dag fra midt/slut august\, når den nede
+ rste del af årets lange skud er træagtig. Tilpas efter vækst\; kalender
+ en er kun et beslutningsvindue.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5fbd7f09d31ac73450325a27@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -250,6 +405,139 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fd4f2fa51cd68bc285212380@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6766dcb27136a60ba40d8f73@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:✂️ Beskær blommetræer – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: blommetræer\nPlacering: Frugt og 
+ bær\nNote: Gå kun videre\, hvis frugten er høstet eller træet tydeligt
+  trænger. Fjern døde\, syge og krydsende grene med rene snit.\nHvornår:
+  Beskær etablerede blommetræer om sommeren på en tør dag\; undgå vint
+ er- og sen efterårsbeskæring.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær blommetræer – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c10e7c999553ab7030b7a519@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:✂️ Beskær kirsebærtræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: kirsebærtræ\nPlacering: Frugt og
+  bær\nNote: Beskær kun efter høsten. Fjern døde\, syge og uhensigtsmæ
+ ssige grene\, og hold træet luftigt uden at fjerne store mængder på én
+  gang.\nHvornår: Gør det lige efter kirsebærhøsten\, normalt i slutnin
+ gen af juli eller august\, på en tør dag.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær kirsebærtræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:19fa6895ad0aa119fe41b855@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette\, hvis nogle stængler allerede har båret fr
+ ugt. Skær de brune\, frugtede stængler helt ned\, men behold de stærke 
+ grønne skud.\nHvornår: Gør det efter høsten\, og identificér først h
+ vilke stængler der bar frugt\, hvis hindbærsorten er ukendt.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7fd5c33a3ee1f16ec225014f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
+SUMMARY:✂️ Beskær æbletræer på hegn – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: æbletræer på hegn\nPlacering: F
+ rugt og bær\nNote: Klip kun de lange sideskud\, der bryder espalierformen
+ \, og fjern kraftig opret vækst. Bevar vandrette hovedgrene og korte frug
+ tsporer.\nHvornår: Vælg en tør dag fra midt/slut august\, når den nede
+ rste del af årets lange skud er træagtig. Tilpas efter vækst\; kalender
+ en er kun et beslutningsvindue.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:47ed813085b8b7cdd900f9e5@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5392f1a71c8e30c1c8fd435b@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260901
@@ -378,6 +666,95 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bfbb9025032644e54354aa47@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:831ed9b3158d164f21079bf5@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette\, hvis nogle stængler allerede har båret fr
+ ugt. Skær de brune\, frugtede stængler helt ned\, men behold de stærke 
+ grønne skud.\nHvornår: Gør det efter høsten\, og identificér først h
+ vilke stængler der bar frugt\, hvis hindbærsorten er ukendt.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f0da54f1d2496256bebdfca@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:✂️ Beskær æbletræer på hegn – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: æbletræer på hegn\nPlacering: F
+ rugt og bær\nNote: Klip kun de lange sideskud\, der bryder espalierformen
+ \, og fjern kraftig opret vækst. Bevar vandrette hovedgrene og korte frug
+ tsporer.\nHvornår: Vælg en tør dag fra midt/slut august\, når den nede
+ rste del af årets lange skud er træagtig. Tilpas efter vækst\; kalender
+ en er kun et beslutningsvindue.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:33ff7b10c87d715dac68fcb7@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:674995032826ebb0398ac6b0@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -486,6 +863,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c3172d2158a0359ae762208d@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:89eedb2f67215b6105a1e7cc@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260925
@@ -503,6 +902,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:✂️ Klip eller nedmulch honningurt – Lille bed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:67391aa97e74dde4446266b6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
+ se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
+ gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
+ n i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1332,6 +1753,128 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f79ffe1e6d6264b64feca11e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frugt og
+  bær
+DESCRIPTION:Handling: Beskær forsigtigt\nAfgrøde: bærbuske\, muligvis so
+ lbær\nPlacering: Frugt og bær\nNote: Bekræft først at buskene faktisk 
+ er solbær. Hvis de er solbær\, fjern op til en tredjedel af de ældste\,
+  mørke og tykke grene helt ved basis\, samt svage\, krydsende og nedadven
+ dte grene.\nHvornår: Vent til buskene er i vinterhvile\, og beskær kun h
+ årdt efter sikker identifikation. Hvis frugt eller blade ikke passer med 
+ solbær\, nøjes med døde og tydeligt beskadigede grene.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frug
+ t og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7b4877456d39b7a8b3023b86@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frugt og
+  bær
+DESCRIPTION:Handling: Beskær forsigtigt\nAfgrøde: bærbuske\, muligvis so
+ lbær\nPlacering: Frugt og bær\nNote: Bekræft først at buskene faktisk 
+ er solbær. Hvis de er solbær\, fjern op til en tredjedel af de ældste\,
+  mørke og tykke grene helt ved basis\, samt svage\, krydsende og nedadven
+ dte grene.\nHvornår: Vent til buskene er i vinterhvile\, og beskær kun h
+ årdt efter sikker identifikation. Hvis frugt eller blade ikke passer med 
+ solbær\, nøjes med døde og tydeligt beskadigede grene.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frug
+ t og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c9ae1f1710e544a32883b375@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:✂️ Beskær efterårshindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: efterårshindbær\nPlacering: Frug
+ t og bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på året
+ s skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd s
+ vage eller meget tætte nye skud.\nHvornår: Gør det i februar\, før den
+  nye vækst tager fart. Hvis sorten er ukendt\, så lad være med at skær
+ e alt ned\, før du har afklaret om den er sommer- eller efterårsbærende
+ .
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær efterårshindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:92a42e828408a65a0655a531@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:✂️ Beskær fritstående æbletræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: fritstående æbletræ\nPlacering:
+  Frugt og bær\nNote: Fjern døde\, syge\, krydsende og indadvendte grene.
+  Tynd ud\, så kronen får lys og luft\, men undgå at give træet en hår
+ d "haircut".\nHvornår: Beskær i vinterhvile\, normalt mellem november og
+  begyndelsen af marts\, på en tør og frostfri dag. Tag højst cirka 10-2
+ 0 procent af kronen på ét år.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær fritstående æbletræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c2e1d324c7ccfe8da382e3@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:✂️ Beskær pæretræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: pæretræ\nPlacering: Frugt og bæ
+ r\nNote: Fjern døde\, syge\, krydsende og indadvendte grene. Bevar en åb
+ en krone og beskær hellere lidt ad gangen end at fjerne mange store grene
+  på én gang.\nHvornår: Beskær i vinterhvile\, typisk fra november til 
+ begyndelsen af marts\, når træet er bladløst og vejret er tørt og fros
+ tfrit.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær pæretræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bb384fe60ac7eb515a2035a5@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270201
@@ -1375,6 +1918,102 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:1d514213e15a3b8b0b5bea6b@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frugt og
+  bær
+DESCRIPTION:Handling: Beskær forsigtigt\nAfgrøde: bærbuske\, muligvis so
+ lbær\nPlacering: Frugt og bær\nNote: Bekræft først at buskene faktisk 
+ er solbær. Hvis de er solbær\, fjern op til en tredjedel af de ældste\,
+  mørke og tykke grene helt ved basis\, samt svage\, krydsende og nedadven
+ dte grene.\nHvornår: Vent til buskene er i vinterhvile\, og beskær kun h
+ årdt efter sikker identifikation. Hvis frugt eller blade ikke passer med 
+ solbær\, nøjes med døde og tydeligt beskadigede grene.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frug
+ t og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:62ec802d999dff74fe7ad7e3@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:✂️ Beskær efterårshindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: efterårshindbær\nPlacering: Frug
+ t og bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på året
+ s skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd s
+ vage eller meget tætte nye skud.\nHvornår: Gør det i februar\, før den
+  nye vækst tager fart. Hvis sorten er ukendt\, så lad være med at skær
+ e alt ned\, før du har afklaret om den er sommer- eller efterårsbærende
+ .
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær efterårshindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:905261a9ce3c3a1cc7863c82@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:✂️ Beskær fritstående æbletræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: fritstående æbletræ\nPlacering:
+  Frugt og bær\nNote: Fjern døde\, syge\, krydsende og indadvendte grene.
+  Tynd ud\, så kronen får lys og luft\, men undgå at give træet en hår
+ d "haircut".\nHvornår: Beskær i vinterhvile\, normalt mellem november og
+  begyndelsen af marts\, på en tør og frostfri dag. Tag højst cirka 10-2
+ 0 procent af kronen på ét år.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær fritstående æbletræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5f99f2a1b8f9c782e0dd13@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:✂️ Beskær pæretræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: pæretræ\nPlacering: Frugt og bæ
+ r\nNote: Fjern døde\, syge\, krydsende og indadvendte grene. Bevar en åb
+ en krone og beskær hellere lidt ad gangen end at fjerne mange store grene
+  på én gang.\nHvornår: Beskær i vinterhvile\, typisk fra november til 
+ begyndelsen af marts\, når træet er bladløst og vejret er tørt og fros
+ tfrit.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær pæretræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:79b58922405f5a790adcf5e9@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270215
@@ -1392,6 +2031,102 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så porrer inde – Inde
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:afbce11b2b967cdc9152a66f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frugt og
+  bær
+DESCRIPTION:Handling: Beskær forsigtigt\nAfgrøde: bærbuske\, muligvis so
+ lbær\nPlacering: Frugt og bær\nNote: Bekræft først at buskene faktisk 
+ er solbær. Hvis de er solbær\, fjern op til en tredjedel af de ældste\,
+  mørke og tykke grene helt ved basis\, samt svage\, krydsende og nedadven
+ dte grene.\nHvornår: Vent til buskene er i vinterhvile\, og beskær kun h
+ årdt efter sikker identifikation. Hvis frugt eller blade ikke passer med 
+ solbær\, nøjes med døde og tydeligt beskadigede grene.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær forsigtigt bærbuske\, muligvis solbær – Frug
+ t og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b566de9e62e76adfe332d746@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:✂️ Beskær efterårshindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: efterårshindbær\nPlacering: Frug
+ t og bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på året
+ s skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd s
+ vage eller meget tætte nye skud.\nHvornår: Gør det i februar\, før den
+  nye vækst tager fart. Hvis sorten er ukendt\, så lad være med at skær
+ e alt ned\, før du har afklaret om den er sommer- eller efterårsbærende
+ .
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær efterårshindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ee117e3a339d09e0b61ce4@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:✂️ Beskær fritstående æbletræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: fritstående æbletræ\nPlacering:
+  Frugt og bær\nNote: Fjern døde\, syge\, krydsende og indadvendte grene.
+  Tynd ud\, så kronen får lys og luft\, men undgå at give træet en hår
+ d "haircut".\nHvornår: Beskær i vinterhvile\, normalt mellem november og
+  begyndelsen af marts\, på en tør og frostfri dag. Tag højst cirka 10-2
+ 0 procent af kronen på ét år.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær fritstående æbletræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f072c5de25d242837b787277@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:✂️ Beskær pæretræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: pæretræ\nPlacering: Frugt og bæ
+ r\nNote: Fjern døde\, syge\, krydsende og indadvendte grene. Bevar en åb
+ en krone og beskær hellere lidt ad gangen end at fjerne mange store grene
+  på én gang.\nHvornår: Beskær i vinterhvile\, typisk fra november til 
+ begyndelsen af marts\, når træet er bladløst og vejret er tørt og fros
+ tfrit.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær pæretræ – Frugt og bær
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1861,6 +2596,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bc4fc5154160a0e2f19bdd2f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:🌱 Forspir squash – Squash
+DESCRIPTION:Handling: Forspir\nAfgrøde: squash\nPlacering: Squash\nNote: F
+ orspir én plante pr. potte med frøet på højkant. Squash vokser hurtigt
+ \, så så ikke for tidligt.\nHvornår: Forspir først\, når der er nok l
+ ys og varme til kraftige planter\; planterne skal kunne plantes ud efter r
+ isikoen for nattefrost.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Forspir squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a3ddbf4c2b8fced90913b59a@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270415
@@ -2006,6 +2763,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Forspir majs – Inde
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a5d79b40227ac56981ff7fd2@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🌱 Forspir squash – Squash
+DESCRIPTION:Handling: Forspir\nAfgrøde: squash\nPlacering: Squash\nNote: F
+ orspir én plante pr. potte med frøet på højkant. Squash vokser hurtigt
+ \, så så ikke for tidligt.\nHvornår: Forspir først\, når der er nok l
+ ys og varme til kraftige planter\; planterne skal kunne plantes ud efter r
+ isikoen for nattefrost.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Forspir squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2219,6 +2998,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Plant ud porrer – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8648e6760cfaa3fb968ee55e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:🌿 Plant ud squash – Squash
+DESCRIPTION:Handling: Plant ud\nAfgrøde: squash\nPlacering: Squash\nNote: 
+ Plant ud med god plads og kompost omkring planten. Hærd planterne gradvis
+ t\, og beskyt dem mod snegle i starten.\nHvornår: Plant først ud efter n
+ attefrosten\, når jorden er lun og planterne er hærdede. Vent ved kold\,
+  våd eller meget blæsende vejr.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2536,6 +3337,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Plant ud porrer – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9d092be126ec8dd6b7f8ef15@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:🌿 Plant ud squash – Squash
+DESCRIPTION:Handling: Plant ud\nAfgrøde: squash\nPlacering: Squash\nNote: 
+ Plant ud med god plads og kompost omkring planten. Hærd planterne gradvis
+ t\, og beskyt dem mod snegle i starten.\nHvornår: Plant først ud efter n
+ attefrosten\, når jorden er lun og planterne er hærdede. Vent ved kold\,
+  våd eller meget blæsende vejr.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2896,6 +3719,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6c90aae5365e77454c328912@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT

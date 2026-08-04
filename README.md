@@ -11,6 +11,7 @@ En lille privat havekalender til en dansk køkkenhave. Projektet genererer en st
 - Bevidst begrænset til såning, forspiring, udplantning, udvalgte jordopgaver og høstvejledning for spinat, rødbeder og porrer
 - Løbende såning af ærter i langbedet
 - Drivhus, bedrotation, porrer/buskbønner, companion planting og grøngødning
+- Beskæring af frugttræer og bærbuske samt såning, udplantning og høst af squash uden for bedene
 - Open-Meteo-vejrtilpasning for nært forestående udendørs opgaver ved postnummer 5485
 - Højst én ekstra tørke-/vandingspåmindelse pr. udendørs tørkeperiode; drivhuset får ingen regnbaseret vandingsevent
 - GitHub Actions, der kan køres manuelt og automatisk hver nat

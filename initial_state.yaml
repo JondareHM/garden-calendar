@@ -23,6 +23,12 @@ status:
   - location: Drivhus
     emoji: 🍅
     text: Fyldt med tomater, agurker og peber.
+  - location: Frugt og bær
+    emoji: 🍎
+    text: 3 æbletræer, blommetræer, kirsebærtræ, pæretræ, hindbærbuske og bærbuske der muligvis er solbær.
+  - location: Squash
+    emoji: 🥒
+    text: Squashplanter står uden for bedene og er på vej ind i høstsæsonen.
 
 events:
   # Bed 1: rødbeder → efterårsspinat/honningurt → vinterdække
@@ -289,6 +295,63 @@ events:
     location: Drivhus
     note: Tøm og rengør kapillærkasser, vask løse overflader og tilfør kompost til eventuel jord i drivhuset.
     start: 2026-11-05
+
+  # Frugttræer, bærbuske og squash
+  - id: current_prune_espalier_apples
+    emoji: ✂️
+    action: Beskær
+    crop: æbletræer på hegn
+    location: Frugt og bær
+    note: Klip kun de lange sideskud, der bryder espalierformen, og fjern kraftig opret vækst. Bevar vandrette hovedgrene og korte frugtsporer.
+    timing_note: Vælg en tør dag fra midt/slut august, når den nederste del af årets lange skud er træagtig. Tilpas efter vækst; kalenderen er kun et beslutningsvindue.
+    start: 2026-08-15
+    end: 2026-09-15
+    repeat_days: 14
+
+  - id: current_prune_plums
+    emoji: ✂️
+    action: Beskær
+    crop: blommetræer
+    location: Frugt og bær
+    note: Gå kun videre, hvis frugten er høstet eller træet tydeligt trænger. Fjern døde, syge og krydsende grene med rene snit.
+    timing_note: Beskær etablerede blommetræer om sommeren på en tør dag; undgå vinter- og sen efterårsbeskæring.
+    start: 2026-08-15
+    end: 2026-08-31
+    repeat_days: 14
+
+  - id: current_prune_cherry
+    emoji: ✂️
+    action: Beskær
+    crop: kirsebærtræ
+    location: Frugt og bær
+    note: Beskær kun efter høsten. Fjern døde, syge og uhensigtsmæssige grene, og hold træet luftigt uden at fjerne store mængder på én gang.
+    timing_note: Gør det lige efter kirsebærhøsten, normalt i slutningen af juli eller august, på en tør dag.
+    start: 2026-08-15
+    end: 2026-08-31
+    repeat_days: 14
+
+  - id: current_prune_raspberries_after_harvest
+    emoji: ✂️
+    action: Beskær
+    crop: sommerhindbær
+    location: Frugt og bær
+    note: Brug kun dette, hvis nogle stængler allerede har båret frugt. Skær de brune, frugtede stængler helt ned, men behold de stærke grønne skud.
+    timing_note: Gør det efter høsten, og identificér først hvilke stængler der bar frugt, hvis hindbærsorten er ukendt.
+    start: 2026-08-15
+    end: 2026-09-15
+    repeat_days: 14
+
+  - id: current_harvest_squash
+    emoji: 🥒
+    action: Høst
+    crop: squash
+    location: Squash
+    note: Skær squash af med en kort stilk, mens de er sprøde og i ønsket størrelse. Høst ofte, så nye frugter udvikler sig.
+    timing_note: Start, når frugterne har passende størrelse og fasthed, og fortsæt flere gange om ugen i højsæsonen.
+    start: 2026-08-04
+    end: 2026-09-30
+    repeat_days: 7
+    weather_mode: harvest
 
   # Fælles afslutning
   - id: current_prepare_beds_for_winter

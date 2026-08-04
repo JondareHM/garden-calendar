@@ -682,7 +682,15 @@ def overview_html(
     for values in grouped.values():
         values.sort(key=lambda item: (item[1], item[0].get("action", ""), item[0].get("crop", "")))
 
-    colors = {"Så": "sow", "Forspir": "sow", "Plant": "plant", "Plant ud": "plant", "Sæt": "plant", "Høst": "harvest"}
+    colors = {
+        "Så": "sow",
+        "Forspir": "sow",
+        "Plant": "plant",
+        "Plant ud": "plant",
+        "Sæt": "plant",
+        "Høst": "harvest",
+        "Beskær": "prune",
+    }
     cards: list[str] = []
     for name, values in grouped.items():
         if not values:
@@ -719,7 +727,7 @@ def overview_html(
 main{{max-width:1100px;margin:auto;padding:24px}} header{{background:var(--green);color:white;border-radius:16px;padding:22px 24px;margin-bottom:16px}}
 h1{{font-size:clamp(25px,4vw,38px);margin:0 0 5px}} header p{{margin:0;opacity:.9}} .meta{{font-size:12px;margin-top:12px;opacity:.8}}
  .grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}} .bed{{background:white;border:1px solid var(--line);border-radius:13px;padding:15px;break-inside:avoid;box-shadow:0 1px 3px #1f2b2210}}
- h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;flex-wrap:wrap;gap:7px 10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550;flex:1 1 180px}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}} .timing{{flex:0 0 auto;font-size:11px;color:#526257}} .timing summary{{cursor:pointer;color:var(--green);font-weight:700}} .timing span{{display:block;margin-top:4px;max-width:430px;color:#526257;font-size:12px;font-weight:400}} .timing[open]{{flex-basis:100%;margin-left:95px}}
+ h2{{margin:0;color:var(--green);font-size:20px}} .plan{{color:#617064;font-size:12px;margin:3px 0 11px}} .event{{display:flex;flex-wrap:wrap;gap:7px 10px;padding:7px 0;border-top:1px solid #edf1eb;align-items:baseline}} .date{{font-weight:700;min-width:85px;color:#526257;font-size:13px}} .title{{font-weight:550;flex:1 1 180px}} .sow .title{{color:#316a3d}} .plant .title{{color:#6c5a22}} .harvest .title{{color:#8a4c2f}} .prune .title{{color:#6b4e80}} .weather{{font-size:11px;color:#637b9b;font-weight:500;white-space:nowrap}} .timing{{flex:0 0 auto;font-size:11px;color:#526257}} .timing summary{{cursor:pointer;color:var(--green);font-weight:700}} .timing span{{display:block;margin-top:4px;max-width:430px;color:#526257;font-size:12px;font-weight:400}} .timing[open]{{flex-basis:100%;margin-left:95px}}
 .legend{{margin:14px 0 0;color:#526257;font-size:12px}} footer{{margin-top:16px;color:#637064;font-size:12px}}
 @media(max-width:700px){{main{{padding:12px}}.grid{{grid-template-columns:1fr}}.date{{min-width:76px}}.timing[open]{{margin-left:86px}}}}
 @media print{{body{{background:white}}main{{padding:0;max-width:none}}header{{color:#1f2b22;background:white;border:2px solid var(--green);padding:12px;margin-bottom:10px}}.grid{{gap:8px}}.bed{{box-shadow:none;padding:10px}}.event{{padding:4px 0}}footer{{margin-top:8px}}.timing summary{{display:none}}.timing span{{display:block}}}}
