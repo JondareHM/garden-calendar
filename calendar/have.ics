@@ -75,27 +75,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a730a31b1b581db48dd0cf94@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:647b620296e9dd8c68bafd6d@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260805
@@ -114,6 +93,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧪 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a3debf4f3ffb231fe6c8796a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
