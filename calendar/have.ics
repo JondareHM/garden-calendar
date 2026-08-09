@@ -97,10 +97,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:db46874bd3e7635bb3a4e858@havekalender.local
+UID:590e63b22d27240425fbf49a@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260808
-DTEND;VALUE=DATE:20260809
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260810
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
@@ -360,6 +360,27 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f0fbc474c76d604b46fed41f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
+ ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
+ sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
+ ning lige før kold eller meget våd vejrperiode.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så efterårsspinat efter rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:32e1e90d8e9b4ad3fa8b4d04@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260820
@@ -377,28 +398,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f0fbc474c76d604b46fed41f@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
- ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
- sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
-  fra 20-08 til 21-08 ud fra vejrprognosen for postnummer 5485.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat efter rødbeder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -3829,6 +3828,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så eventuelt ærter hold 7 – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c92f880148de7e634a5100da@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
