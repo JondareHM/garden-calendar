@@ -97,10 +97,31 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:590e63b22d27240425fbf49a@havekalender.local
+UID:5d3d548703a546c0d73d7d25@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260809
-DTEND;VALUE=DATE:20260810
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SUMMARY:🌾 Så honningurt – Lille bed
+DESCRIPTION:Handling: Så\nAfgrøde: honningurt\nPlacering: Lille bed\nNote
+ : Så honningurt som enkelt jorddække\, fordi bedet står tomt.\nHvornår
+ : Så kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag 
+ med tjenlig jord og regn nok til fremspiring.
+LOCATION:Lille bed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så honningurt – Lille bed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:40ff3d25af4c9d890ad4821d@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
@@ -114,28 +135,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5d3d548703a546c0d73d7d25@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-SUMMARY:🌾 Så honningurt – Lille bed
-DESCRIPTION:Handling: Så\nAfgrøde: honningurt\nPlacering: Lille bed\nNote
- : Så honningurt som enkelt jorddække\, fordi bedet står tomt.\nHvornår
- : Så kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag 
- med tjenlig jord og regn nok til fremspiring.\nVejrtilpasning: Flyttet fra
-  10-08 til 11-08 ud fra vejrprognosen for postnummer 5485.
-LOCATION:Lille bed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌾 Så honningurt – Lille bed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -269,27 +268,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:548efb9fe7397f16e50d78b6@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
