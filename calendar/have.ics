@@ -118,10 +118,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:40ff3d25af4c9d890ad4821d@havekalender.local
+UID:97ad59bf195f96c1ba610265@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
+DTSTART;VALUE=DATE:20260811
+DTEND;VALUE=DATE:20260812
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
