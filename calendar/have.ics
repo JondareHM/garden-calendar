@@ -118,27 +118,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:97ad59bf195f96c1ba610265@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:2cf87950871f3bbc3b900bf1@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260811
@@ -157,6 +136,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dd718588d5c4b27454807713@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260813
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -422,6 +422,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e7383291f3eb55c1266a3783@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
