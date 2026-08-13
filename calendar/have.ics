@@ -140,10 +140,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dd718588d5c4b27454807713@havekalender.local
+UID:afb53a0768669c83791efbf3@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
@@ -274,14 +274,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:5fbd7f09d31ac73450325a27@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
 SUMMARY:🥒 Høst squash – Squash
 DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
  ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
  se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
  gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
+ n i højsæsonen.\nVejrtilpasning: Flyttet fra 18-08 til 19-08 ud fra vejr
+ prognosen for postnummer 5485.
 LOCATION:Squash
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -296,14 +297,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:4a7de68ca573b4311f482821@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
  okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
   stående\, så længe de har passende størrelse og jorden ikke er frosse
- n.
+ n.\nVejrtilpasning: Flyttet fra 18-08 til 19-08 ud fra vejrprognosen for p
+ ostnummer 5485.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
