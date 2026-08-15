@@ -140,27 +140,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a5bdb04acbc2af1fb90d83cd@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:e2663d9a241ca93817bdf723@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -272,17 +251,37 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:548efb9fe7397f16e50d78b6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5fbd7f09d31ac73450325a27@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 SUMMARY:🥒 Høst squash – Squash
 DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
  ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
  se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
  gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.\nVejrtilpasning: Flyttet fra 18-08 til 19-08 ud fra vejr
- prognosen for postnummer 5485.
+ n i højsæsonen.
 LOCATION:Squash
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -297,15 +296,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:4a7de68ca573b4311f482821@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
  okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
   stående\, så længe de har passende størrelse og jorden ikke er frosse
- n.\nVejrtilpasning: Flyttet fra 18-08 til 19-08 ud fra vejrprognosen for p
- ostnummer 5485.
+ n.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -340,6 +338,27 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f0fbc474c76d604b46fed41f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
+ ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
+ sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
+ ning lige før kold eller meget våd vejrperiode.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så efterårsspinat efter rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:32e1e90d8e9b4ad3fa8b4d04@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260820
@@ -357,28 +376,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f0fbc474c76d604b46fed41f@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
- ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
- sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
-  fra 20-08 til 21-08 ud fra vejrprognosen for postnummer 5485.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat efter rødbeder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
