@@ -251,10 +251,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:548efb9fe7397f16e50d78b6@havekalender.local
+UID:e24579bf8a4ecfcbd7751591@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
@@ -444,6 +444,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e877df57d2e7fb021d0157d1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -3851,6 +3872,162 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bc70641caad0df15b98e3777@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:✂️ Beskær blommetræer – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: blommetræer\nPlacering: Frugt og 
+ bær\nNote: Fjern døde\, syge og grene\, der krydser hinanden. Hold krone
+ n åben og forkort kun lange\, kraftige skud efter behov.\nHvornår: Besk
+ ær etablerede blommetræer om sommeren\, gerne efter høsten\, og undgå 
+ vinterbeskæring og sen efterårsbeskæring på grund af risiko for sølvg
+ lans og bakteriekræft.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær blommetræer – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41df5f3acc74580940515f7f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:✂️ Beskær kirsebærtræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: kirsebærtræ\nPlacering: Frugt og
+  bær\nNote: Fjern døde\, syge og uhensigtsmæssigt placerede grene\, og 
+ hold træet luftigt og i en størrelse\, hvor frugten kan nås. Lav rene s
+ nit tæt ved grenkraven.\nHvornår: Beskær lige efter kirsebærhøsten\, 
+ normalt i slutningen af juli eller i august\, hvor risikoen for sølvglans
+  og bakteriekræft er lavere.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær kirsebærtræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:01cefe7a45993507899b8439@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på sidste 
+ års skud. Skær de brune\, afblomstrede stængler helt ned efter høst\, 
+ og behold de stærkeste grønne skud til næste år.\nHvornår: Gør det s
+ traks efter høsten\, typisk juli-september. Er sorten ukendt\, så mærk 
+ først hvilke stængler der bar frugt\, og klip kun disse væk.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b7652fa236c3d01933ccd56f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:🌱 Så eller plant bok choi efter hvidløg – Bed 3
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi efter hvidløg\nP
+ lacering: Bed 3\nNote: Vælg bok choi i de ledige områder\, hvis der er p
+ lads.\nHvornår: Så eller plant kun i en ledig sektion\; vælg køligt\, 
+ fugtigt vejr og hold øje med udtørring og stokløbning.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant bok choi efter hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e44f39c39e25702d755ff4a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:🌱 Så spinat efter hvidløg – Bed 3
+DESCRIPTION:Handling: Så\nAfgrøde: spinat efter hvidløg\nPlacering: Bed 
+ 3\nNote: Brug bedet til hurtige bladgrøntsager efter hvidløg.\nHvornår:
+  Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jord og 
+ beskyt de nye planter ved udsigt til tørke.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så spinat efter hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7b081431aac5211b8e5d4cf3@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:53b8afadcb9945bc47b13b56@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:🧄 Høst hvidløg – Bed 3
+DESCRIPTION:Handling: Høst\nAfgrøde: hvidløg\nPlacering: Bed 3\nNote: H
+ øst når 3-5 af de nederste blade er gule eller brune\, mens resten stadi
+ g er grønne. Løsn med greb\, og tør hvidløgene luftigt og tørt.\nHvor
+ når: Høst\, når 3-5 af de nederste blade er gule eller brune\, mens top
+ pen stadig er grøn.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧄 Høst hvidløg – Bed 3
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
