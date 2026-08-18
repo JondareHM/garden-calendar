@@ -251,10 +251,10 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:50f0344102b1fbb04c0f8ae8@havekalender.local
+UID:df665399bdf72a6792ab3e3a@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260818
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
 DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
  dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
@@ -340,14 +340,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f0fbc474c76d604b46fed41f@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
  sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
-  fra 20-08 til 21-08 ud fra vejrprognosen for postnummer 5485.
+ ning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -362,14 +361,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:32e1e90d8e9b4ad3fa8b4d04@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
- ra 20-08 til 21-08 ud fra vejrprognosen for postnummer 5485.
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -424,27 +422,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e7383291f3eb55c1266a3783@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
