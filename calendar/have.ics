@@ -251,27 +251,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:df665399bdf72a6792ab3e3a@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:5fbd7f09d31ac73450325a27@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260818
@@ -312,6 +291,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a34cb77e231cfaa25c8781a8@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260820
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
