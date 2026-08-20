@@ -295,27 +295,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a34cb77e231cfaa25c8781a8@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:9f535f6729e89b74e4877935@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260819
@@ -376,6 +355,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7effccbc4ab2d79adbfa5761@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -539,14 +539,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:47ed813085b8b7cdd900f9e5@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 SUMMARY:🥒 Høst squash – Squash
 DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
  ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
  se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
  gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
+ n i højsæsonen.\nVejrtilpasning: Flyttet fra 01-09 til 02-09 ud fra vejr
+ prognosen for postnummer 5485.
 LOCATION:Squash
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -561,14 +562,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:5392f1a71c8e30c1c8fd435b@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 SUMMARY:🥬 Høst rødbeder – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
  øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
  okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
   stående\, så længe de har passende størrelse og jorden ikke er frosse
- n.
+ n.\nVejrtilpasning: Flyttet fra 01-09 til 02-09 ud fra vejrprognosen for p
+ ostnummer 5485.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -583,13 +585,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f5abcd19f3d9f74d37cc9faf@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
  t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
  år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.
+ planten\, når den går i stok eller før hård frost.\nVejrtilpasning: Fl
+ yttet fra 01-09 til 02-09 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -4007,6 +4010,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧄 Høst hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c816e25365629ff40d061ac4@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:🌱 Så eller plant salat – Drivhuskanter
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
+LOCATION:Drivhuskanter
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant salat – Drivhuskanter
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
