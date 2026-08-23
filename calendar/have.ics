@@ -405,27 +405,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:e7383291f3eb55c1266a3783@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:fd4f2fa51cd68bc285212380@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260825
@@ -4049,6 +4028,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så eller plant salat – Drivhuskanter
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:72e24b19485a67767275dc53@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
