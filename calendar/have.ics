@@ -405,6 +405,27 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:e7383291f3eb55c1266a3783@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fd4f2fa51cd68bc285212380@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260825
@@ -605,13 +626,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2cb02be0a32315cb91974e1d@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
  sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.
+ ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
+  fra 03-09 til 04-09 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -626,13 +648,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b7dc960d950da1d7ae1c2088@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
+ st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
+ ra 03-09 til 04-09 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -641,27 +664,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9024325a0714bac0cf08e5ac@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260904
-DTEND;VALUE=DATE:20260905
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
