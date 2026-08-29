@@ -427,27 +427,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1b86a24aa5b0b7179e8ba03f@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260828
-DTEND;VALUE=DATE:20260829
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:6766dcb27136a60ba40d8f73@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260829
@@ -626,13 +605,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2cb02be0a32315cb91974e1d@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
  sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.
+ ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
+  fra 03-09 til 04-09 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -647,13 +627,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b7dc960d950da1d7ae1c2088@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
+ st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
+ ra 03-09 til 04-09 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -662,27 +643,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a227b465089de8eb215862fd@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
-SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
- acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
-  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
- undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -705,6 +665,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a227b465089de8eb215862fd@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
+DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
+ acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
+  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
+ undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.\nV
+ ejrtilpasning: Flyttet fra 08-09 til 09-09 ud fra vejrprognosen for postnu
+ mmer 5485.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
