@@ -647,6 +647,27 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a227b465089de8eb215862fd@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
+DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
+ acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
+  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
+ undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bfbb9025032644e54354aa47@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260908
@@ -665,29 +686,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a227b465089de8eb215862fd@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260909
-DTEND;VALUE=DATE:20260910
-SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
- acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
-  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
- undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.\nV
- ejrtilpasning: Flyttet fra 08-09 til 09-09 ud fra vejrprognosen for postnu
- mmer 5485.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4056,6 +4054,140 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b9a7cc9ab59729db904d37@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:✂️ Beskær blommetræer – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: blommetræer\nPlacering: Frugt og 
+ bær\nNote: Fjern døde\, syge og grene\, der krydser hinanden. Hold krone
+ n åben og forkort kun lange\, kraftige skud efter behov.\nHvornår: Besk
+ ær etablerede blommetræer om sommeren\, gerne efter høsten\, og undgå 
+ vinterbeskæring og sen efterårsbeskæring på grund af risiko for sølvg
+ lans og bakteriekræft.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær blommetræer – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb884909168ac40d7834f1dc@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:✂️ Beskær kirsebærtræ – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: kirsebærtræ\nPlacering: Frugt og
+  bær\nNote: Fjern døde\, syge og uhensigtsmæssigt placerede grene\, og 
+ hold træet luftigt og i en størrelse\, hvor frugten kan nås. Lav rene s
+ nit tæt ved grenkraven.\nHvornår: Beskær lige efter kirsebærhøsten\, 
+ normalt i slutningen af juli eller i august\, hvor risikoen for sølvglans
+  og bakteriekræft er lavere.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær kirsebærtræ – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e5556c192a242b18b7ecdd03@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på sidste 
+ års skud. Skær de brune\, afblomstrede stængler helt ned efter høst\, 
+ og behold de stærkeste grønne skud til næste år.\nHvornår: Gør det s
+ traks efter høsten\, typisk juli-september. Er sorten ukendt\, så mærk 
+ først hvilke stængler der bar frugt\, og klip kun disse væk.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a04881db2b949b7b9c74ac25@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🌱 Så eller plant bok choi efter hvidløg – Bed 3
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi efter hvidløg\nP
+ lacering: Bed 3\nNote: Vælg bok choi i de ledige områder\, hvis der er p
+ lads.\nHvornår: Så eller plant kun i en ledig sektion\; vælg køligt\, 
+ fugtigt vejr og hold øje med udtørring og stokløbning.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant bok choi efter hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9f206663af3be7b4e8451e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🌱 Så spinat efter hvidløg – Bed 3
+DESCRIPTION:Handling: Så\nAfgrøde: spinat efter hvidløg\nPlacering: Bed 
+ 3\nNote: Brug bedet til hurtige bladgrøntsager efter hvidløg.\nHvornår:
+  Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jord og 
+ beskyt de nye planter ved udsigt til tørke.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så spinat efter hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2cb72fbe17818b63872417@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
