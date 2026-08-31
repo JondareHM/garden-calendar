@@ -5,6 +5,7 @@ on:
     paths:
       - garden.yaml
       - initial_state.yaml
+      - apply_plan_overrides.py
       - generate_calendar.py
       - generate_with_initial_state.py
       - add_year_separators.py
@@ -37,20 +38,23 @@ jobs:
       - name: Run tests
         run: python -m unittest -v
 
+      - name: Apply plan overrides
+        run: python apply_plan_overrides.py
+
       - name: Generate calendar and overview
         run: |
           # Both generated artifacts use the current garden state before 2027.
           python generate_with_initial_state.py
           python add_year_separators.py
 
-      - name: Commit calendar and overview if changed
+      - name: Commit calendar, overview and source data if changed
         run: |
-          if git diff --quiet -- calendar/have.ics index.html; then
-            echo "No calendar or overview changes"
+          if git diff --quiet -- garden.yaml initial_state.yaml calendar/have.ics index.html; then
+            echo "No calendar, overview or source-data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add calendar/have.ics index.html
+          git add garden.yaml initial_state.yaml calendar/have.ics index.html
           git commit -m "Update garden calendar and overview"
           git push
