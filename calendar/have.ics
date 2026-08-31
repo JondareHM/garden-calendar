@@ -2242,10 +2242,10 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Forspir rosenkål – Bed 2
 DESCRIPTION:Handling: Forspir\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote:
-  Forspir få planter til Bed 2. Rosenkål fylder længe\, så sigt efter 2
- -3 stærke planter frem for et helt tæt bed.\nHvornår: Vent\, til jorden
-  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
- n plads\, der faktisk er ledig.
+  Forspir få planter til Bed 2. Når majs også skal med\, så sigt efter 
+ 2 stærke rosenkål i stedet for 3.\nHvornår: Vent\, til jorden er tjenli
+ g og ikke vandmættet\; justér efter temperatur\, nedbør og den plads\, 
+ der faktisk er ledig.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2327,9 +2327,10 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eventuelt spinat – Bed 2
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: spinat\nPlacering: Bed 2\nNo
- te: Så tidlig spinat i ledige huller som forafgrøde\, før rosenkålene 
- fylder bedet.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; und
- gå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
+ te: Så tidlig spinat i de huller\, der ikke er reserveret til rosenkål o
+ g majs. Ryd spinaten\, når udplantningerne begynder at fylde.\nHvornår: 
+ Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jord og b
+ eskyt de nye planter ved udsigt til tørke.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2411,10 +2412,10 @@ DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
 SUMMARY:🌱 Forspir rosenkål – Bed 2
 DESCRIPTION:Handling: Forspir\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote:
-  Forspir få planter til Bed 2. Rosenkål fylder længe\, så sigt efter 2
- -3 stærke planter frem for et helt tæt bed.\nHvornår: Vent\, til jorden
-  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
- n plads\, der faktisk er ledig.
+  Forspir få planter til Bed 2. Når majs også skal med\, så sigt efter 
+ 2 stærke rosenkål i stedet for 3.\nHvornår: Vent\, til jorden er tjenli
+ g og ikke vandmættet\; justér efter temperatur\, nedbør og den plads\, 
+ der faktisk er ledig.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2571,6 +2572,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så ærter hold 3 – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f9f6e6184fbae8dfc49ab5@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:🌱 Forspir majs – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
+ pir et lille hold til et kompakt majsforsøg i Bed 2. Sigt efter 6-8 plant
+ er og behold de stærkeste 4-6\, så rosenkål stadig får plads.\nHvornå
+ r: Vent\, til jorden er lun og ikke vandmættet\; undgå såning lige før
+  kold eller meget våd vejrperiode.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Forspir majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2747,6 +2770,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:fd125c47da7ae604c7d7cfde@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🌱 Forspir majs – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
+ pir et lille hold til et kompakt majsforsøg i Bed 2. Sigt efter 6-8 plant
+ er og behold de stærkeste 4-6\, så rosenkål stadig får plads.\nHvornå
+ r: Vent\, til jorden er lun og ikke vandmættet\; undgå såning lige før
+  kold eller meget våd vejrperiode.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Forspir majs – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a5d79b40227ac56981ff7fd2@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -2819,10 +2864,10 @@ DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:🌿 Plant ud rosenkål – Bed 2
 DESCRIPTION:Handling: Plant ud\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote
- : Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug re
- sten af pladsen til tidlig spinat\, indtil rosenkålene fylder mere.\nHvor
- når: Plant først efter hærdning og uden udsigt til nattefrost\; jorden 
- skal være fugtig og kunne bearbejdes uden at klistre.
+ : Plant 2 rosenkål langs den ene side eller ende af Bed 2 efter hærdning
+ . Lad den modsatte ende være til en lille samlet majsblok.\nHvornår: Pla
+ nt først efter hærdning og uden udsigt til nattefrost\; jorden skal vær
+ e fugtig og kunne bearbejdes uden at klistre.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -3056,10 +3101,10 @@ DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌿 Plant ud rosenkål – Bed 2
 DESCRIPTION:Handling: Plant ud\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote
- : Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug re
- sten af pladsen til tidlig spinat\, indtil rosenkålene fylder mere.\nHvor
- når: Plant først efter hærdning og uden udsigt til nattefrost\; jorden 
- skal være fugtig og kunne bearbejdes uden at klistre.
+ : Plant 2 rosenkål langs den ene side eller ende af Bed 2 efter hærdning
+ . Lad den modsatte ende være til en lille samlet majsblok.\nHvornår: Pla
+ nt først efter hærdning og uden udsigt til nattefrost\; jorden skal vær
+ e fugtig og kunne bearbejdes uden at klistre.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -3216,6 +3261,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Så dild – Drivhus/fleksbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e16eb5fa65e4c9cf15a006cc@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:🌿 Plant ud majs – Bed 2
+DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
+ nt i en lille samlet blok i den ene ende af Bed 2\, ikke som enkeltrække.
+  Hold rosenkålene til 2 planter\, hvis majsen også skal med.\nHvornår: 
+ Plant først efter hærdning og uden udsigt til nattefrost\; jorden skal v
+ ære fugtig og kunne bearbejdes uden at klistre.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -3495,6 +3562,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b5314e450a440498f4a9b15f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:🌿 Plant ud majs – Bed 2
+DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
+ nt i en lille samlet blok i den ene ende af Bed 2\, ikke som enkeltrække.
+  Hold rosenkålene til 2 planter\, hvis majsen også skal med.\nHvornår: 
+ Plant først efter hærdning og uden udsigt til nattefrost\; jorden skal v
+ ære fugtig og kunne bearbejdes uden at klistre.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT

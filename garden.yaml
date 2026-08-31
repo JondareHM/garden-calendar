@@ -80,6 +80,9 @@ overview_event_ids:
 - harvest_squash
 - sow_brussels_sprouts_indoors
 - plant_brussels_sprouts_bed2
+- sow_maize_indoors
+- plant_maize_bed2
+- harvest_maize_bed2
 - harvest_brussels_sprouts_bed2
 selected_event_ids:
 - check_seeds_and_soil
@@ -89,6 +92,9 @@ selected_event_ids:
 - sow_early_spinach_bed2
 - sow_brussels_sprouts_indoors
 - plant_brussels_sprouts_bed2
+- sow_maize_indoors
+- plant_maize_bed2
+- harvest_maize_bed2
 - harvest_brussels_sprouts_bed2
 - sow_cucumbers_indoors
 - sow_spinach_bed1
@@ -150,7 +156,7 @@ beds:
 - id: bed2
   name: Bed 2
   size: 1 x 2 m
-  plan: Rosenkål med tidlig spinat i ledige huller
+  plan: Rosenkål + lille majsforsøg med tidlig spinat i ledige huller
 - id: bed3
   name: Bed 3
   size: 1 x 2 m
@@ -225,14 +231,14 @@ events:
   action: Så eventuelt
   crop: spinat
   location: Bed 2
-  note: Så tidlig spinat i ledige huller som forafgrøde, før rosenkålene fylder bedet.
+  note: Så tidlig spinat i de huller, der ikke er reserveret til rosenkål og majs. Ryd spinaten, når udplantningerne begynder at fylde.
   start: 03-15
 - id: sow_brussels_sprouts_indoors
   emoji: 🌱
   action: Forspir
   crop: rosenkål
   location: Bed 2
-  note: Forspir få planter til Bed 2. Rosenkål fylder længe, så sigt efter 2-3 stærke planter frem for et helt tæt bed.
+  note: Forspir få planter til Bed 2. Når majs også skal med, så sigt efter 2 stærke rosenkål i stedet for 3.
   start: 03-15
   end: 04-01
   repeat_days: 14
@@ -241,7 +247,7 @@ events:
   action: Plant ud
   crop: rosenkål
   location: Bed 2
-  note: Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug resten af pladsen til tidlig spinat, indtil rosenkålene fylder mere.
+  note: Plant 2 rosenkål langs den ene side eller ende af Bed 2 efter hærdning. Lad den modsatte ende være til en lille samlet majsblok.
   start: 05-01
   end: 05-20
   repeat_days: 14
@@ -279,7 +285,7 @@ events:
   action: Forspir
   crop: majs
   location: Bed 2
-  note: Forspir i potter 2-3 uger før udplantning.
+  note: Forspir et lille hold til et kompakt majsforsøg i Bed 2. Sigt efter 6-8 planter og behold de stærkeste 4-6, så rosenkål stadig får plads.
   start: 04-15
   end: 04-30
   repeat_days: 14
@@ -389,25 +395,27 @@ events:
   action: Plant ud
   crop: majs
   location: Bed 2
-  note: Plant i en blok på cirka 20-25 planter efter nattefrosten.
-  start: 05-15
-  end: 06-01
+  note: Plant i en lille samlet blok i den ene ende af Bed 2, ikke som enkeltrække. Hold rosenkålene til 2 planter, hvis majsen også skal med.
+  start: 05-20
+  end: 06-05
   repeat_days: 14
+  weather_mode: outdoor_plant
 - id: harvest_maize_bed2
   emoji: 🌽
   action: Høst
   crop: majs
   location: Bed 2
-  note: Høst når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft. Spis eller køl kolberne hurtigt efter høst.
+  note: Høst når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft. Forvent et lille forsøgsudbytte, fordi bedet deles med rosenkål.
   start: 09-01
   end: 09-30
   repeat_days: 14
+  weather_mode: harvest
 - id: clear_maize_bed2
   emoji: 🧹
   action: Ryd
   crop: majs
   location: Bed 2
-  note: Ryd efter høst og vælg honningurt eller vinterrug som dække.
+  note: Ryd majsstængler efter høst. Lad rosenkålene blive stående, hvis de stadig producerer, og så kun honningurt i ryddede hjørner hvis det stadig er tidligt nok.
   start: 09-15
   end: 10-15
   repeat_days: 14
