@@ -9,6 +9,7 @@ on:
       - generate_calendar.py
       - generate_with_initial_state.py
       - add_year_separators.py
+      - highlight_current_events.py
       - test_generate_calendar.py
       - requirements.txt
       - .github/workflows/update.yml
@@ -46,6 +47,7 @@ jobs:
           # Both generated artifacts use the current garden state before 2027.
           python generate_with_initial_state.py
           python add_year_separators.py
+          python highlight_current_events.py
 
       - name: Commit calendar, overview and source data if changed
         run: |
