@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import copy
-import html
 from datetime import date, timedelta
 from pathlib import Path
 from typing import Any
@@ -105,55 +104,13 @@ def overview_config(config: dict[str, Any], state: dict[str, Any], generated_on:
         if isinstance(event, dict) and event.get("overview", True):
             overview_ids.add(str(event.get("id")))
     result["overview_event_ids"] = sorted(overview_ids)
-
-    normal_plan_starts = parse_iso_date(state.get("normal_plan_starts"), "normal_plan_starts")
-    if generated_on < normal_plan_starts:
-        status_by_location = {
-            str(item.get("location")): str(item.get("text", ""))
-            for item in state.get("status", [])
-            if isinstance(item, dict)
-        }
-        for bed in result.get("beds", []):
-            if isinstance(bed, dict) and str(bed.get("name")) in status_by_location:
-                bed["plan"] = "Aktuelt: " + status_by_location[str(bed.get("name"))]
     return result
 
 
 def inject_status(html_text: str, state: dict[str, Any], generated_on: date) -> str:
-    normal_plan_starts = parse_iso_date(state.get("normal_plan_starts"), "normal_plan_starts")
-    state_date = parse_iso_date(state.get("state_date"), "state_date")
-    if generated_on >= normal_plan_starts:
-        return html_text
-
-    items: list[str] = []
-    for item in state.get("status", []):
-        if not isinstance(item, dict):
-            continue
-        items.append(
-            '<div class="state-item"><strong>'
-            + html.escape(str(item.get("location", "")))
-            + "</strong><span>"
-            + html.escape(str(item.get("emoji", "🌱")))
-            + " "
-            + html.escape(str(item.get("text", "")))
-            + "</span></div>"
-        )
-
-    css = (
-        ".state{background:#fff;border:1px solid var(--line);border-radius:13px;padding:15px;margin:0 0 14px}"
-        ".state h2{margin-bottom:8px}.state-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 14px}"
-        ".state-item{display:flex;gap:8px;align-items:baseline}.state-item strong{min-width:72px;color:var(--green)}"
-        "@media(max-width:700px){.state-grid{grid-template-columns:1fr}}"
-    )
-    block = (
-        '<section class="state"><h2>📍 Aktuel tilstand pr. '
-        + state_date.strftime("%d-%m-%Y")
-        + '</h2><div class="state-grid">'
-        + "".join(items)
-        + "</div></section>"
-    )
-    html_text = html_text.replace("</style>", css + "</style>", 1)
-    return html_text.replace('<div class="grid">', block + '<div class="grid">', 1)
+    # Keep initial_state.yaml as source data for current-year events, but do not
+    # show the static status snapshot in the Pages overview.
+    return html_text
 
 
 def build_calendar(
