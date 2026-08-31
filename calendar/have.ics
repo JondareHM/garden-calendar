@@ -756,6 +756,75 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:9c809d123ba5d30c8912db05@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🌾 Så eventuelt honningurt efter spinat – Bed 4
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt efter spinat\nPla
+ cering: Bed 4\nNote: Prioritér honningurt i dele af bedet\, der ryddes ti
+ dligt nok. Hvis spinaten fortsætter ind i oktober\, så drop såning og b
+ rug kompost/blade som vinterdække senere.\nHvornår: Så kun i et ryddet 
+ område\, hvis det skal stå dækket\; vælg en dag med tjenlig jord og re
+ gn nok til fremspiring.
+LOCATION:Bed 4
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt efter spinat – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79c62e1bedfb7e9e9aeccdaa@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ledige sektione
+ r\nPlacering: Langbed\nNote: Prioritér honningurt i færdige sektioner\, 
+ der er ryddet tidligt nok. Lad bok choi og spinat fortsætte\, hvor de sta
+ dig fylder\, og brug jorddække efter sidste høst.\nHvornår: Så kun i e
+ t ryddet område\, hvis det skal stå dækket\; vælg en dag med tjenlig j
+ ord og regn nok til fremspiring.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dbde75428a4d9d03797a15aa@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ryddede dele\nP
+ lacering: Bed 2\nNote: Prioritér honningurt\, hvis større dele af bedet 
+ er ryddet inden midt/slut september. Hvis porrerne fortsat fylder\, så la
+ d dem stå og brug kompost/blade efter sidste høst i stedet.\nHvornår: S
+ å kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag med
+  tjenlig jord og regn nok til fremspiring.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:33ff7b10c87d715dac68fcb7@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -990,77 +1059,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧪 Gød tomater\, agurker og peber – Drivhus
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1150d8bbcd8bd4fe6c2ff990@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:⏳ Beslut og så eventuelt vinterrug efter spinat – Bed 4
-DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug efter sp
- inat\nPlacering: Bed 4\nNote: Sidste rimelige beslutningspunkt. Afslut spi
- nat i hele eller dele af bedet og så vinterrug nu\, eller lad spinaten fo
- rtsætte og brug kompost/jorddække senere.\nHvornår: Brug datoen som bes
- lutningspunkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og 
- jordens tilstand tillader det.
-LOCATION:Bed 4
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏳ Beslut og så eventuelt vinterrug efter spinat – Bed 4
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:31f758c57a27d3a719071c49@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:⏳ Beslut og så eventuelt vinterrug i ledige sektioner – Langbe
- d
-DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug i ledige
-  sektioner\nPlacering: Langbed\nNote: Sidste rimelige beslutningspunkt. S
- å vinterrug nu i færdige sektioner\, eller lad bok choi og spinat forts
- ætte og dæk jorden efter sidste høst.\nHvornår: Brug datoen som beslut
- ningspunkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og jor
- dens tilstand tillader det.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏳ Beslut og så eventuelt vinterrug i ledige sektioner – La
- ngbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5c6a632742b635047a67c0dd@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:⏳ Beslut og så eventuelt vinterrug i ryddede dele – Bed 2
-DESCRIPTION:Handling: Beslut og så eventuelt\nAfgrøde: vinterrug i rydded
- e dele\nPlacering: Bed 2\nNote: Sidste rimelige beslutningspunkt. Så vint
- errug nu i dele\, hvor porrerne er høstet\, eller lad porrerne fortsætte
-  og dæk jorden efter sidste høst.\nHvornår: Brug datoen som beslutnings
- punkt\, men vælg kun opgaven\, hvis arealet faktisk er ryddet og jordens 
- tilstand tillader det.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:⏳ Beslut og så eventuelt vinterrug i ryddede dele – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1649,10 +1647,10 @@ DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:🍂 Dæk ledige sektioner – Langbed
 DESCRIPTION:Handling: Dæk\nAfgrøde: ledige sektioner\nPlacering: Langbed\
- nNote: Lad ærterødder og eventuel vinterrug blive. Dæk øvrige ledige s
- ektioner med kompost og blade eller halm.\nHvornår: Tilpas efter hvad der
-  faktisk står i bedet\, og dæk kun bar eller udsat jord\; undgå at kvæ
- le levende afgrøder.
+ nNote: Lad ærterødder og eventuel honningurt blive. Dæk øvrige ledige 
+ sektioner med kompost og blade eller halm.\nHvornår: Tilpas efter hvad de
+ r faktisk står i bedet\, og dæk kun bar eller udsat jord\; undgå at kv
+ æle levende afgrøder.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1713,12 +1711,12 @@ UID:bb8f0ee5f7c14c45d35aed06@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:❄️ Kontrollér vinterdække vinterrug eller bar jord – Bed 4
-DESCRIPTION:Handling: Kontrollér vinterdække\nAfgrøde: vinterrug eller b
- ar jord\nPlacering: Bed 4\nNote: Lad vinterrug stå\, hvis den blev sået.
-  Ellers dæk bar jord med kompost og blade eller halm efter sidste spinath
- øst.\nHvornår: Tilpas efter hvad der faktisk står i bedet\, og dæk kun
-  bar eller udsat jord\; undgå at kvæle levende afgrøder.
+SUMMARY:❄️ Kontrollér vinterdække honningurt eller bar jord – Bed 4
+DESCRIPTION:Handling: Kontrollér vinterdække\nAfgrøde: honningurt eller 
+ bar jord\nPlacering: Bed 4\nNote: Lad eventuel honningurt ligge som beskyt
+ telse. Ellers dæk bar jord med kompost og blade eller halm efter sidste s
+ pinathøst.\nHvornår: Tilpas efter hvad der faktisk står i bedet\, og d
+ æk kun bar eller udsat jord\; undgå at kvæle levende afgrøder.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -1726,8 +1724,8 @@ TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:❄️ Kontrollér vinterdække vinterrug eller bar jord – Be
- d 4
+DESCRIPTION:❄️ Kontrollér vinterdække honningurt eller bar jord – B
+ ed 4
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -1761,9 +1759,10 @@ DTEND;VALUE=DATE:20261202
 SUMMARY:🍂 Klargør bed efter porrer – Bed 2
 DESCRIPTION:Handling: Klargør\nAfgrøde: bed efter porrer\nPlacering: Bed 
  2\nNote: Når de sidste porrer er høstet\, fjern ukrudt\, tilfør et tynd
- t lag moden kompost og dæk jorden. Lad eventuel vinterrug stå.\nHvornår
- : Gør det\, når området er ryddet nok til at arbejde i\; tilpas kompost
-  og dække efter den faktiske jordtilstand.
+ t lag moden kompost og dæk jorden. Lad eventuel honningurt ligge som vint
+ erdække\, hvis den nåede at etablere sig.\nHvornår: Gør det\, når omr
+ ådet er ryddet nok til at arbejde i\; tilpas kompost og dække efter den 
+ faktiske jordtilstand.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2237,24 +2236,24 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:1403dbd590cb23dfe66b1429@havekalender.local
+UID:c5796bbb98f5e9bb22cc7385@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270301
-DTEND;VALUE=DATE:20270302
-SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
-DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
- Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
- erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
- ne før næste såning.
-LOCATION:Bed der skal dyrkes igen
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:🌱 Forspir rosenkål – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote:
+  Forspir få planter til Bed 2. Rosenkål fylder længe\, så sigt efter 2
+ -3 stærke planter frem for et helt tæt bed.\nHvornår: Vent\, til jorden
+  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
+ n plads\, der faktisk er ledig.
+LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
+DESCRIPTION:🌱 Forspir rosenkål – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2328,9 +2327,9 @@ DTSTART;VALUE=DATE:20270315
 DTEND;VALUE=DATE:20270316
 SUMMARY:🌱 Så eventuelt spinat – Bed 2
 DESCRIPTION:Handling: Så eventuelt\nAfgrøde: spinat\nPlacering: Bed 2\nNo
- te: Brug bedet som hurtig forafgrøde\, hvis majsplanen tillader det.\nHvo
- rnår: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmættet jo
- rd og beskyt de nye planter ved udsigt til tørke.
+ te: Så tidlig spinat i ledige huller som forafgrøde\, før rosenkålene 
+ fylder bedet.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; und
+ gå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2360,28 +2359,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så spinat – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b80f0e7277b6735466d1967a@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270315
-DTEND;VALUE=DATE:20270316
-SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
-DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
- Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
- erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
- ne før næste såning.
-LOCATION:Bed der skal dyrkes igen
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2428,24 +2405,24 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:dc9842f5b7e00039c21620d6@havekalender.local
+UID:a9bad4c06a176dc1161be0de@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270330
-SUMMARY:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
-DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: vinterrug\nPlacering: 
- Bed der skal dyrkes igen\nNote: Klip i foråret før frøsætning. Lad mat
- erialet visne\, og fjern eller bland det let i jorden 2-3 uger før ny så
- ning.\nHvornår: Klip før frøsætning\, og giv materialet tid til at vis
- ne før næste såning.
-LOCATION:Bed der skal dyrkes igen
+SUMMARY:🌱 Forspir rosenkål – Bed 2
+DESCRIPTION:Handling: Forspir\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote:
+  Forspir få planter til Bed 2. Rosenkål fylder længe\, så sigt efter 2
+ -3 stærke planter frem for et helt tæt bed.\nHvornår: Vent\, til jorden
+  er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør og de
+ n plads\, der faktisk er ledig.
+LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
 TRANSP:TRANSPARENT
 SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:🌾 Klip eller nedmulch vinterrug – Bed der skal dyrkes igen
+DESCRIPTION:🌱 Forspir rosenkål – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2598,27 +2575,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d1f9f6e6184fbae8dfc49ab5@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:🌱 Forspir majs – Bed 2
-DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
- pir i potter 2-3 uger før udplantning.\nHvornår: Vent\, til jorden er lu
- n og ikke vandmættet\; undgå såning lige før kold eller meget våd vej
- rperiode.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Forspir majs – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:bc4fc5154160a0e2f19bdd2f@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270415
@@ -2659,6 +2615,28 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌼 Så eller plant blomsterkarse – Lille bed/langbedets kan
  t
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7e26d0c530516ff7d27e0dbc@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:🥕 Så gulerødder – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote: S
+ æt en fast gulerodssektion af efter den tidlige spinat. Del resten af bed
+ et med rødbeder\, så begge afgrøder kan nås uden at tage et helt bed h
+ ver.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; justér
+  efter temperatur\, nedbør og den plads\, der faktisk er ledig.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Så gulerødder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2769,27 +2747,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:fd125c47da7ae604c7d7cfde@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
-SUMMARY:🌱 Forspir majs – Bed 2
-DESCRIPTION:Handling: Forspir\nAfgrøde: majs\nPlacering: Bed 2\nNote: Fors
- pir i potter 2-3 uger før udplantning.\nHvornår: Vent\, til jorden er lu
- n og ikke vandmættet\; undgå såning lige før kold eller meget våd vej
- rperiode.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Forspir majs – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a5d79b40227ac56981ff7fd2@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -2812,6 +2769,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:3cb025d6945adc856c920557@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:🥕 Så gulerødder – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote: S
+ æt en fast gulerodssektion af efter den tidlige spinat. Del resten af bed
+ et med rødbeder\, så begge afgrøder kan nås uden at tage et helt bed h
+ ver.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; justér
+  efter temperatur\, nedbør og den plads\, der faktisk er ledig.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Så gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:51d2b5a010e98e98786da102@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -2830,6 +2809,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst spinat – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:969e879dde666b5e0bab0923@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:🌿 Plant ud rosenkål – Bed 2
+DESCRIPTION:Handling: Plant ud\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote
+ : Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug re
+ sten af pladsen til tidlig spinat\, indtil rosenkålene fylder mere.\nHvor
+ når: Plant først efter hærdning og uden udsigt til nattefrost\; jorden 
+ skal være fugtig og kunne bearbejdes uden at klistre.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud rosenkål – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -2877,6 +2878,28 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:52f0f6c9cc7290e97f69884a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:🥕 Så gulerødder – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote: S
+ æt en fast gulerodssektion af efter den tidlige spinat. Del resten af bed
+ et med rødbeder\, så begge afgrøder kan nås uden at tage et helt bed h
+ ver.\nHvornår: Vent\, til jorden er tjenlig og ikke vandmættet\; justér
+  efter temperatur\, nedbør og den plads\, der faktisk er ledig.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Så gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:65cb24ef989223dc621cfc82@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270513
@@ -2899,15 +2922,38 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:227ae86b3a540a91ffad9dda@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:✂️ Udtynd gulerødder – Bed 1
+DESCRIPTION:Handling: Udtynd\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote
+ : Udtynd forsigtigt\, når planterne står for tæt. Vand først\, hvis jo
+ rden er tør\, og fjern ukrudt mens planterne er små.\nHvornår: Vent\, t
+ il planterne er lette at skelne fra ukrudt\; tynd gradvist til passende af
+ stand og vand\, hvis jorden er tør.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Udtynd gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f663fb4bb878b6e77d55878c@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
- il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
-  meget våd vejrperiode.
+  rødbeder i den anden del af Bed 1\, eller i huller efter den tidligste s
+ pinat. Hold gulerødder og rødbeder som to tydelige sektioner\, så udtyn
+ ding og høst er nemt.\nHvornår: Vent\, til jorden er lun og ikke vandmæ
+ ttet\; undgå såning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -2983,27 +3029,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:5893010b3a762fe8b1ece977@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270515
-DTEND;VALUE=DATE:20270516
-SUMMARY:🌿 Plant ud majs – Bed 2
-DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
- nt i en blok på cirka 20-25 planter efter nattefrosten.\nHvornår: Plant 
- først efter hærdning og uden udsigt til nattefrost\; jorden skal være f
- ugtig og kunne bearbejdes uden at klistre.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Plant ud majs – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:bc4ec582b2b661318bce6296@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270515
@@ -3021,6 +3046,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Plant ud porrer – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c29134d5674c10b4e3b6b169@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:🌿 Plant ud rosenkål – Bed 2
+DESCRIPTION:Handling: Plant ud\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote
+ : Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug re
+ sten af pladsen til tidlig spinat\, indtil rosenkålene fylder mere.\nHvor
+ når: Plant først efter hærdning og uden udsigt til nattefrost\; jorden 
+ skal være fugtig og kunne bearbejdes uden at klistre.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌿 Plant ud rosenkål – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -3238,15 +3285,38 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:78f8207a56878ada06688d9a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:✂️ Udtynd gulerødder – Bed 1
+DESCRIPTION:Handling: Udtynd\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote
+ : Udtynd forsigtigt\, når planterne står for tæt. Vand først\, hvis jo
+ rden er tør\, og fjern ukrudt mens planterne er små.\nHvornår: Vent\, t
+ il planterne er lette at skelne fra ukrudt\; tynd gradvist til passende af
+ stand og vand\, hvis jorden er tør.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Udtynd gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:d1385cae2706a0773cd08b4f@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270529
 DTEND;VALUE=DATE:20270530
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
- il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
-  meget våd vejrperiode.
+  rødbeder i den anden del af Bed 1\, eller i huller efter den tidligste s
+ pinat. Hold gulerødder og rødbeder som to tydelige sektioner\, så udtyn
+ ding og høst er nemt.\nHvornår: Vent\, til jorden er lun og ikke vandmæ
+ ttet\; undgå såning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -3318,27 +3388,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌼 Plant tagetes – Drivhus
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4c2770b367e5ff4083ccfbf3@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20270529
-DTEND;VALUE=DATE:20270530
-SUMMARY:🌿 Plant ud majs – Bed 2
-DESCRIPTION:Handling: Plant ud\nAfgrøde: majs\nPlacering: Bed 2\nNote: Pla
- nt i en blok på cirka 20-25 planter efter nattefrosten.\nHvornår: Plant 
- først efter hærdning og uden udsigt til nattefrost\; jorden skal være f
- ugtig og kunne bearbejdes uden at klistre.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Plant ud majs – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -3513,15 +3562,38 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:19d1857c0e5174ec3f35f8a8@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:✂️ Udtynd gulerødder – Bed 1
+DESCRIPTION:Handling: Udtynd\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote
+ : Udtynd forsigtigt\, når planterne står for tæt. Vand først\, hvis jo
+ rden er tør\, og fjern ukrudt mens planterne er små.\nHvornår: Vent\, t
+ il planterne er lette at skelne fra ukrudt\; tynd gradvist til passende af
+ stand og vand\, hvis jorden er tør.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Udtynd gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:99c7f5c8b5834c0f94fb12a9@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:🌱 Så rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: Så
-  når den tidlige spinat er høstet eller går i stok.\nHvornår: Vent\, t
- il jorden er lun og ikke vandmættet\; undgå såning lige før kold eller
-  meget våd vejrperiode.
+  rødbeder i den anden del af Bed 1\, eller i huller efter den tidligste s
+ pinat. Hold gulerødder og rødbeder som to tydelige sektioner\, så udtyn
+ ding og høst er nemt.\nHvornår: Vent\, til jorden er lun og ikke vandmæ
+ ttet\; undgå såning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED

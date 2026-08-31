@@ -7,14 +7,10 @@ project:
   overview_output: index.html
   generation_months_before: 1
   alarm_days_before: 2
-  # Stabil værdi undgår commits, når ingen kalenderdata har ændret sig.
   dtstamp: 20260101T000000Z
-
-# Gratis Open-Meteo-prognose. Den bruges kun til nært forestående opgaver,
-# fordi prognosen højst rækker 16 dage frem.
 weather:
   enabled: true
-  postal_code: "5485"
+  postal_code: '5485'
   country_code: DK
   forecast_days: 16
   past_days: 7
@@ -28,869 +24,899 @@ weather:
   warm_crop_soil_min_temperature_c: 8
   harvest_rain_mm: 10
   extra_outdoor_watering: true
-  # Drivhuset er ikke med i regnbaserede vandingsevents.
   greenhouse_extra_watering: false
   watering_lookback_days: 5
   watering_rain_max_mm: 4
   watering_et0_min_mm: 10
-
-# Bed 4 er sat til porrer i 2026. Skift til bush_beans, hvis du vil bruge
-# bedet til buskbønner i stedet.
 bed4_mode: leeks
 optional_pea_hold_7: true
-
-# Den korte Pages-oversigt viser kun de store sætte-, plante-, forspirings-,
-# beskærings- og høstvinduer. Kalenderen beholder fortsat alle valgte events.
 overview_event_ids:
-  - sow_peppers_indoors
-  - sow_leeks_indoors
-  - sow_tomatoes_indoors
-  - sow_cucumbers_indoors
-  - sow_maize_indoors
-  - sow_spinach_bed1
-  - harvest_spinach_bed1
-  - sow_beets_bed1
-  - harvest_beets_bed1
-  - sow_autumn_spinach_bed1
-  - plant_maize_bed2
-  - harvest_maize_bed2
-  - plant_garlic_bed3
-  - harvest_garlic_bed3
-  - sow_spinach_after_garlic
-  - sow_bok_choi_after_garlic
-  - plant_leeks_bed4
-  - harvest_leeks_bed4
-  - sow_bush_beans_bed4
-  - sow_peas_hold_1
-  - sow_peas_hold_2
-  - sow_peas_hold_3
-  - sow_peas_hold_4
-  - sow_peas_hold_5
-  - sow_peas_hold_6
-  - sow_peas_hold_7_optional
-  - sow_bok_choi_between_peas
-  - sow_spinach_in_free_pea_sections
-  - sow_bok_choi_in_free_pea_sections
-  - plant_tomatoes_greenhouse
-  - plant_cucumbers_greenhouse
-  - plant_peppers_greenhouse
-  - sow_greenhouse_edge_lettuce
-  - plant_marigold_greenhouse
-  - plant_tagetes_greenhouse
-  - feed_greenhouse
-  - prune_espalier_apples
-  - prune_free_standing_apple
-  - prune_pear
-  - prune_plums
-  - prune_cherry
-  - prune_raspberries_after_harvest
-  - prune_raspberries_winter
-  - prune_possible_blackcurrants
-  - sow_squash_indoors
-  - plant_squash_outdoors
-  - harvest_squash
-
-# Kun disse opgavetyper bliver skrevet til abonnementskalenderen.
-# Listen holder kalenderen enkel, men lader hele så-, forspirings- og
-# planteplanen være tilgængelig, også når Bed 4 skiftes til buskbønner.
+- sow_peppers_indoors
+- sow_leeks_indoors
+- sow_tomatoes_indoors
+- sow_cucumbers_indoors
+- sow_spinach_bed1
+- harvest_spinach_bed1
+- sow_carrots_bed1
+- thin_carrots_bed1
+- harvest_carrots_bed1
+- sow_beets_bed1
+- harvest_beets_bed1
+- sow_autumn_spinach_bed1
+- plant_garlic_bed3
+- harvest_garlic_bed3
+- sow_spinach_after_garlic
+- sow_bok_choi_after_garlic
+- plant_leeks_bed4
+- harvest_leeks_bed4
+- sow_bush_beans_bed4
+- sow_peas_hold_1
+- sow_peas_hold_2
+- sow_peas_hold_3
+- sow_peas_hold_4
+- sow_peas_hold_5
+- sow_peas_hold_6
+- sow_peas_hold_7_optional
+- sow_bok_choi_between_peas
+- sow_spinach_in_free_pea_sections
+- sow_bok_choi_in_free_pea_sections
+- plant_tomatoes_greenhouse
+- plant_cucumbers_greenhouse
+- plant_peppers_greenhouse
+- sow_greenhouse_edge_lettuce
+- plant_marigold_greenhouse
+- plant_tagetes_greenhouse
+- feed_greenhouse
+- prune_espalier_apples
+- prune_free_standing_apple
+- prune_pear
+- prune_plums
+- prune_cherry
+- prune_raspberries_after_harvest
+- prune_raspberries_winter
+- prune_possible_blackcurrants
+- sow_squash_indoors
+- plant_squash_outdoors
+- harvest_squash
+- sow_brussels_sprouts_indoors
+- plant_brussels_sprouts_bed2
+- harvest_brussels_sprouts_bed2
 selected_event_ids:
-  - check_seeds_and_soil
-  - sow_peppers_indoors
-  - sow_leeks_indoors
-  - sow_tomatoes_indoors
-  - sow_early_spinach_bed2
-  - sow_cucumbers_indoors
-  - sow_maize_indoors
-  - sow_spinach_bed1
-  - harvest_spinach_bed1
-  - harvest_late_spinach
-  - sow_beets_bed1
-  - harvest_beets_bed1
-  - sow_autumn_spinach_bed1
-  - plant_maize_bed2
-  - harvest_maize_bed2
-  - plant_garlic_bed3
-  - harvest_garlic_bed3
-  - sow_spinach_after_garlic
-  - sow_bok_choi_after_garlic
-  - plant_leeks_bed4
-  - harvest_leeks_bed4
-  - sow_bush_beans_bed4
-  - sow_spinach_after_beans
-  - sow_peas_hold_1
-  - sow_peas_hold_2
-  - sow_peas_hold_3
-  - sow_peas_hold_4
-  - sow_peas_hold_5
-  - sow_peas_hold_6
-  - sow_peas_hold_7_optional
-  - sow_bok_choi_between_peas
-  - sow_spinach_in_free_pea_sections
-  - sow_bok_choi_in_free_pea_sections
-  - sow_flex_bed
-  - plant_nasturtium
-  - sow_dill_near_greenhouse
-  - plant_marigold_greenhouse
-  - plant_tagetes_greenhouse
-  - sow_greenhouse_edge_lettuce
-  - plant_tomatoes_greenhouse
-  - plant_cucumbers_greenhouse
-  - plant_peppers_greenhouse
-  - feed_greenhouse
-  - sow_phacelia
-  - cut_phacelia
-  - sow_winter_rye
-  - cut_winter_rye
-  - prepare_beds_for_winter
-  - prune_espalier_apples
-  - prune_free_standing_apple
-  - prune_pear
-  - prune_plums
-  - prune_cherry
-  - prune_raspberries_after_harvest
-  - prune_raspberries_winter
-  - prune_possible_blackcurrants
-  - sow_squash_indoors
-  - plant_squash_outdoors
-  - harvest_squash
-
+- check_seeds_and_soil
+- sow_peppers_indoors
+- sow_leeks_indoors
+- sow_tomatoes_indoors
+- sow_early_spinach_bed2
+- sow_brussels_sprouts_indoors
+- plant_brussels_sprouts_bed2
+- harvest_brussels_sprouts_bed2
+- sow_cucumbers_indoors
+- sow_spinach_bed1
+- harvest_spinach_bed1
+- sow_carrots_bed1
+- thin_carrots_bed1
+- harvest_carrots_bed1
+- harvest_late_spinach
+- sow_beets_bed1
+- harvest_beets_bed1
+- sow_autumn_spinach_bed1
+- plant_garlic_bed3
+- harvest_garlic_bed3
+- sow_spinach_after_garlic
+- sow_bok_choi_after_garlic
+- plant_leeks_bed4
+- harvest_leeks_bed4
+- sow_bush_beans_bed4
+- sow_spinach_after_beans
+- sow_peas_hold_1
+- sow_peas_hold_2
+- sow_peas_hold_3
+- sow_peas_hold_4
+- sow_peas_hold_5
+- sow_peas_hold_6
+- sow_peas_hold_7_optional
+- sow_bok_choi_between_peas
+- sow_spinach_in_free_pea_sections
+- sow_bok_choi_in_free_pea_sections
+- sow_flex_bed
+- plant_nasturtium
+- sow_dill_near_greenhouse
+- plant_marigold_greenhouse
+- plant_tagetes_greenhouse
+- sow_greenhouse_edge_lettuce
+- plant_tomatoes_greenhouse
+- plant_cucumbers_greenhouse
+- plant_peppers_greenhouse
+- feed_greenhouse
+- sow_phacelia
+- cut_phacelia
+- prepare_beds_for_winter
+- prune_espalier_apples
+- prune_free_standing_apple
+- prune_pear
+- prune_plums
+- prune_cherry
+- prune_raspberries_after_harvest
+- prune_raspberries_winter
+- prune_possible_blackcurrants
+- sow_squash_indoors
+- plant_squash_outdoors
+- harvest_squash
 beds:
-  - id: bed1
-    name: Bed 1
-    size: 1 x 2 m
-    plan: Spinat → rødbeder → efterårsspinat
-  - id: bed2
-    name: Bed 2
-    size: 1 x 2 m
-    plan: Majs som forsøg
-  - id: bed3
-    name: Bed 3
-    size: 1 x 2 m
-    plan: Hvidløg → spinat/bok choi → hvidløg
-  - id: bed4
-    name: Bed 4
-    size: 1 x 2 m
-    plan: Porrer eller buskbønner
-  - id: small_bed
-    name: Lille bed
-    size: 0,5 x 1 m
-    plan: Fleksbed til ekstra bladgrønt og blomster
-  - id: long_bed
-    name: Langbed
-    size: 1 x 6 m
-    plan: Kontinuerlige ærter med bok choi mellem sektionerne
-  - id: greenhouse
-    name: Drivhus
-    plan: 4 tomater, 2 agurker, 2 peber i kapillærkasser
-  - id: fruit_and_berries
-    name: Frugt og bær
-    plan: 3 æbletræer (2 espalier, 1 fritstående), blommetræer, kirsebær, pære, hindbær og muligvis solbær
-  - id: squash
-    name: Squash
-    plan: Squash dyrkes uden for bedene
-
+- id: bed1
+  name: Bed 1
+  size: 1 x 2 m
+  plan: Spinat → gulerødder/rødbeder i delt bed → efterårsspinat eller honningurt
+- id: bed2
+  name: Bed 2
+  size: 1 x 2 m
+  plan: Rosenkål med tidlig spinat i ledige huller
+- id: bed3
+  name: Bed 3
+  size: 1 x 2 m
+  plan: Hvidløg → spinat/bok choi → hvidløg
+- id: bed4
+  name: Bed 4
+  size: 1 x 2 m
+  plan: Porrer eller buskbønner
+- id: small_bed
+  name: Lille bed
+  size: 0,5 x 1 m
+  plan: Fleksbed til ekstra bladgrønt og blomster
+- id: long_bed
+  name: Langbed
+  size: 1 x 6 m
+  plan: Kontinuerlige ærter med bok choi mellem sektionerne
+- id: greenhouse
+  name: Drivhus
+  plan: 4 tomater, 2 agurker, 2 peber i kapillærkasser
+- id: fruit_and_berries
+  name: Frugt og bær
+  plan: 3 æbletræer (2 espalier, 1 fritstående), blommetræer, kirsebær, pære, hindbær og muligvis solbær
+- id: squash
+  name: Squash
+  plan: Squash dyrkes uden for bedene
 events:
-  # Forberedelse og forkultivering
-  - id: check_seeds_and_soil
-    emoji: 🔎
-    action: Tjek
-    crop: frø og såjord
-    location: Frø og såjord
-    note: Kontrollér frøbeholdning og datoer, notér hvad der mangler, og find potter, såbakker, lys og frisk såjord frem. Det er en årlig engangsopgave.
-    start: 02-01
-  - id: sow_peppers_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: peber
-    location: Drivhus
-    note: Start tidligt; giv planterne godt lys.
-    start: 02-01
-    end: 02-14
-    repeat_days: 14
-  - id: prepare_greenhouse
-    emoji: 🧽
-    action: Klargør
-    crop: drivhus og kapillærkasser
-    location: Drivhus
-    note: Rengør, tjek vandforsyning og gør kasserne klar.
-    start: 02-15
-    end: 03-07
-    repeat_days: 14
-  - id: sow_leeks_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: porrer
-    location: Bed 4
-    note: Forspir porrer tidligt til udplantning i Bed 4.
-    start: 02-15
-    end: 03-01
-    repeat_days: 14
-  - id: sow_tomatoes_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: tomater
-    location: Drivhus
-    note: Så tomater og giv dem lys og varme.
-    start: 03-01
-    end: 03-14
-    repeat_days: 14
-  - id: sow_early_spinach_bed2
-    emoji: 🌱
-    action: Så eventuelt
-    crop: spinat
-    location: Bed 2
-    note: Brug bedet som hurtig forafgrøde, hvis majsplanen tillader det.
-    start: 03-15
-  - id: prick_and_care_seedlings
-    emoji: 🪴
-    action: Prikl og plej
-    crop: tomater og peber
-    location: Drivhus
-    note: Flyt stærke planter til større potter.
-    start: 04-01
-    end: 04-15
-    repeat_days: 14
-  - id: sow_cucumbers_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: agurker
-    location: Drivhus
-    note: Så få planter; agurker vokser hurtigt.
-    start: 04-01
-    end: 04-14
-    repeat_days: 14
-  - id: sow_maize_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: majs
-    location: Bed 2
-    note: Forspir i potter 2-3 uger før udplantning.
-    start: 04-15
-    end: 04-30
-    repeat_days: 14
-  - id: harden_off_plants
-    emoji: 🌤️
-    action: Hærd af
-    crop: planter
-    location: Drivhus/ude
-    note: Væn planterne gradvist til sol, vind og køligere nætter.
-    start: 04-15
-    end: 05-15
-    repeat_days: 14
-
-  # Bed 1: spinat, rødbeder og efterårsspinat
-  - id: sow_spinach_bed1
-    emoji: 🌱
-    action: Så
-    crop: spinat
-    location: Bed 1
-    note: Så tidligt, når jorden kan bearbejdes; gentag for en lille serie.
-    start: 03-01
-    end: 03-21
-    repeat_days: 14
-  - id: harvest_spinach_bed1
-    emoji: 🥬
-    action: Høst
-    crop: spinat
-    location: Bed 1
-    note: Start med babyblade, når de er cirka 8-10 cm. Pluk yderblade eller skær planten over kronen; høst hele planten, når den begynder at gå i stok.
-    start: 04-01
-    end: 05-31
-    repeat_days: 14
-  - id: harvest_late_spinach
-    emoji: 🥬
-    action: Høst
-    crop: spinat
-    location: Bed 1/Bed 3/Langbed
-    note: "Efter sommer- og efterårssåninger: pluk yderblade eller høst hele planter, mens bladene er friske og før hård frost."
-    start: 09-01
-    end: 10-31
-    repeat_days: 14
-  - id: sow_beets_bed1
-    emoji: 🌱
-    action: Så
-    crop: rødbeder
-    location: Bed 1
-    note: Så når den tidlige spinat er høstet eller går i stok.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-  - id: thin_beets_bed1
-    emoji: ✂️
-    action: Udtynd
-    crop: rødbeder
-    location: Bed 1
-    note: Udtynd i et par omgange og vand efter behov.
-    start: 06-15
-    end: 07-15
-    repeat_days: 14
-  - id: harvest_beets_bed1
-    emoji: 🥬
-    action: Høst
-    crop: rødbeder
-    location: Bed 1
-    note: Begynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne de største først, og vrid bladene af i stedet for at skære i roden.
-    start: 08-01
-    end: 09-30
-    repeat_days: 14
-  - id: sow_autumn_spinach_bed1
-    emoji: 🌱
-    action: Så
-    crop: efterårsspinat
-    location: Bed 1
-    note: Brug ledige huller efter rødbederne.
-    start: 08-15
-    end: 09-15
-    repeat_days: 14
-
-  # Bed 2: majs som forsøg
-  - id: plant_maize_bed2
-    emoji: 🌿
-    action: Plant ud
-    crop: majs
-    location: Bed 2
-    note: Plant i en blok på cirka 20-25 planter efter nattefrosten.
-    start: 05-15
-    end: 06-01
-    repeat_days: 14
-  - id: harvest_maize_bed2
-    emoji: 🌽
-    action: Høst
-    crop: majs
-    location: Bed 2
-    note: Høst når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft. Spis eller køl kolberne hurtigt efter høst.
-    start: 09-01
-    end: 09-30
-    repeat_days: 14
-  - id: clear_maize_bed2
-    emoji: 🧹
-    action: Ryd
-    crop: majs
-    location: Bed 2
-    note: Ryd efter høst og vælg honningurt eller vinterrug som dække.
-    start: 09-15
-    end: 10-15
-    repeat_days: 14
-
-  # Bed 3: hvidløg og hurtige efterårsafgrøder
-  - id: plant_garlic_bed3
-    emoji: 🧄
-    action: Sæt
-    crop: hvidløg
-    location: Bed 3
-    note: Sæt fed med spidsen opad; oktober er førstevalg.
-    start: 10-01
-    end: 11-15
-    repeat_days: 14
-  - id: harvest_garlic_bed3
-    emoji: 🧄
-    action: Høst
-    crop: hvidløg
-    location: Bed 3
-    note: Høst når 3-5 af de nederste blade er gule eller brune, mens resten stadig er grønne. Løsn med greb, og tør hvidløgene luftigt og tørt.
-    start: 07-01
-    end: 07-21
-    repeat_days: 14
-  - id: sow_spinach_after_garlic
-    emoji: 🌱
-    action: Så
-    crop: spinat efter hvidløg
-    location: Bed 3
-    note: Brug bedet til hurtige bladgrøntsager efter hvidløg.
-    start: 07-15
-    end: 08-15
-    repeat_days: 14
-  - id: sow_bok_choi_after_garlic
-    emoji: 🌱
-    action: Så eller plant
-    crop: bok choi efter hvidløg
-    location: Bed 3
-    note: Vælg bok choi i de ledige områder, hvis der er plads.
-    start: 07-15
-    end: 08-15
-    repeat_days: 14
-
-  # Bed 4: skift mellem porrer og buskbønner
-  - id: plant_leeks_bed4
-    emoji: 🌿
-    action: Plant ud
-    crop: porrer
-    location: Bed 4
-    mode: leeks
-    note: Plant når planterne er klar; hyp eller jorddæk let senere.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-  - id: earth_up_leeks_bed4
-    emoji: 🌿
-    action: Hyp eller jorddæk
-    crop: porrer
-    location: Bed 4
-    mode: leeks
-    note: Gør det let og gradvist, hvis sorten egner sig til det.
-    start: 07-01
-    end: 09-15
-    repeat_days: 14
-  - id: harvest_leeks_bed4
-    emoji: 🥬
-    action: Høst
-    crop: porrer
-    location: Bed 4
-    mode: leeks
-    note: Begynd når stænglerne er mindst finger-tykke, normalt fra efteråret. Løsn dem med en greb og høst efter behov; vinterfaste sorter kan blive stående, hvis jorden ikke er frossen.
-    start: 10-01
-    end: 12-15
-    repeat_days: 14
-  - id: sow_bush_beans_bed4
-    emoji: 🌱
-    action: Så
-    crop: buskbønner
-    location: Bed 4
-    mode: bush_beans
-    note: Så først når jorden er varm; gentag for en lille serie.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-  - id: harvest_bush_beans_bed4
-    emoji: 🫘
-    action: Høst
-    crop: buskbønner
-    location: Bed 4
-    mode: bush_beans
-    note: Høst løbende for at holde planterne produktive.
-    start: 07-15
-    end: 09-15
-    repeat_days: 14
-  - id: sow_spinach_after_beans
-    emoji: 🌱
-    action: Så
-    crop: spinat efter bønner
-    location: Bed 4
-    mode: bush_beans
-    note: Brug bedet igen, når bønnerne er ryddet.
-    start: 09-01
-    end: 09-15
-    repeat_days: 14
-
-  # Langbed: kontinuerlige ærter og bok choi
-  - id: sow_peas_hold_1
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 1
-    location: Langbed
-    note: Så cirka 60-80 cm; brug rionettet som støtte.
-    start: 03-01
-  - id: sow_peas_hold_2
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 2
-    location: Langbed
-    note: Så næste sektion cirka 2-3 uger efter hold 1.
-    start: 03-21
-  - id: sow_peas_hold_3
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 3
-    location: Langbed
-    note: Så næste sektion og lad plads til bok choi mellem holdene.
-    start: 04-11
-  - id: sow_peas_hold_4
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 4
-    location: Langbed
-    note: Fortsæt rækken i en ny sektion.
-    start: 05-02
-  - id: sow_peas_hold_5
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 5
-    location: Langbed
-    note: Så en ny sektion, hvis de tidlige hold trives.
-    start: 05-23
-  - id: sow_peas_hold_6
-    emoji: 🌱
-    action: Så
-    crop: ærter hold 6
-    location: Langbed
-    note: Sidste normale hold i den løbende forårssåning.
-    start: 06-13
-  - id: sow_peas_hold_7_optional
-    emoji: 🌱
-    action: Så eventuelt
-    crop: ærter hold 7
-    location: Langbed
-    enabled_by: optional_pea_hold_7
-    note: Prøv kun ved kølig sommer og ledig plads.
-    start: 07-04
-  - id: sow_bok_choi_between_peas
-    emoji: 🌱
-    action: Så eller plant
-    crop: bok choi
-    location: Langbed
-    note: Klem bok choi ind mellem ærtesektionerne.
-    start: 03-15
-    end: 06-30
-    repeat_days: 21
-  - id: cut_spent_peas
-    emoji: ✂️
-    action: Klip ved jorden
-    crop: færdige ærteplanter
-    location: Langbed
-    note: Lad rødderne blive i jorden og ryd kun toppen væk.
-    start: 06-15
-    end: 08-31
-    repeat_days: 14
-  - id: sow_spinach_in_free_pea_sections
-    emoji: 🌱
-    action: Så
-    crop: spinat
-    location: Langbed
-    note: Brug ledige sektioner efter ærter.
-    start: 08-01
-    end: 09-15
-    repeat_days: 14
-  - id: sow_bok_choi_in_free_pea_sections
-    emoji: 🌱
-    action: Så eller plant
-    crop: bok choi
-    location: Langbed
-    note: Brug ledige sektioner som hurtig efterafgrøde.
-    start: 08-01
-    end: 09-15
-    repeat_days: 14
-
-  # Lille fleksbed og enkel companion planting
-  - id: sow_flex_bed
-    emoji: 🌱
-    action: Så eventuelt
-    crop: ekstra spinat eller bok choi
-    location: Lille bed
-    note: Brug kun bedet til at fylde huller ud.
-    start: 03-15
-    end: 05-31
-    repeat_days: 21
-  - id: plant_nasturtium
-    emoji: 🌼
-    action: Så eller plant
-    crop: blomsterkarse
-    location: Lille bed/langbedets kant
-    note: Brug som dekorativ bladlusmagnet og spiselig blomst.
-    start: 04-15
-    end: 05-31
-    repeat_days: 21
-  - id: sow_dill_near_greenhouse
-    emoji: 🌿
-    action: Så
-    crop: dild
-    location: Drivhus/fleksbed
-    note: Så i små lommer nær tomater og agurker.
-    start: 03-15
-    end: 06-30
-    repeat_days: 21
-  - id: plant_marigold_greenhouse
-    emoji: 🌼
-    action: Plant
-    crop: morgenfrue
-    location: Drivhus
-    note: Plant i kanter ved tomater, agurker og peber.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-  - id: plant_tagetes_greenhouse
-    emoji: 🌼
-    action: Plant
-    crop: tagetes
-    location: Drivhus
-    note: Brug få kompakte planter ved tomater og peber.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-
-  # Drivhus: salat i kanterne og løbende pasning
-  - id: sow_greenhouse_edge_lettuce
-    emoji: 🌱
-    action: Så eller plant
-    crop: salat
-    location: Drivhuskanter
-    note: Så løbende og høst blad for blad.
-    start: 03-15
-    end: 09-15
-    repeat_days: 21
-  - id: plant_tomatoes_greenhouse
-    emoji: 🌿
-    action: Plant ud
-    crop: tomater
-    location: Drivhus
-    note: Plant efter nattefrost; brug cirka 4 kapillærkasser.
-    start: 05-15
-    end: 06-01
-    repeat_days: 14
-  - id: plant_cucumbers_greenhouse
-    emoji: 🥒
-    action: Plant ud
-    crop: agurker
-    location: Drivhus
-    note: Brug cirka 2 kapillærkasser og giv støtte.
-    start: 05-15
-    end: 06-01
-    repeat_days: 14
-  - id: plant_peppers_greenhouse
-    emoji: 🌶️
-    action: Plant ud
-    crop: peber
-    location: Drivhus
-    note: Brug cirka 2 kapillærkasser og plant efter kolde nætter.
-    start: 05-15
-    end: 06-15
-    repeat_days: 14
-  - id: check_capillary_boxes
-    emoji: 💧
-    action: Tjek vand
-    crop: kapillærkasser
-    location: Drivhus
-    note: Kontrollér vandstand og at planterne ikke tørrer ud.
-    start: 05-01
-    end: 09-30
-    repeat_days: 7
-  - id: air_greenhouse
-    emoji: 🌬️
-    action: Luft ud
-    crop: drivhus
-    location: Drivhus
-    note: Luft ud i varme perioder og luk før kolde nætter.
-    start: 05-01
-    end: 09-30
-    repeat_days: 7
-  - id: tie_tomatoes
-    emoji: 🪢
-    action: Bind op
-    crop: tomater
-    location: Drivhus
-    note: Bind planterne op, mens de vokser.
-    start: 06-01
-    end: 08-31
-    repeat_days: 14
-  - id: pinch_tomato_sideshoots
-    emoji: ✂️
-    action: Knib sideskud
-    crop: tomater
-    location: Drivhus
-    note: Gælder især indeterminante sorter.
-    start: 06-01
-    end: 08-31
-    repeat_days: 7
-  - id: feed_greenhouse
-    emoji: 🧴
-    action: Gød
-    crop: tomater, agurker og peber
-    location: Drivhus
-    note: Gød kun mens planterne vokser aktivt. Brug flydende tomat- eller grøntsagsgødning efter etiketten, typisk hver 1-2 uge i vandingsvandet.
-    start: 06-01
-    end: 09-15
-    repeat_days: 14
-  - id: inspect_greenhouse_pests
-    emoji: 🔍
-    action: Hold øje med
-    crop: bladlus og spindemider
-    location: Drivhus
-    note: Kig især på bladundersider og nye skud.
-    start: 06-01
-    end: 09-15
-    repeat_days: 7
-  - id: harvest_cucumbers
-    emoji: 🥒
-    action: Høst
-    crop: agurker
-    location: Drivhus
-    note: Høst ofte, så planterne bliver ved med at sætte frugt.
-    start: 07-01
-    end: 09-30
-    repeat_days: 7
-  - id: harvest_tomatoes
-    emoji: 🍅
-    action: Høst
-    crop: tomater
-    location: Drivhus
-    note: Høst modne frugter og fjern syge blade.
-    start: 07-15
-    end: 10-15
-    repeat_days: 7
-  - id: harvest_peppers
-    emoji: 🌶️
-    action: Høst
-    crop: peber
-    location: Drivhus
-    note: Høst grønne eller modne efter sort og behov.
-    start: 08-01
-    end: 10-15
-    repeat_days: 14
-  - id: clear_greenhouse
-    emoji: 🧹
-    action: Ryd
-    crop: drivhus
-    location: Drivhus
-    note: Fjern planterester, vask udstyr og tjek kapillærkasser.
-    start: 10-01
-    end: 11-01
-    repeat_days: 14
-
-  # Frugttræer, bærbuske og squash
-  - id: prune_espalier_apples
-    emoji: ✂️
-    action: Beskær
-    crop: æbletræer på hegn
-    location: Frugt og bær
-    note: Hold de to espalieræbler flade mod hegnet og bevar de vandrette hovedgrene. Klip lange sideskud tilbage, og fjern opret vækst, der bryder formen.
-    timing_note: Gør det typisk fra midt/slut august, når den nederste del af årets lange skud er blevet træagtig. Klip sideskud over den nederste bladroset og lad korte frugtsporer være; justér efter vækst og vejr.
-    start: 08-15
-    end: 09-15
-    repeat_days: 14
-  - id: prune_free_standing_apple
-    emoji: ✂️
-    action: Beskær
-    crop: fritstående æbletræ
-    location: Frugt og bær
-    note: Fjern døde, syge, krydsende og indadvendte grene. Tynd ud, så kronen får lys og luft, men undgå at give træet en hård "haircut".
-    timing_note: Beskær i vinterhvile, normalt mellem november og begyndelsen af marts, på en tør og frostfri dag. Tag højst cirka 10-20 procent af kronen på ét år.
-    start: 02-01
-    end: 03-01
-    repeat_days: 14
-  - id: prune_pear
-    emoji: ✂️
-    action: Beskær
-    crop: pæretræ
-    location: Frugt og bær
-    note: Fjern døde, syge, krydsende og indadvendte grene. Bevar en åben krone og beskær hellere lidt ad gangen end at fjerne mange store grene på én gang.
-    timing_note: Beskær i vinterhvile, typisk fra november til begyndelsen af marts, når træet er bladløst og vejret er tørt og frostfrit.
-    start: 02-01
-    end: 03-01
-    repeat_days: 14
-  - id: prune_plums
-    emoji: ✂️
-    action: Beskær
-    crop: blommetræer
-    location: Frugt og bær
-    note: Fjern døde, syge og grene, der krydser hinanden. Hold kronen åben og forkort kun lange, kraftige skud efter behov.
-    timing_note: Beskær etablerede blommetræer om sommeren, gerne efter høsten, og undgå vinterbeskæring og sen efterårsbeskæring på grund af risiko for sølvglans og bakteriekræft.
-    start: 07-15
-    end: 08-31
-    repeat_days: 14
-  - id: prune_cherry
-    emoji: ✂️
-    action: Beskær
-    crop: kirsebærtræ
-    location: Frugt og bær
-    note: Fjern døde, syge og uhensigtsmæssigt placerede grene, og hold træet luftigt og i en størrelse, hvor frugten kan nås. Lav rene snit tæt ved grenkraven.
-    timing_note: Beskær lige efter kirsebærhøsten, normalt i slutningen af juli eller i august, hvor risikoen for sølvglans og bakteriekræft er lavere.
-    start: 07-15
-    end: 08-31
-    repeat_days: 14
-  - id: prune_raspberries_after_harvest
-    emoji: ✂️
-    action: Beskær
-    crop: sommerhindbær
-    location: Frugt og bær
-    note: Brug kun dette event, hvis hindbærrene bærer på sidste års skud. Skær de brune, afblomstrede stængler helt ned efter høst, og behold de stærkeste grønne skud til næste år.
-    timing_note: Gør det straks efter høsten, typisk juli-september. Er sorten ukendt, så mærk først hvilke stængler der bar frugt, og klip kun disse væk.
-    start: 07-15
-    end: 09-15
-    repeat_days: 14
-  - id: prune_raspberries_winter
-    emoji: ✂️
-    action: Beskær
-    crop: efterårshindbær
-    location: Frugt og bær
-    note: Brug kun dette event, hvis hindbærrene bærer på årets skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd svage eller meget tætte nye skud.
-    timing_note: Gør det i februar, før den nye vækst tager fart. Hvis sorten er ukendt, så lad være med at skære alt ned, før du har afklaret om den er sommer- eller efterårsbærende.
-    start: 02-01
-    end: 03-01
-    repeat_days: 14
-  - id: prune_possible_blackcurrants
-    emoji: ✂️
-    action: Beskær forsigtigt
-    crop: bærbuske, muligvis solbær
-    location: Frugt og bær
-    note: Bekræft først at buskene faktisk er solbær. Hvis de er solbær, fjern op til en tredjedel af de ældste, mørke og tykke grene helt ved basis, samt svage, krydsende og nedadvendte grene.
-    timing_note: Vent til buskene er i vinterhvile, og beskær kun hårdt efter sikker identifikation. Hvis frugt eller blade ikke passer med solbær, nøjes med døde og tydeligt beskadigede grene.
-    start: 01-15
-    end: 03-01
-    repeat_days: 14
-  - id: sow_squash_indoors
-    emoji: 🌱
-    action: Forspir
-    crop: squash
-    location: Squash
-    note: Forspir én plante pr. potte med frøet på højkant. Squash vokser hurtigt, så så ikke for tidligt.
-    timing_note: Forspir først, når der er nok lys og varme til kraftige planter; planterne skal kunne plantes ud efter risikoen for nattefrost.
-    start: 04-15
-    end: 05-01
-    repeat_days: 14
-  - id: plant_squash_outdoors
-    emoji: 🌿
-    action: Plant ud
-    crop: squash
-    location: Squash
-    note: Plant ud med god plads og kompost omkring planten. Hærd planterne gradvist, og beskyt dem mod snegle i starten.
-    timing_note: Plant først ud efter nattefrosten, når jorden er lun og planterne er hærdede. Vent ved kold, våd eller meget blæsende vejr.
-    start: 05-15
-    end: 06-01
-    repeat_days: 14
-  - id: harvest_squash
-    emoji: 🥒
-    action: Høst
-    crop: squash
-    location: Squash
-    note: Skær frugterne af med en kort stilk, mens de er sprøde og i den ønskede størrelse. Hyppig høst holder planten produktiv; lad ikke mange frugter blive kæmpestore.
-    timing_note: Høst løbende efter størrelse og fasthed frem for datoen, helst på tørre dage. Kig efter nye frugter flere gange om ugen i højsæsonen.
-    start: 07-01
-    end: 09-30
-    repeat_days: 7
-    weather_mode: harvest
-
-  # Grøngødning og vinterdække
-  - id: sow_phacelia
-    emoji: 🌾
-    action: Så
-    crop: honningurt
-    location: Ledigt bed
-    note: Standardvalg på tomme bede fra sensommeren.
-    start: 08-15
-    end: 10-01
-    repeat_days: 14
-  - id: cut_phacelia
-    emoji: 🌾
-    action: Klip eller nedmulch
-    crop: honningurt
-    location: Ledigt bed
-    note: Klip før frøene modner, gerne når blomstringen er ved at være ovre. Lad materialet ligge som jorddække eller fjern det, hvis bedet snart skal bruges.
-    start: 10-01
-    end: 11-01
-    repeat_days: 14
-  - id: sow_winter_rye
-    emoji: 🌾
-    action: Så
-    crop: vinterrug
-    location: Bed der ellers står bart
-    note: Brug kun vinterrug, hvis bedet skal dækkes hele vinteren.
-    start: 09-15
-    end: 10-15
-    repeat_days: 14
-  - id: cut_winter_rye
-    emoji: 🌾
-    action: Klip eller nedmulch
-    crop: vinterrug
-    location: Bed der skal dyrkes igen
-    note: Klip i foråret før frøsætning. Lad materialet visne, og fjern eller bland det let i jorden 2-3 uger før ny såning.
-    start: 03-01
-    end: 04-01
-    repeat_days: 14
-  - id: prepare_beds_for_winter
-    emoji: 🍂
-    action: Klargør
-    crop: kompost og jorddække
-    location: Udendørs bede
-    note: Fjern syge planter, lad sunde rødder blive hvor muligt, fyld eventuelt kompost på, og dæk bar jord med blade, kompost eller andet jorddække.
-    start: 10-15
-    end: 11-15
-    repeat_days: 14
+- id: check_seeds_and_soil
+  emoji: 🔎
+  action: Tjek
+  crop: frø og såjord
+  location: Frø og såjord
+  note: Kontrollér frøbeholdning og datoer, notér hvad der mangler, og find potter, såbakker, lys og frisk såjord frem. Det er en årlig engangsopgave.
+  start: 02-01
+- id: sow_peppers_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: peber
+  location: Drivhus
+  note: Start tidligt; giv planterne godt lys.
+  start: 02-01
+  end: 02-14
+  repeat_days: 14
+- id: prepare_greenhouse
+  emoji: 🧽
+  action: Klargør
+  crop: drivhus og kapillærkasser
+  location: Drivhus
+  note: Rengør, tjek vandforsyning og gør kasserne klar.
+  start: 02-15
+  end: 03-07
+  repeat_days: 14
+- id: sow_leeks_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: porrer
+  location: Bed 4
+  note: Forspir porrer tidligt til udplantning i Bed 4.
+  start: 02-15
+  end: 03-01
+  repeat_days: 14
+- id: sow_tomatoes_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: tomater
+  location: Drivhus
+  note: Så tomater og giv dem lys og varme.
+  start: 03-01
+  end: 03-14
+  repeat_days: 14
+- id: sow_early_spinach_bed2
+  emoji: 🌱
+  action: Så eventuelt
+  crop: spinat
+  location: Bed 2
+  note: Så tidlig spinat i ledige huller som forafgrøde, før rosenkålene fylder bedet.
+  start: 03-15
+- id: sow_brussels_sprouts_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: rosenkål
+  location: Bed 2
+  note: Forspir få planter til Bed 2. Rosenkål fylder længe, så sigt efter 2-3 stærke planter frem for et helt tæt bed.
+  start: 03-15
+  end: 04-01
+  repeat_days: 14
+- id: plant_brussels_sprouts_bed2
+  emoji: 🌿
+  action: Plant ud
+  crop: rosenkål
+  location: Bed 2
+  note: Plant 2-3 rosenkål langs den ene side af bedet efter hærdning. Brug resten af pladsen til tidlig spinat, indtil rosenkålene fylder mere.
+  start: 05-01
+  end: 05-20
+  repeat_days: 14
+  weather_mode: outdoor_plant
+- id: harvest_brussels_sprouts_bed2
+  emoji: 🥬
+  action: Høst
+  crop: rosenkål
+  location: Bed 2
+  note: Høst de nederste faste knopper først og arbejd op ad stokken. Lad planterne stå gennem efterår og tidlig vinter, så længe kvaliteten er god.
+  start: 10-01
+  end: 12-15
+  repeat_days: 14
+  weather_mode: harvest
+- id: prick_and_care_seedlings
+  emoji: 🪴
+  action: Prikl og plej
+  crop: tomater og peber
+  location: Drivhus
+  note: Flyt stærke planter til større potter.
+  start: 04-01
+  end: 04-15
+  repeat_days: 14
+- id: sow_cucumbers_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: agurker
+  location: Drivhus
+  note: Så få planter; agurker vokser hurtigt.
+  start: 04-01
+  end: 04-14
+  repeat_days: 14
+- id: sow_maize_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: majs
+  location: Bed 2
+  note: Forspir i potter 2-3 uger før udplantning.
+  start: 04-15
+  end: 04-30
+  repeat_days: 14
+- id: harden_off_plants
+  emoji: 🌤️
+  action: Hærd af
+  crop: planter
+  location: Drivhus/ude
+  note: Væn planterne gradvist til sol, vind og køligere nætter.
+  start: 04-15
+  end: 05-15
+  repeat_days: 14
+- id: sow_spinach_bed1
+  emoji: 🌱
+  action: Så
+  crop: spinat
+  location: Bed 1
+  note: Så tidligt, når jorden kan bearbejdes; gentag for en lille serie.
+  start: 03-01
+  end: 03-21
+  repeat_days: 14
+- id: harvest_spinach_bed1
+  emoji: 🥬
+  action: Høst
+  crop: spinat
+  location: Bed 1
+  note: Start med babyblade, når de er cirka 8-10 cm. Pluk yderblade eller skær planten over kronen; høst hele planten, når den begynder at gå i stok.
+  start: 04-01
+  end: 05-31
+  repeat_days: 14
+- id: sow_carrots_bed1
+  emoji: 🥕
+  action: Så
+  crop: gulerødder
+  location: Bed 1
+  note: Sæt en fast gulerodssektion af efter den tidlige spinat. Del resten af bedet med rødbeder, så begge afgrøder kan nås uden at tage et helt bed hver.
+  start: 04-15
+  end: 05-15
+  repeat_days: 14
+  weather_mode: outdoor_sow
+- id: thin_carrots_bed1
+  emoji: ✂️
+  action: Udtynd
+  crop: gulerødder
+  location: Bed 1
+  note: Udtynd forsigtigt, når planterne står for tæt. Vand først, hvis jorden er tør, og fjern ukrudt mens planterne er små.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: harvest_carrots_bed1
+  emoji: 🥕
+  action: Høst
+  crop: gulerødder
+  location: Bed 1
+  note: Prøvehøst først. Tag de største, når skuldrene har passende størrelse, og lad resten vokse videre så længe kvaliteten er god.
+  start: 08-15
+  end: 10-15
+  repeat_days: 14
+  weather_mode: harvest
+- id: harvest_late_spinach
+  emoji: 🥬
+  action: Høst
+  crop: spinat
+  location: Bed 1/Bed 3/Langbed
+  note: 'Efter sommer- og efterårssåninger: pluk yderblade eller høst hele planter, mens bladene er friske og før hård frost.'
+  start: 09-01
+  end: 10-31
+  repeat_days: 14
+- id: sow_beets_bed1
+  emoji: 🌱
+  action: Så
+  crop: rødbeder
+  location: Bed 1
+  note: Så rødbeder i den anden del af Bed 1, eller i huller efter den tidligste spinat. Hold gulerødder og rødbeder som to tydelige sektioner, så udtynding og høst er nemt.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: thin_beets_bed1
+  emoji: ✂️
+  action: Udtynd
+  crop: rødbeder
+  location: Bed 1
+  note: Udtynd i et par omgange og vand efter behov.
+  start: 06-15
+  end: 07-15
+  repeat_days: 14
+- id: harvest_beets_bed1
+  emoji: 🥬
+  action: Høst
+  crop: rødbeder
+  location: Bed 1
+  note: Begynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne de største først, og vrid bladene af i stedet for at skære i roden.
+  start: 08-01
+  end: 09-30
+  repeat_days: 14
+- id: sow_autumn_spinach_bed1
+  emoji: 🌱
+  action: Så
+  crop: efterårsspinat
+  location: Bed 1
+  note: Brug ledige huller efter gulerødder og rødbeder. Hvis større dele ryddes tidligt, kan honningurt vælges i stedet som standard vinterdække.
+  start: 08-15
+  end: 09-15
+  repeat_days: 14
+- id: plant_maize_bed2
+  emoji: 🌿
+  action: Plant ud
+  crop: majs
+  location: Bed 2
+  note: Plant i en blok på cirka 20-25 planter efter nattefrosten.
+  start: 05-15
+  end: 06-01
+  repeat_days: 14
+- id: harvest_maize_bed2
+  emoji: 🌽
+  action: Høst
+  crop: majs
+  location: Bed 2
+  note: Høst når trådene er brune, og en kerne klemt med en negl giver mælkehvid saft. Spis eller køl kolberne hurtigt efter høst.
+  start: 09-01
+  end: 09-30
+  repeat_days: 14
+- id: clear_maize_bed2
+  emoji: 🧹
+  action: Ryd
+  crop: majs
+  location: Bed 2
+  note: Ryd efter høst og vælg honningurt eller vinterrug som dække.
+  start: 09-15
+  end: 10-15
+  repeat_days: 14
+- id: plant_garlic_bed3
+  emoji: 🧄
+  action: Sæt
+  crop: hvidløg
+  location: Bed 3
+  note: Sæt fed med spidsen opad; oktober er førstevalg.
+  start: 10-01
+  end: 11-15
+  repeat_days: 14
+- id: harvest_garlic_bed3
+  emoji: 🧄
+  action: Høst
+  crop: hvidløg
+  location: Bed 3
+  note: Høst når 3-5 af de nederste blade er gule eller brune, mens resten stadig er grønne. Løsn med greb, og tør hvidløgene luftigt og tørt.
+  start: 07-01
+  end: 07-21
+  repeat_days: 14
+- id: sow_spinach_after_garlic
+  emoji: 🌱
+  action: Så
+  crop: spinat efter hvidløg
+  location: Bed 3
+  note: Brug bedet til hurtige bladgrøntsager efter hvidløg.
+  start: 07-15
+  end: 08-15
+  repeat_days: 14
+- id: sow_bok_choi_after_garlic
+  emoji: 🌱
+  action: Så eller plant
+  crop: bok choi efter hvidløg
+  location: Bed 3
+  note: Vælg bok choi i de ledige områder, hvis der er plads.
+  start: 07-15
+  end: 08-15
+  repeat_days: 14
+- id: plant_leeks_bed4
+  emoji: 🌿
+  action: Plant ud
+  crop: porrer
+  location: Bed 4
+  mode: leeks
+  note: Plant når planterne er klar; hyp eller jorddæk let senere.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: earth_up_leeks_bed4
+  emoji: 🌿
+  action: Hyp eller jorddæk
+  crop: porrer
+  location: Bed 4
+  mode: leeks
+  note: Gør det let og gradvist, hvis sorten egner sig til det.
+  start: 07-01
+  end: 09-15
+  repeat_days: 14
+- id: harvest_leeks_bed4
+  emoji: 🥬
+  action: Høst
+  crop: porrer
+  location: Bed 4
+  mode: leeks
+  note: Begynd når stænglerne er mindst finger-tykke, normalt fra efteråret. Løsn dem med en greb og høst efter behov; vinterfaste sorter kan blive stående, hvis jorden ikke er frossen.
+  start: 10-01
+  end: 12-15
+  repeat_days: 14
+- id: sow_bush_beans_bed4
+  emoji: 🌱
+  action: Så
+  crop: buskbønner
+  location: Bed 4
+  mode: bush_beans
+  note: Så først når jorden er varm; gentag for en lille serie.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: harvest_bush_beans_bed4
+  emoji: 🫘
+  action: Høst
+  crop: buskbønner
+  location: Bed 4
+  mode: bush_beans
+  note: Høst løbende for at holde planterne produktive.
+  start: 07-15
+  end: 09-15
+  repeat_days: 14
+- id: sow_spinach_after_beans
+  emoji: 🌱
+  action: Så
+  crop: spinat efter bønner
+  location: Bed 4
+  mode: bush_beans
+  note: Brug bedet igen, når bønnerne er ryddet.
+  start: 09-01
+  end: 09-15
+  repeat_days: 14
+- id: sow_peas_hold_1
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 1
+  location: Langbed
+  note: Så cirka 60-80 cm; brug rionettet som støtte.
+  start: 03-01
+- id: sow_peas_hold_2
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 2
+  location: Langbed
+  note: Så næste sektion cirka 2-3 uger efter hold 1.
+  start: 03-21
+- id: sow_peas_hold_3
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 3
+  location: Langbed
+  note: Så næste sektion og lad plads til bok choi mellem holdene.
+  start: 04-11
+- id: sow_peas_hold_4
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 4
+  location: Langbed
+  note: Fortsæt rækken i en ny sektion.
+  start: 05-02
+- id: sow_peas_hold_5
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 5
+  location: Langbed
+  note: Så en ny sektion, hvis de tidlige hold trives.
+  start: 05-23
+- id: sow_peas_hold_6
+  emoji: 🌱
+  action: Så
+  crop: ærter hold 6
+  location: Langbed
+  note: Sidste normale hold i den løbende forårssåning.
+  start: 06-13
+- id: sow_peas_hold_7_optional
+  emoji: 🌱
+  action: Så eventuelt
+  crop: ærter hold 7
+  location: Langbed
+  enabled_by: optional_pea_hold_7
+  note: Prøv kun ved kølig sommer og ledig plads.
+  start: 07-04
+- id: sow_bok_choi_between_peas
+  emoji: 🌱
+  action: Så eller plant
+  crop: bok choi
+  location: Langbed
+  note: Klem bok choi ind mellem ærtesektionerne.
+  start: 03-15
+  end: 06-30
+  repeat_days: 21
+- id: cut_spent_peas
+  emoji: ✂️
+  action: Klip ved jorden
+  crop: færdige ærteplanter
+  location: Langbed
+  note: Lad rødderne blive i jorden og ryd kun toppen væk.
+  start: 06-15
+  end: 08-31
+  repeat_days: 14
+- id: sow_spinach_in_free_pea_sections
+  emoji: 🌱
+  action: Så
+  crop: spinat
+  location: Langbed
+  note: Brug ledige sektioner efter ærter.
+  start: 08-01
+  end: 09-15
+  repeat_days: 14
+- id: sow_bok_choi_in_free_pea_sections
+  emoji: 🌱
+  action: Så eller plant
+  crop: bok choi
+  location: Langbed
+  note: Brug ledige sektioner som hurtig efterafgrøde.
+  start: 08-01
+  end: 09-15
+  repeat_days: 14
+- id: sow_flex_bed
+  emoji: 🌱
+  action: Så eventuelt
+  crop: ekstra spinat eller bok choi
+  location: Lille bed
+  note: Brug kun bedet til at fylde huller ud.
+  start: 03-15
+  end: 05-31
+  repeat_days: 21
+- id: plant_nasturtium
+  emoji: 🌼
+  action: Så eller plant
+  crop: blomsterkarse
+  location: Lille bed/langbedets kant
+  note: Brug som dekorativ bladlusmagnet og spiselig blomst.
+  start: 04-15
+  end: 05-31
+  repeat_days: 21
+- id: sow_dill_near_greenhouse
+  emoji: 🌿
+  action: Så
+  crop: dild
+  location: Drivhus/fleksbed
+  note: Så i små lommer nær tomater og agurker.
+  start: 03-15
+  end: 06-30
+  repeat_days: 21
+- id: plant_marigold_greenhouse
+  emoji: 🌼
+  action: Plant
+  crop: morgenfrue
+  location: Drivhus
+  note: Plant i kanter ved tomater, agurker og peber.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: plant_tagetes_greenhouse
+  emoji: 🌼
+  action: Plant
+  crop: tagetes
+  location: Drivhus
+  note: Brug få kompakte planter ved tomater og peber.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: sow_greenhouse_edge_lettuce
+  emoji: 🌱
+  action: Så eller plant
+  crop: salat
+  location: Drivhuskanter
+  note: Så løbende og høst blad for blad.
+  start: 03-15
+  end: 09-15
+  repeat_days: 21
+- id: plant_tomatoes_greenhouse
+  emoji: 🌿
+  action: Plant ud
+  crop: tomater
+  location: Drivhus
+  note: Plant efter nattefrost; brug cirka 4 kapillærkasser.
+  start: 05-15
+  end: 06-01
+  repeat_days: 14
+- id: plant_cucumbers_greenhouse
+  emoji: 🥒
+  action: Plant ud
+  crop: agurker
+  location: Drivhus
+  note: Brug cirka 2 kapillærkasser og giv støtte.
+  start: 05-15
+  end: 06-01
+  repeat_days: 14
+- id: plant_peppers_greenhouse
+  emoji: 🌶️
+  action: Plant ud
+  crop: peber
+  location: Drivhus
+  note: Brug cirka 2 kapillærkasser og plant efter kolde nætter.
+  start: 05-15
+  end: 06-15
+  repeat_days: 14
+- id: check_capillary_boxes
+  emoji: 💧
+  action: Tjek vand
+  crop: kapillærkasser
+  location: Drivhus
+  note: Kontrollér vandstand og at planterne ikke tørrer ud.
+  start: 05-01
+  end: 09-30
+  repeat_days: 7
+- id: air_greenhouse
+  emoji: 🌬️
+  action: Luft ud
+  crop: drivhus
+  location: Drivhus
+  note: Luft ud i varme perioder og luk før kolde nætter.
+  start: 05-01
+  end: 09-30
+  repeat_days: 7
+- id: tie_tomatoes
+  emoji: 🪢
+  action: Bind op
+  crop: tomater
+  location: Drivhus
+  note: Bind planterne op, mens de vokser.
+  start: 06-01
+  end: 08-31
+  repeat_days: 14
+- id: pinch_tomato_sideshoots
+  emoji: ✂️
+  action: Knib sideskud
+  crop: tomater
+  location: Drivhus
+  note: Gælder især indeterminante sorter.
+  start: 06-01
+  end: 08-31
+  repeat_days: 7
+- id: feed_greenhouse
+  emoji: 🧴
+  action: Gød
+  crop: tomater, agurker og peber
+  location: Drivhus
+  note: Gød kun mens planterne vokser aktivt. Brug flydende tomat- eller grøntsagsgødning efter etiketten, typisk hver 1-2 uge i vandingsvandet.
+  start: 06-01
+  end: 09-15
+  repeat_days: 14
+- id: inspect_greenhouse_pests
+  emoji: 🔍
+  action: Hold øje med
+  crop: bladlus og spindemider
+  location: Drivhus
+  note: Kig især på bladundersider og nye skud.
+  start: 06-01
+  end: 09-15
+  repeat_days: 7
+- id: harvest_cucumbers
+  emoji: 🥒
+  action: Høst
+  crop: agurker
+  location: Drivhus
+  note: Høst ofte, så planterne bliver ved med at sætte frugt.
+  start: 07-01
+  end: 09-30
+  repeat_days: 7
+- id: harvest_tomatoes
+  emoji: 🍅
+  action: Høst
+  crop: tomater
+  location: Drivhus
+  note: Høst modne frugter og fjern syge blade.
+  start: 07-15
+  end: 10-15
+  repeat_days: 7
+- id: harvest_peppers
+  emoji: 🌶️
+  action: Høst
+  crop: peber
+  location: Drivhus
+  note: Høst grønne eller modne efter sort og behov.
+  start: 08-01
+  end: 10-15
+  repeat_days: 14
+- id: clear_greenhouse
+  emoji: 🧹
+  action: Ryd
+  crop: drivhus
+  location: Drivhus
+  note: Fjern planterester, vask udstyr og tjek kapillærkasser.
+  start: 10-01
+  end: 11-01
+  repeat_days: 14
+- id: prune_espalier_apples
+  emoji: ✂️
+  action: Beskær
+  crop: æbletræer på hegn
+  location: Frugt og bær
+  note: Hold de to espalieræbler flade mod hegnet og bevar de vandrette hovedgrene. Klip lange sideskud tilbage, og fjern opret vækst, der bryder formen.
+  timing_note: Gør det typisk fra midt/slut august, når den nederste del af årets lange skud er blevet træagtig. Klip sideskud over den nederste bladroset og lad korte frugtsporer være; justér efter vækst og vejr.
+  start: 08-15
+  end: 09-15
+  repeat_days: 14
+- id: prune_free_standing_apple
+  emoji: ✂️
+  action: Beskær
+  crop: fritstående æbletræ
+  location: Frugt og bær
+  note: Fjern døde, syge, krydsende og indadvendte grene. Tynd ud, så kronen får lys og luft, men undgå at give træet en hård "haircut".
+  timing_note: Beskær i vinterhvile, normalt mellem november og begyndelsen af marts, på en tør og frostfri dag. Tag højst cirka 10-20 procent af kronen på ét år.
+  start: 02-01
+  end: 03-01
+  repeat_days: 14
+- id: prune_pear
+  emoji: ✂️
+  action: Beskær
+  crop: pæretræ
+  location: Frugt og bær
+  note: Fjern døde, syge, krydsende og indadvendte grene. Bevar en åben krone og beskær hellere lidt ad gangen end at fjerne mange store grene på én gang.
+  timing_note: Beskær i vinterhvile, typisk fra november til begyndelsen af marts, når træet er bladløst og vejret er tørt og frostfrit.
+  start: 02-01
+  end: 03-01
+  repeat_days: 14
+- id: prune_plums
+  emoji: ✂️
+  action: Beskær
+  crop: blommetræer
+  location: Frugt og bær
+  note: Fjern døde, syge og grene, der krydser hinanden. Hold kronen åben og forkort kun lange, kraftige skud efter behov.
+  timing_note: Beskær etablerede blommetræer om sommeren, gerne efter høsten, og undgå vinterbeskæring og sen efterårsbeskæring på grund af risiko for sølvglans og bakteriekræft.
+  start: 07-15
+  end: 08-31
+  repeat_days: 14
+- id: prune_cherry
+  emoji: ✂️
+  action: Beskær
+  crop: kirsebærtræ
+  location: Frugt og bær
+  note: Fjern døde, syge og uhensigtsmæssigt placerede grene, og hold træet luftigt og i en størrelse, hvor frugten kan nås. Lav rene snit tæt ved grenkraven.
+  timing_note: Beskær lige efter kirsebærhøsten, normalt i slutningen af juli eller i august, hvor risikoen for sølvglans og bakteriekræft er lavere.
+  start: 07-15
+  end: 08-31
+  repeat_days: 14
+- id: prune_raspberries_after_harvest
+  emoji: ✂️
+  action: Beskær
+  crop: sommerhindbær
+  location: Frugt og bær
+  note: Brug kun dette event, hvis hindbærrene bærer på sidste års skud. Skær de brune, afblomstrede stængler helt ned efter høst, og behold de stærkeste grønne skud til næste år.
+  timing_note: Gør det straks efter høsten, typisk juli-september. Er sorten ukendt, så mærk først hvilke stængler der bar frugt, og klip kun disse væk.
+  start: 07-15
+  end: 09-15
+  repeat_days: 14
+- id: prune_raspberries_winter
+  emoji: ✂️
+  action: Beskær
+  crop: efterårshindbær
+  location: Frugt og bær
+  note: Brug kun dette event, hvis hindbærrene bærer på årets skud. Skær de gamle frugtede stængler ned til jordoverfladen og tynd svage eller meget tætte nye skud.
+  timing_note: Gør det i februar, før den nye vækst tager fart. Hvis sorten er ukendt, så lad være med at skære alt ned, før du har afklaret om den er sommer- eller efterårsbærende.
+  start: 02-01
+  end: 03-01
+  repeat_days: 14
+- id: prune_possible_blackcurrants
+  emoji: ✂️
+  action: Beskær forsigtigt
+  crop: bærbuske, muligvis solbær
+  location: Frugt og bær
+  note: Bekræft først at buskene faktisk er solbær. Hvis de er solbær, fjern op til en tredjedel af de ældste, mørke og tykke grene helt ved basis, samt svage, krydsende og nedadvendte grene.
+  timing_note: Vent til buskene er i vinterhvile, og beskær kun hårdt efter sikker identifikation. Hvis frugt eller blade ikke passer med solbær, nøjes med døde og tydeligt beskadigede grene.
+  start: 01-15
+  end: 03-01
+  repeat_days: 14
+- id: sow_squash_indoors
+  emoji: 🌱
+  action: Forspir
+  crop: squash
+  location: Squash
+  note: Forspir én plante pr. potte med frøet på højkant. Squash vokser hurtigt, så så ikke for tidligt.
+  timing_note: Forspir først, når der er nok lys og varme til kraftige planter; planterne skal kunne plantes ud efter risikoen for nattefrost.
+  start: 04-15
+  end: 05-01
+  repeat_days: 14
+- id: plant_squash_outdoors
+  emoji: 🌿
+  action: Plant ud
+  crop: squash
+  location: Squash
+  note: Plant ud med god plads og kompost omkring planten. Hærd planterne gradvist, og beskyt dem mod snegle i starten.
+  timing_note: Plant først ud efter nattefrosten, når jorden er lun og planterne er hærdede. Vent ved kold, våd eller meget blæsende vejr.
+  start: 05-15
+  end: 06-01
+  repeat_days: 14
+- id: harvest_squash
+  emoji: 🥒
+  action: Høst
+  crop: squash
+  location: Squash
+  note: Skær frugterne af med en kort stilk, mens de er sprøde og i den ønskede størrelse. Hyppig høst holder planten produktiv; lad ikke mange frugter blive kæmpestore.
+  timing_note: Høst løbende efter størrelse og fasthed frem for datoen, helst på tørre dage. Kig efter nye frugter flere gange om ugen i højsæsonen.
+  start: 07-01
+  end: 09-30
+  repeat_days: 7
+  weather_mode: harvest
+- id: sow_phacelia
+  emoji: 🌾
+  action: Så
+  crop: honningurt
+  location: Ledigt bed
+  note: Standardvalg på tomme bede fra sensommeren. Prioritér honningurt over vinterrug, især i bede der ryddes i august eller september.
+  start: 08-15
+  end: 09-30
+  repeat_days: 14
+- id: cut_phacelia
+  emoji: 🌾
+  action: Klip eller nedmulch
+  crop: honningurt
+  location: Ledigt bed
+  note: Klip før frøene modner, gerne når blomstringen er ved at være ovre. Lad materialet ligge som jorddække eller fjern det, hvis bedet snart skal bruges.
+  start: 10-01
+  end: 11-01
+  repeat_days: 14
+- id: sow_winter_rye
+  emoji: 🌾
+  action: Så
+  crop: vinterrug
+  location: Bed der ellers står bart
+  note: Fallback hvis honningurt ikke er mulig, og du faktisk har vinterrug. Ellers brug honningurt tidligt eller kompost/blade som jorddække senere.
+  start: 09-15
+  end: 10-15
+  repeat_days: 14
+- id: cut_winter_rye
+  emoji: 🌾
+  action: Klip eller nedmulch
+  crop: vinterrug
+  location: Bed der skal dyrkes igen
+  note: Klip i foråret før frøsætning. Lad materialet visne, og fjern eller bland det let i jorden 2-3 uger før ny såning.
+  start: 03-01
+  end: 04-01
+  repeat_days: 14
+- id: prepare_beds_for_winter
+  emoji: 🍂
+  action: Klargør
+  crop: kompost og jorddække
+  location: Udendørs bede
+  note: Fjern syge planter, lad sunde rødder blive hvor muligt, fyld eventuelt kompost på, og dæk bar jord med blade, kompost eller andet jorddække. Brug dette især dér, hvor det er blevet for sent til honningurt.
+  start: 10-15
+  end: 11-15
+  repeat_days: 14
