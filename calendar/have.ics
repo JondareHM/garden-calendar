@@ -605,14 +605,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:2cb02be0a32315cb91974e1d@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
 DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
  ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
  sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.\nVejrtilpasning: Flyttet
-  fra 03-09 til 05-09 ud fra vejrprognosen for postnummer 5485.
+ ning lige før kold eller meget våd vejrperiode.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -627,14 +626,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:b7dc960d950da1d7ae1c2088@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260905
-DTEND;VALUE=DATE:20260906
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
- ra 03-09 til 05-09 ud fra vejrprognosen for postnummer 5485.
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -735,75 +733,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9c809d123ba5d30c8912db05@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:🌾 Så eventuelt honningurt efter spinat – Bed 4
-DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt efter spinat\nPla
- cering: Bed 4\nNote: Prioritér honningurt i dele af bedet\, der ryddes ti
- dligt nok. Hvis spinaten fortsætter ind i oktober\, så drop såning og b
- rug kompost/blade som vinterdække senere.\nHvornår: Så kun i et ryddet 
- område\, hvis det skal stå dækket\; vælg en dag med tjenlig jord og re
- gn nok til fremspiring.
-LOCATION:Bed 4
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌾 Så eventuelt honningurt efter spinat – Bed 4
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:79c62e1bedfb7e9e9aeccdaa@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
-DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ledige sektione
- r\nPlacering: Langbed\nNote: Prioritér honningurt i færdige sektioner\, 
- der er ryddet tidligt nok. Lad bok choi og spinat fortsætte\, hvor de sta
- dig fylder\, og brug jorddække efter sidste høst.\nHvornår: Så kun i e
- t ryddet område\, hvis det skal stå dækket\; vælg en dag med tjenlig j
- ord og regn nok til fremspiring.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:dbde75428a4d9d03797a15aa@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
-DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ryddede dele\nP
- lacering: Bed 2\nNote: Prioritér honningurt\, hvis større dele af bedet 
- er ryddet inden midt/slut september. Hvis porrerne fortsat fylder\, så la
- d dem stå og brug kompost/blade efter sidste høst i stedet.\nHvornår: S
- å kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag med
-  tjenlig jord og regn nok til fremspiring.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:33ff7b10c87d715dac68fcb7@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -865,6 +794,78 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst spinat – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c809d123ba5d30c8912db05@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🌾 Så eventuelt honningurt efter spinat – Bed 4
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt efter spinat\nPla
+ cering: Bed 4\nNote: Prioritér honningurt i dele af bedet\, der ryddes ti
+ dligt nok. Hvis spinaten fortsætter ind i oktober\, så drop såning og b
+ rug kompost/blade som vinterdække senere.\nHvornår: Så kun i et ryddet 
+ område\, hvis det skal stå dækket\; vælg en dag med tjenlig jord og re
+ gn nok til fremspiring.\nVejrtilpasning: Flyttet fra 15-09 til 16-09 ud fr
+ a vejrprognosen for postnummer 5485.
+LOCATION:Bed 4
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt efter spinat – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:79c62e1bedfb7e9e9aeccdaa@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ledige sektione
+ r\nPlacering: Langbed\nNote: Prioritér honningurt i færdige sektioner\, 
+ der er ryddet tidligt nok. Lad bok choi og spinat fortsætte\, hvor de sta
+ dig fylder\, og brug jorddække efter sidste høst.\nHvornår: Så kun i e
+ t ryddet område\, hvis det skal stå dækket\; vælg en dag med tjenlig j
+ ord og regn nok til fremspiring.\nVejrtilpasning: Flyttet fra 15-09 til 16
+ -09 ud fra vejrprognosen for postnummer 5485.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt i ledige sektioner – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dbde75428a4d9d03797a15aa@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
+DESCRIPTION:Handling: Så eventuelt\nAfgrøde: honningurt i ryddede dele\nP
+ lacering: Bed 2\nNote: Prioritér honningurt\, hvis større dele af bedet 
+ er ryddet inden midt/slut september. Hvis porrerne fortsat fylder\, så la
+ d dem stå og brug kompost/blade efter sidste høst i stedet.\nHvornår: S
+ å kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag med
+  tjenlig jord og regn nok til fremspiring.\nVejrtilpasning: Flyttet fra 15
+ -09 til 16-09 ud fra vejrprognosen for postnummer 5485.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så eventuelt honningurt i ryddede dele – Bed 2
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4349,6 +4350,70 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c22453b362029d0f544b4bf0@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:🌱 Så eller plant bok choi – Langbed
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
+ ed\nNote: Brug ledige sektioner som hurtig efterafgrøde.\nHvornår: Så e
+ ller plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold 
+ øje med udtørring og stokløbning.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant bok choi – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5719c9f6861d450e3f8b7bc@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:🌱 Så spinat – Langbed
+DESCRIPTION:Handling: Så\nAfgrøde: spinat\nPlacering: Langbed\nNote: Brug
+  ledige sektioner efter ærter.\nHvornår: Så\, når jorden er fugtig og 
+ bearbejdelig\; undgå vandmættet jord og beskyt de nye planter ved udsigt
+  til tørke.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så spinat – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b06f6ee9ee784d3382f3aa37@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:🥬 Høst rødbeder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: B
+ egynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne d
+ e største først\, og vrid bladene af i stedet for at skære i roden.\nHv
+ ornår: Prøvehøst de største først\; rødderne kan blive stående\, s
+ å længe de har passende størrelse og jorden ikke er frossen.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst rødbeder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
