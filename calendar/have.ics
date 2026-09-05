@@ -8,50 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a0acc00492033e1b181b92d7@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-SUMMARY:🥒 Høst squash – Squash
-DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
- ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
- se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
- gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
-LOCATION:Squash
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:14b963abaa8e2d4b5f6d57f0@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260804
-DTEND;VALUE=DATE:20260805
-SUMMARY:🥬 Høst rødbeder – Bed 1
-DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
- øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
-  stående\, så længe de har passende størrelse og jorden ikke er frosse
- n.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst rødbeder – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:168bb40c76c6089d0ffab21f@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260805
