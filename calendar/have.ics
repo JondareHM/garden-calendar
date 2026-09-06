@@ -8,51 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:168bb40c76c6089d0ffab21f@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260815
-SUMMARY:🌿 Plant bok choi mellem og efter de sidste ærter – Langbed
-DESCRIPTION:Handling: Plant\nAfgrøde: bok choi mellem og efter de sidste 
- ærter\nPlacering: Langbed\nNote: Plant i ledige huller. Klip færdige ær
- teplanter ved jordoverfladen og lad rødderne blive i jorden.\nHvornår: P
- lant først efter hærdning og uden udsigt til nattefrost\; jorden skal v
- ære fugtig og kunne bearbejdes uden at klistre.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Plant bok choi mellem og efter de sidste ærter – Langbe
- d
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:647b620296e9dd8c68bafd6d@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260805
-DTEND;VALUE=DATE:20260806
-SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
-DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
- : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
- aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
-  tørke\, kulde eller sygdom.
-LOCATION:Drivhus
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🧪 Gød tomater\, agurker og peber – Drivhus
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:5d3d548703a546c0d73d7d25@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260810
@@ -640,6 +595,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:455f0644135698fad901a45e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4367,6 +4343,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5e6663ce9e7026f6f3aa77c1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
