@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2cf87950871f3bbc3b900bf1@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260811
-DTEND;VALUE=DATE:20260812
-SUMMARY:🥒 Høst squash – Squash
-DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
- ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
- se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
- gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
-LOCATION:Squash
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:e2663d9a241ca93817bdf723@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260815
