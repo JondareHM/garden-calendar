@@ -800,6 +800,27 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:6b4a7fde322bad15bf7a54d1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c3172d2158a0359ae762208d@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260922
@@ -818,27 +839,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:4325c2be7eac2b73faed5434@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260923
-DTEND;VALUE=DATE:20260924
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
