@@ -648,14 +648,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:dcba3fded7cde3bb370c6d7a@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
- ra 17-09 til 18-09 ud fra vejrprognosen for postnummer 5485.
+ st efter behov\, så længe jorden kan løsnes.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -708,27 +707,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:06441fa0a3ebee15f0e1f324@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
