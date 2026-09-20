@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:9f535f6729e89b74e4877935@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
-SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
-DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
- : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
- aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
-  tørke\, kulde eller sygdom.
-LOCATION:Drivhus
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🧪 Gød tomater\, agurker og peber – Drivhus
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:f0fbc474c76d604b46fed41f@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260820
@@ -684,27 +662,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:✂️ Klip eller nedmulch honningurt – Lille bed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:feec2dd99cd2c298356abf14@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4499,6 +4456,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06620607479d90c5c2a9b4fc@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
