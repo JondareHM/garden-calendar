@@ -691,13 +691,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:83330f342945eee130d3a3c0@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
+ st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
+ ra 01-10 til 02-10 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -712,14 +713,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ff8d37d2609b6b67f85ce312@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 SUMMARY:🥕 Høst gulerødder – Bed 3
 DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
   Prøvehøst først. Tag de største\, når skuldrene har en passende stø
  rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
  de største\, når skuldrene har passende størrelse\; lad resten vokse vi
- dere.
+ dere.\nVejrtilpasning: Flyttet fra 01-10 til 02-10 ud fra vejrprognosen fo
+ r postnummer 5485.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -734,13 +736,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8864fe20cbbc9ccc834b624a@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 SUMMARY:🥬 Høst efterårsspinat – Bed 1
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
  ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
  Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
- en\, når den går i stok eller før hård frost.
+ en\, når den går i stok eller før hård frost.\nVejrtilpasning: Flyttet
+  fra 01-10 til 02-10 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 1
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -755,13 +758,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:f70f1b1d01938bd3f9f66bde@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
 SUMMARY:🥬 Høst efterårsspinat – Langbed
 DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
  nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
  : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
- nten\, når den går i stok eller før hård frost.
+ nten\, når den går i stok eller før hård frost.\nVejrtilpasning: Flytt
+ et fra 01-10 til 02-10 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Langbed
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -770,27 +774,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst efterårsspinat – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a717e4f32a1ae8be828b5302@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
