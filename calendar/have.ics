@@ -4440,4 +4440,26 @@ DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:61f92bd650d3f65ffcec3270@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:🧴 Gød tomater\, agurker og peber – Drivhus
+DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
+ : Drivhus\nNote: Gød kun mens planterne vokser aktivt. Brug flydende toma
+ t- eller grøntsagsgødning efter etiketten\, typisk hver 1-2 uge i vandin
+ gsvandet.\nHvornår: Gød kun ved aktiv vækst og efter behov\; spring ove
+ r\, hvis planterne er stressede af tørke\, kulde eller sygdom.
+LOCATION:Drivhus
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
