@@ -510,27 +510,6 @@ TRIGGER:-P2D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:06bf951f3b89981e234a93b3@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:6d5c9e54ed5215d66449e7d6@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260930
@@ -570,6 +549,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fb58f3af796d9f7ae677378a@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
+DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
+ dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
+  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
+ asser.
+LOCATION:Udendørs bede
+CATEGORIES:Vanding
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4569,6 +4569,27 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd7acb7248d4b05421403a4@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:🌱 Så eller plant salat – Drivhuskanter
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: salat\nPlacering: Drivhusk
+ anter\nNote: Så løbende og høst blad for blad.\nHvornår: Vent\, til jo
+ rden er tjenlig og ikke vandmættet\; justér efter temperatur\, nedbør o
+ g den plads\, der faktisk er ledig.
+LOCATION:Drivhuskanter
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant salat – Drivhuskanter
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
