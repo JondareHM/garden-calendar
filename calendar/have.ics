@@ -8,71 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:47ed813085b8b7cdd900f9e5@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🥒 Høst squash – Squash
-DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
- ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
- se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
- gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
-LOCATION:Squash
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:5392f1a71c8e30c1c8fd435b@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🥬 Høst rødbeder – Bed 1
-DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: H
- øst de største først. De er klar nu\; fortsæt løbende\, mens resten v
- okser til.\nHvornår: Prøvehøst de største først\; rødderne kan blive
-  stående\, så længe de har passende størrelse og jorden ikke er frosse
- n.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst rødbeder – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f5abcd19f3d9f74d37cc9faf@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:🥬 Høst spinat – Bed 4
-DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
- år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.
-LOCATION:Bed 4
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst spinat – Bed 4
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:6e35d40d423843e717385133@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260902
@@ -549,27 +484,6 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:fb58f3af796d9f7ae677378a@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:💧 Vand grundigt udendørs bede – Udendørs bede
-DESCRIPTION:Handling: Vand grundigt\nAfgrøde: udendørs bede\nPlacering: U
- dendørs bede\nNote: Vejrbaseret ekstra påmindelse ved flere tørre dage.
-  Kontrollér altid jorden først. Dette gælder ikke drivhusets kapillærk
- asser.
-LOCATION:Udendørs bede
-CATEGORIES:Vanding
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:💧 Vand grundigt udendørs bede – Udendørs bede
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
@@ -4590,6 +4504,50 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🌱 Så eller plant salat – Drivhuskanter
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:27b9d2efe832b2cf908dc6ac@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:🌽 Høst majs – Bed 2
+DESCRIPTION:Handling: Høst\nAfgrøde: majs\nPlacering: Bed 2\nNote: Høst 
+ når trådene er brune\, og en kerne klemt med en negl giver mælkehvid sa
+ ft. Forvent et lille forsøgsudbytte\, fordi bedet deles med rosenkål.\nH
+ vornår: Høst\, når trådene er brune\, og en kerne klemt med en negl gi
+ ver mælkehvid saft.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌽 Høst majs – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a8bdd692ccc83001aa3af98e@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.\nHvornår: Høs
+ t\, mens bladene er friske\; pluk yderblade løbende og tag hele planten\,
+  når den går i stok eller før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
