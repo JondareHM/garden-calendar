@@ -8,48 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:2cb02be0a32315cb91974e1d@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:🌱 Så efterårsspinat efter rødbeder – Bed 1
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat efter rødbeder\nPlace
- ring: Bed 1\nNote: Så i de områder\, der bliver ledige efter rødbedehø
- sten.\nHvornår: Vent\, til jorden er lun og ikke vandmættet\; undgå så
- ning lige før kold eller meget våd vejrperiode.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat efter rødbeder – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b7dc960d950da1d7ae1c2088@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:🌿 Høst porrer – Bed 2
-DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
- nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:a227b465089de8eb215862fd@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260908
