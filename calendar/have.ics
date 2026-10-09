@@ -8,49 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:a227b465089de8eb215862fd@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
-SUMMARY:🌱 Så efterårsspinat i ledige sektioner – Langbed
-DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat i ledige sektioner\nPl
- acering: Langbed\nNote: Så kun i sektioner\, hvor ærter og bok choi ikke
-  fylder pladsen.\nHvornår: Så\, når jorden er fugtig og bearbejdelig\; 
- undgå vandmættet jord og beskyt de nye planter ved udsigt til tørke.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌱 Så efterårsspinat i ledige sektioner – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:bfbb9025032644e54354aa47@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260908
-DTEND;VALUE=DATE:20260909
-SUMMARY:🥒 Høst squash – Squash
-DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
- ær squash af med en kort stilk\, mens de er sprøde og i ønsket størrel
- se. Høst ofte\, så nye frugter udvikler sig.\nHvornår: Start\, når fru
- gterne har passende størrelse og fasthed\, og fortsæt flere gange om uge
- n i højsæsonen.
-LOCATION:Squash
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥒 Høst squash – Squash
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:831ed9b3158d164f21079bf5@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260912
