@@ -4489,4 +4489,50 @@ DESCRIPTION:🧴 Gød tomater\, agurker og peber – Drivhus
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:28346a8204903c7efc2bb75c@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
+ g bær\nNote: Brug kun dette event\, hvis hindbærrene bærer på sidste 
+ års skud. Skær de brune\, afblomstrede stængler helt ned efter høst\, 
+ og behold de stærkeste grønne skud til næste år.\nHvornår: Gør det s
+ traks efter høsten\, typisk juli-september. Er sorten ukendt\, så mærk 
+ først hvilke stængler der bar frugt\, og klip kun disse væk.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cb7b403d48314b6c8bd3d8dd@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
