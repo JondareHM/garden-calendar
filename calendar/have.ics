@@ -469,13 +469,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:59816877d5294ae589c74c4e@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
  t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
  år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.
+ planten\, når den går i stok eller før hård frost.\nVejrtilpasning: Fl
+ yttet fra 13-10 til 14-10 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
