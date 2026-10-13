@@ -8,51 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:831ed9b3158d164f21079bf5@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:✂️ Beskær sommerhindbær – Frugt og bær
-DESCRIPTION:Handling: Beskær\nAfgrøde: sommerhindbær\nPlacering: Frugt o
- g bær\nNote: Brug kun dette\, hvis nogle stængler allerede har båret fr
- ugt. Skær de brune\, frugtede stængler helt ned\, men behold de stærke 
- grønne skud.\nHvornår: Gør det efter høsten\, og identificér først h
- vilke stængler der bar frugt\, hvis hindbærsorten er ukendt.
-LOCATION:Frugt og bær
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:✂️ Beskær sommerhindbær – Frugt og bær
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:1f0da54f1d2496256bebdfca@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260912
-DTEND;VALUE=DATE:20260913
-SUMMARY:✂️ Beskær æbletræer på hegn – Frugt og bær
-DESCRIPTION:Handling: Beskær\nAfgrøde: æbletræer på hegn\nPlacering: F
- rugt og bær\nNote: Klip kun de lange sideskud\, der bryder espalierformen
- \, og fjern kraftig opret vækst. Bevar vandrette hovedgrene og korte frug
- tsporer.\nHvornår: Vælg en tør dag fra midt/slut august\, når den nede
- rste del af årets lange skud er træagtig. Tilpas efter vækst\; kalender
- en er kun et beslutningsvindue.
-LOCATION:Frugt og bær
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:9c809d123ba5d30c8912db05@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -469,14 +424,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:59816877d5294ae589c74c4e@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
 SUMMARY:🥬 Høst spinat – Bed 4
 DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
  t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
  år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.\nVejrtilpasning: Fl
- yttet fra 13-10 til 14-10 ud fra vejrprognosen for postnummer 5485.
+ planten\, når den går i stok eller før hård frost.
 LOCATION:Bed 4
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -4533,6 +4487,160 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e874a0b7a8fb5e5cd4f09b0@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:✂️ Beskær æbletræer på hegn – Frugt og bær
+DESCRIPTION:Handling: Beskær\nAfgrøde: æbletræer på hegn\nPlacering: F
+ rugt og bær\nNote: Hold de to espalieræbler flade mod hegnet og bevar de
+  vandrette hovedgrene. Klip lange sideskud tilbage\, og fjern opret vækst
+ \, der bryder formen.\nHvornår: Gør det typisk fra midt/slut august\, n
+ år den nederste del af årets lange skud er blevet træagtig. Klip sidesk
+ ud over den nederste bladroset og lad korte frugtsporer være\; justér ef
+ ter vækst og vejr.
+LOCATION:Frugt og bær
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:✂️ Beskær æbletræer på hegn – Frugt og bær
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:abbdd513268ff17ba66ce7fe@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🌱 Så efterårsspinat – Bed 1
+DESCRIPTION:Handling: Så\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nNot
+ e: Brug ledige huller efter gulerødder og rødbeder. Hvis større dele ry
+ ddes tidligt\, kan honningurt vælges i stedet som standard vinterdække.\
+ nHvornår: Så\, når jorden er fugtig og bearbejdelig\; undgå vandmætte
+ t jord og beskyt de nye planter ved udsigt til tørke.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så efterårsspinat – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3ae0d639e69338fd55cc829@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🌱 Så eller plant bok choi – Langbed
+DESCRIPTION:Handling: Så eller plant\nAfgrøde: bok choi\nPlacering: Langb
+ ed\nNote: Brug ledige sektioner som hurtig efterafgrøde.\nHvornår: Så e
+ ller plant kun i en ledig sektion\; vælg køligt\, fugtigt vejr og hold 
+ øje med udtørring og stokløbning.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så eller plant bok choi – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2ed60e88d02ec2f4eea4f808@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🌱 Så spinat – Langbed
+DESCRIPTION:Handling: Så\nAfgrøde: spinat\nPlacering: Langbed\nNote: Brug
+  ledige sektioner efter ærter.\nHvornår: Så\, når jorden er fugtig og 
+ bearbejdelig\; undgå vandmættet jord og beskyt de nye planter ved udsigt
+  til tørke.
+LOCATION:Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌱 Så spinat – Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4ced6015b268a18955f6adc5@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🌾 Så honningurt – Ledigt bed
+DESCRIPTION:Handling: Så\nAfgrøde: honningurt\nPlacering: Ledigt bed\nNot
+ e: Standardvalg på tomme bede fra sensommeren. Prioritér honningurt over
+  vinterrug\, især i bede der ryddes i august eller september.\nHvornår: 
+ Så kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag me
+ d tjenlig jord og regn nok til fremspiring.
+LOCATION:Ledigt bed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så honningurt – Ledigt bed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:918f4c6a42e46506d1cba5f6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🥕 Høst gulerødder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote:
+  Prøvehøst først. Tag de største\, når skuldrene har passende større
+ lse\, og lad resten vokse videre så længe kvaliteten er god.\nHvornår: 
+ Prøvehøst først og tag de største\, når skuldrene har passende størr
+ else\; lad resten vokse videre.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Høst gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:647dce4c7f9f5d3a8d363eed@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:🥬 Høst rødbeder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: B
+ egynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne d
+ e største først\, og vrid bladene af i stedet for at skære i roden.\nHv
+ ornår: Prøvehøst de største først\; rødderne kan blive stående\, s
+ å længe de har passende størrelse og jorden ikke er frossen.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst rødbeder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
