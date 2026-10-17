@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:4294a6e33ea8416eed3e839e@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260916
-DTEND;VALUE=DATE:20260917
-SUMMARY:🧪 Gød tomater\, agurker og peber – Drivhus
-DESCRIPTION:Handling: Gød\nAfgrøde: tomater\, agurker og peber\nPlacering
- : Drivhus\nNote: Gød moderat efter produktets anvisning. Ingen ekstra reg
- nbaserede vandings-events oprettes for drivhuset.\nHvornår: Gød kun ved 
- aktiv vækst og efter behov\; spring over\, hvis planterne er stressede af
-  tørke\, kulde eller sygdom.
-LOCATION:Drivhus
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🧪 Gød tomater\, agurker og peber – Drivhus
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:dcba3fded7cde3bb370c6d7a@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -4551,6 +4529,29 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a415e760e79e990f4905f3c4@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:🥒 Høst squash – Squash
+DESCRIPTION:Handling: Høst\nAfgrøde: squash\nPlacering: Squash\nNote: Sk
+ ær frugterne af med en kort stilk\, mens de er sprøde og i den ønskede 
+ størrelse. Hyppig høst holder planten produktiv\; lad ikke mange frugter
+  blive kæmpestore.\nHvornår: Høst løbende efter størrelse og fasthed 
+ frem for datoen\, helst på tørre dage. Kig efter nye frugter flere gange
+  om ugen i højsæsonen.
+LOCATION:Squash
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
