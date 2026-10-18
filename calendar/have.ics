@@ -8,27 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dcba3fded7cde3bb370c6d7a@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:🌿 Høst porrer – Bed 2
-DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
- nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:56a1a480323b917a37ade9b2@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260920
