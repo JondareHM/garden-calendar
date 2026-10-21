@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:56a1a480323b917a37ade9b2@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260921
-SUMMARY:🥬 Høst bok choi – Langbed
-DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
- Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
- erblade tidligere\; høst før planterne bliver grove eller får hård fro
- st.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst bok choi – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:c3172d2158a0359ae762208d@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260922
