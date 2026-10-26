@@ -8,27 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:89eedb2f67215b6105a1e7cc@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20260925
-DTEND;VALUE=DATE:20260926
-SUMMARY:✂️ Klip eller nedmulch honningurt – Lille bed
-DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: honningurt\nPlacering:
-  Lille bed\nNote: Klip før frøsætning og lad plantematerialet ligge som
-  jorddække.\nHvornår: Klip før frøene modner\, typisk når blomstringe
- n er ved at være ovre.
-LOCATION:Lille bed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:✂️ Klip eller nedmulch honningurt – Lille bed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:67391aa97e74dde4446266b6@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20260929
