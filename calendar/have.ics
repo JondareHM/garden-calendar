@@ -4492,4 +4492,70 @@ DESCRIPTION:🥒 Høst squash – Squash
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:e46484cfe6bb9e9fd277fd7c@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:🌾 Så honningurt – Ledigt bed
+DESCRIPTION:Handling: Så\nAfgrøde: honningurt\nPlacering: Ledigt bed\nNot
+ e: Standardvalg på tomme bede fra sensommeren. Prioritér honningurt over
+  vinterrug\, især i bede der ryddes i august eller september.\nHvornår: 
+ Så kun i et ryddet område\, hvis det skal stå dækket\; vælg en dag me
+ d tjenlig jord og regn nok til fremspiring.
+LOCATION:Ledigt bed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Så honningurt – Ledigt bed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a9df9bbd69d1ed8cbcf66c@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:🥕 Høst gulerødder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote:
+  Prøvehøst først. Tag de største\, når skuldrene har passende større
+ lse\, og lad resten vokse videre så længe kvaliteten er god.\nHvornår: 
+ Prøvehøst først og tag de største\, når skuldrene har passende størr
+ else\; lad resten vokse videre.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Høst gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:70c7133abe1cf6697ca9ebbb@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:🥬 Høst rødbeder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: rødbeder\nPlacering: Bed 1\nNote: B
+ egynd når rødderne er cirka golfbold- til tennisboldstore. Høst gerne d
+ e største først\, og vrid bladene af i stedet for at skære i roden.\nHv
+ ornår: Prøvehøst de største først\; rødderne kan blive stående\, s
+ å længe de har passende størrelse og jorden ikke er frossen.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst rødbeder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
 END:VCALENDAR
