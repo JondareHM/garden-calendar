@@ -8,91 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:83330f342945eee130d3a3c0@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🌿 Høst porrer – Bed 2
-DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
- nd med de største porrer. Resten kan blive stående og høstes gennem eft
- eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
-LOCATION:Bed 2
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🌿 Høst porrer – Bed 2
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ff8d37d2609b6b67f85ce312@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🥕 Høst gulerødder – Bed 3
-DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 3\nNote:
-  Prøvehøst først. Tag de største\, når skuldrene har en passende stø
- rrelse\, og lad resten vokse videre.\nHvornår: Prøvehøst først og tag 
- de største\, når skuldrene har passende størrelse\; lad resten vokse vi
- dere.
-LOCATION:Bed 3
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥕 Høst gulerødder – Bed 3
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8864fe20cbbc9ccc834b624a@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🥬 Høst efterårsspinat – Bed 1
-DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Bed 1\nN
- ote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår: 
- Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele plant
- en\, når den går i stok eller før hård frost.
-LOCATION:Bed 1
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst efterårsspinat – Bed 1
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f70f1b1d01938bd3f9f66bde@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:🥬 Høst efterårsspinat – Langbed
-DESCRIPTION:Handling: Høst\nAfgrøde: efterårsspinat\nPlacering: Langbed\
- nNote: Pluk yderblade løbende og høst resten før hård frost.\nHvornår
- : Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele pla
- nten\, når den går i stok eller før hård frost.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst efterårsspinat – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:d65c047925af21cdf4442a71@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261004
@@ -4557,6 +4472,93 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥒 Høst squash – Squash
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:110adcddb4cc3dbdc6806bb1@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:🌾 Klip eller nedmulch honningurt – Ledigt bed
+DESCRIPTION:Handling: Klip eller nedmulch\nAfgrøde: honningurt\nPlacering:
+  Ledigt bed\nNote: Klip før frøene modner\, gerne når blomstringen er v
+ ed at være ovre. Lad materialet ligge som jorddække eller fjern det\, hv
+ is bedet snart skal bruges.\nHvornår: Klip før frøene modner\, typisk n
+ år blomstringen er ved at være ovre.
+LOCATION:Ledigt bed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🌾 Klip eller nedmulch honningurt – Ledigt bed
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:80b6cd1d840fce646d33274f@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:🥬 Høst porrer – Bed 4
+DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 4\nNote: Begy
+ nd når stænglerne er mindst finger-tykke\, normalt fra efteråret. Løsn
+  dem med en greb og høst efter behov\; vinterfaste sorter kan blive ståe
+ nde\, hvis jorden ikke er frossen.\nHvornår: Begynd\, når stænglerne er
+  mindst finger-tykke\; høst efter behov\, så længe jorden kan løsnes.
+LOCATION:Bed 4
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst porrer – Bed 4
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:11346054e643ded741b00430@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:🥬 Høst rosenkål – Bed 2
+DESCRIPTION:Handling: Høst\nAfgrøde: rosenkål\nPlacering: Bed 2\nNote: H
+ øst de nederste faste knopper først og arbejd op ad stokken. Lad planter
+ ne stå gennem efterår og tidlig vinter\, så længe kvaliteten er god.\n
+ Hvornår: Høst efter størrelse og udseende frem for datoen\; tag afgrød
+ en\, mens den er frisk og før vejret forringer den.
+LOCATION:Bed 2
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst rosenkål – Bed 2
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9bcd4cda06765c6fc40d1e66@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:🧄 Sæt hvidløg – Bed 3
+DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg\nPlacering: Bed 3\nNote: Sæ
+ t fed med spidsen opad\; oktober er førstevalg.\nHvornår: Plant først\,
+  når det foregående hold er ryddet\, og jorden er løs og veldrænet\; u
+ ndgå vandmættet jord.
+LOCATION:Bed 3
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🧄 Sæt hvidløg – Bed 3
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
