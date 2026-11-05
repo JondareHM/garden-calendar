@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:d65c047925af21cdf4442a71@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261004
-DTEND;VALUE=DATE:20261005
-SUMMARY:🥬 Høst bok choi – Langbed
-DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
- Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
- erblade tidligere\; høst før planterne bliver grove eller får hård fro
- st.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst bok choi – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:59816877d5294ae589c74c4e@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261013
@@ -460,13 +438,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8109dc93c12e781a4d2413ab@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
 SUMMARY:🧄 Sæt hvidløg efter gulerødder – Bed 3
 DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg efter gulerødder\nPlacering
  : Bed 3\nNote: Sæt hvidløg\, når gulerødderne er ryddet. Sæt feddene 
  med spidsen opad.\nHvornår: Plant først\, når det foregående hold er r
- yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.
+ yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.\nVejrti
+ lpasning: Flyttet fra 15-11 til 16-11 ud fra vejrprognosen for postnummer 
+ 5485.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
