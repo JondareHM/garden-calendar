@@ -438,15 +438,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8109dc93c12e781a4d2413ab@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
 SUMMARY:🧄 Sæt hvidløg efter gulerødder – Bed 3
 DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg efter gulerødder\nPlacering
  : Bed 3\nNote: Sæt hvidløg\, når gulerødderne er ryddet. Sæt feddene 
  med spidsen opad.\nHvornår: Plant først\, når det foregående hold er r
- yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.\nVejrti
- lpasning: Flyttet fra 15-11 til 19-11 ud fra vejrprognosen for postnummer 
- 5485.
+ yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.
 LOCATION:Bed 3
 CATEGORIES:Have
 STATUS:CONFIRMED
@@ -4539,6 +4537,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧄 Sæt hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:01012f211b412441d50f28c9@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271010
+DTEND;VALUE=DATE:20271011
+SUMMARY:🥕 Høst gulerødder – Bed 1
+DESCRIPTION:Handling: Høst\nAfgrøde: gulerødder\nPlacering: Bed 1\nNote:
+  Prøvehøst først. Tag de største\, når skuldrene har passende større
+ lse\, og lad resten vokse videre så længe kvaliteten er god.\nHvornår: 
+ Prøvehøst først og tag de største\, når skuldrene har passende størr
+ else\; lad resten vokse videre.
+LOCATION:Bed 1
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥕 Høst gulerødder – Bed 1
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
