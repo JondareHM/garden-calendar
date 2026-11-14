@@ -8,27 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:59816877d5294ae589c74c4e@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:🥬 Høst spinat – Bed 4
-DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
- år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.
-LOCATION:Bed 4
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst spinat – Bed 4
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:c6cbefea312f6aee2ae6e14c@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261015
@@ -438,14 +417,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:8109dc93c12e781a4d2413ab@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
 SUMMARY:🧄 Sæt hvidløg efter gulerødder – Bed 3
 DESCRIPTION:Handling: Sæt\nAfgrøde: hvidløg efter gulerødder\nPlacering
  : Bed 3\nNote: Sæt hvidløg\, når gulerødderne er ryddet. Sæt feddene 
  med spidsen opad.\nHvornår: Plant først\, når det foregående hold er r
  yddet\, og jorden er løs og veldrænet\; undgå vandmættet jord.\nVejrti
- lpasning: Flyttet fra 15-11 til 17-11 ud fra vejrprognosen for postnummer 
+ lpasning: Flyttet fra 15-11 til 18-11 ud fra vejrprognosen for postnummer 
  5485.
 LOCATION:Bed 3
 CATEGORIES:Have
@@ -4561,6 +4540,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🥕 Høst gulerødder – Bed 1
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:260d8594d1b1723ad485f4f6@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271013
+DTEND;VALUE=DATE:20271014
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.\nHvornår: Høs
+ t\, mens bladene er friske\; pluk yderblade løbende og tag hele planten\,
+  når den går i stok eller før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
