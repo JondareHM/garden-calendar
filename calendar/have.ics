@@ -8,28 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:06f9bd10eac0a5a9e6ad51e2@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261018
-DTEND;VALUE=DATE:20261019
-SUMMARY:🥬 Høst bok choi – Langbed
-DESCRIPTION:Handling: Høst\nAfgrøde: bok choi\nPlacering: Langbed\nNote: 
- Høst hele planter\, når hovederne er faste\, eller tag yderblade tidlige
- re. Høst før hård frost.\nHvornår: Høst faste hoveder\, eller pluk yd
- erblade tidligere\; høst før planterne bliver grove eller får hård fro
- st.
-LOCATION:Langbed
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst bok choi – Langbed
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:82debf133e7707c5c6bb5b02@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261027
@@ -398,13 +376,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:1ea1b67fd04c156c9e700c08@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
- st efter behov\, så længe jorden kan løsnes.
+ st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
+ ra 26-11 til 28-11 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
