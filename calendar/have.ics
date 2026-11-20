@@ -376,14 +376,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:1ea1b67fd04c156c9e700c08@havekalender.local
 DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
 SUMMARY:🌿 Høst porrer – Bed 2
 DESCRIPTION:Handling: Høst\nAfgrøde: porrer\nPlacering: Bed 2\nNote: Begy
  nd med de største porrer. Resten kan blive stående og høstes gennem eft
  eråret.\nHvornår: Begynd\, når stænglerne er mindst finger-tykke\; hø
  st efter behov\, så længe jorden kan løsnes.\nVejrtilpasning: Flyttet f
- ra 26-11 til 28-11 ud fra vejrprognosen for postnummer 5485.
+ ra 26-11 til 27-11 ud fra vejrprognosen for postnummer 5485.
 LOCATION:Bed 2
 CATEGORIES:Have
 STATUS:CONFIRMED
