@@ -8,27 +8,6 @@ X-WR-CALDESC:Personlig så- og høstkalender til køkkenhaven
 X-WR-TIMEZONE:Europe/Copenhagen
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:82debf133e7707c5c6bb5b02@havekalender.local
-DTSTAMP:20260101T000000Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
-SUMMARY:🥬 Høst spinat – Bed 4
-DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 4\nNote: Star
- t med babyblade og pluk yderblade løbende. Høst før hård frost.\nHvorn
- år: Høst\, mens bladene er friske\; pluk yderblade løbende og tag hele 
- planten\, når den går i stok eller før hård frost.
-LOCATION:Bed 4
-CATEGORIES:Have
-STATUS:CONFIRMED
-TRANSP:TRANSPARENT
-SEQUENCE:0
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:🥬 Høst spinat – Bed 4
-TRIGGER:-P2D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:2669f8dff7f1b7e0db0f9350@havekalender.local
 DTSTAMP:20260101T000000Z
 DTSTART;VALUE=DATE:20261029
@@ -4541,6 +4520,28 @@ SEQUENCE:0
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:🧄 Sæt hvidløg – Bed 3
+TRIGGER:-P2D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ba05625e4b6ef40dac70bb84@havekalender.local
+DTSTAMP:20260101T000000Z
+DTSTART;VALUE=DATE:20271027
+DTEND;VALUE=DATE:20271028
+SUMMARY:🥬 Høst spinat – Bed 1/Bed 3/Langbed
+DESCRIPTION:Handling: Høst\nAfgrøde: spinat\nPlacering: Bed 1/Bed 3/Langb
+ ed\nNote: Efter sommer- og efterårssåninger: pluk yderblade eller høst 
+ hele planter\, mens bladene er friske og før hård frost.\nHvornår: Høs
+ t\, mens bladene er friske\; pluk yderblade løbende og tag hele planten\,
+  når den går i stok eller før hård frost.
+LOCATION:Bed 1/Bed 3/Langbed
+CATEGORIES:Have
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+SEQUENCE:0
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:🥬 Høst spinat – Bed 1/Bed 3/Langbed
 TRIGGER:-P2D
 END:VALARM
 END:VEVENT
